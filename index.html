@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Words of Qur'an</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Lora:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --em: #0f5c4d;
+            --emd: #0a4538;
+            --gold: #b8893a;
+            --bg: #f7f0e0;
+            --paper: #fffaf0;
+            --tint: #ece3cc;
+            --tint2: #e2d5b2;
+            --ok: #4caf6a;
+            --bad: #c8503c;
+            --ink: #2a2a22;
+            --muted: #7a7565;
+            --line: #e3d6b8;
+            --card: #2f7f6c;
+            --cardf: #256b5a;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Source Sans 3', system-ui, sans-serif;
+            color: var(--ink);
+            background: var(--bg);
+            font-size: 18px;
+            line-height: 1.5
+        }
+
+        a {
+            color: var(--em)
+        }
+
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 5;
+            background-color: var(--paper);
+            border-bottom: 2px solid var(--gold);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 6px 24px;
+            padding: 10px 24px
+        }
+
+        .brand {
+            font-family: 'Lora', serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: var(--em);
+            text-decoration: none
+        }
+
+        .nav nav {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap
+        }
+
+            .nav nav a {
+                padding: 6px 14px;
+                border-radius: 999px;
+                text-decoration: none;
+                font-weight: 600;
+                color: var(--ink)
+            }
+
+                .nav nav a:hover {
+                    background: var(--tint)
+                }
+
+                .nav nav a.on {
+                    color: #fff8e6;
+                    background: var(--em)
+                }
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 28px 20px 40px
+        }
+
+        .view {
+            display: none
+        }
+
+            .view.show {
+                display: block
+            }
+
+        h1 {
+            font-family: 'Lora', serif;
+            color: var(--em);
+            font-size: 38px;
+            text-align: center;
+            margin: 0 0 6px;
+            line-height: 1.2
+        }
+
+        h2 {
+            font-family: 'Lora', serif;
+            color: var(--em);
+            font-size: 26px;
+            text-align: center;
+            margin: 30px 0 12px
+        }
+
+        .lead {
+            max-width: 560px;
+            margin: 0 auto 24px;
+            text-align: center
+        }
+
+        .prose {
+            max-width: 620px;
+            margin: 0 auto
+        }
+
+        .btn {
+            font: inherit;
+            font-weight: 600;
+            background: var(--tint);
+            color: var(--em);
+            border: 0;
+            border-radius: 999px;
+            padding: 12px 16px;
+            cursor: pointer;
+            width: 100%;
+            transition: background .15s
+        }
+
+            .btn:hover {
+                background: var(--tint2)
+            }
+
+            .btn.on {
+                background: var(--em);
+                color: #fff8e6
+            }
+
+                .btn.on:hover {
+                    background: var(--emd)
+                }
+
+            .btn small {
+                font-weight: 400;
+                opacity: .75;
+                margin-left: 6px
+            }
+
+        .seg {
+            display: flex;
+            max-width: 360px;
+            margin: 0 auto 22px;
+            background: var(--tint);
+            border-radius: 999px;
+            padding: 4px
+        }
+
+            .seg .btn {
+                background: transparent;
+                width: 50%
+            }
+
+                .seg .btn:hover {
+                    background: var(--tint2)
+                }
+
+                .seg .btn.on {
+                    background: var(--em)
+                }
+
+        .start {
+            display: block;
+            margin: 34px auto 0;
+            max-width: 340px;
+            background: var(--em);
+            color: #fff8e6;
+            font-size: 22px;
+            box-shadow: 0 0 0 3px var(--bg), 0 0 0 5px var(--gold)
+        }
+
+            .start:hover {
+                background: var(--emd)
+            }
+
+        .msg {
+            text-align: center;
+            color: var(--bad);
+            min-height: 26px;
+            margin-top: 10px
+        }
+
+        .sets {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 28px;
+            margin-top: 8px
+        }
+
+        .grid2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 10px
+        }
+
+            .grid2 .btn {
+                font-size: 16px;
+                padding: 10px 6px;
+                border-radius: 16px
+            }
+
+                .grid2 .btn small {
+                    display: block;
+                    margin: 0
+                }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 18px;
+            margin-top: 18px
+        }
+
+        .lcard {
+            background: var(--paper);
+            border: 2px solid var(--gold);
+            border-radius: 50% 50% 18px 18px / 80px 80px 18px 18px;
+            padding: 34px 12px 16px;
+            text-align: center
+        }
+
+            .lcard .ar {
+                font-family: 'Amiri', serif;
+                font-size: 42px;
+                line-height: 1.5;
+                direction: rtl;
+                color: var(--em)
+            }
+
+            .lcard .en {
+                font-weight: 600
+            }
+
+            .lcard .nt {
+                color: var(--muted);
+                font-size: 15px;
+                min-height: 22px
+            }
+
+        .qcard {
+            position: relative;
+            background: var(--card);
+            color: #fff8e6;
+            border-radius: 50% 50% 24px 24px / 110px 110px 24px 24px;
+            height: 300px;
+            padding: 48px 16px 18px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 10px rgba(15, 92, 77, .12), inset 0 0 0 3px rgba(223, 190, 110, .55);
+            transition: background .2s, transform .2s
+        }
+
+            .qcard:focus-within {
+                background: var(--cardf);
+                transform: scale(1.02)
+            }
+
+            .qcard.right {
+                background: var(--ok);
+                transform: none
+            }
+
+            .qcard.wrong {
+                background: var(--bad);
+                transform: none
+            }
+
+                .qcard.right::after, .qcard.wrong::after {
+                    position: absolute;
+                    top: 44px;
+                    right: 38px;
+                    width: 28px;
+                    height: 28px;
+                    line-height: 28px;
+                    text-align: center;
+                    font-weight: 700;
+                    border-radius: 50%;
+                    background: rgba(255, 255, 255, .85);
+                    color: var(--ink)
+                }
+
+            .qcard.right::after {
+                content: "\2713"
+            }
+
+            .qcard.wrong::after {
+                content: "\2717"
+            }
+
+        .qar {
+            font-family: 'Amiri', serif;
+            line-height: 1.5;
+            direction: rtl;
+            text-align: center;
+            margin-top: 8px
+        }
+
+        .qnt {
+            font-size: 14px;
+            opacity: .85;
+            min-height: 20px
+        }
+
+        .qans {
+            width: 100%;
+            text-align: center;
+            min-height: 84px
+        }
+
+            .qans input {
+                width: 100%;
+                border: 0;
+                border-radius: 12px;
+                padding: 14px 8px;
+                font: inherit;
+                font-size: 20px;
+                text-align: center;
+                background: var(--paper);
+                color: var(--ink);
+                box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+                outline: none
+            }
+
+                .qans input:focus {
+                    box-shadow: 0 0 0 3px var(--gold)
+                }
+
+        .shown {
+            background: #f1e8cf;
+            color: #5b5644;
+            border-radius: 12px;
+            padding: 10px 6px;
+            font-size: 17px;
+            line-height: 1.3
+        }
+
+        .ovr {
+            margin-top: 8px;
+            font: inherit;
+            font-size: 14px;
+            border: 0;
+            border-radius: 999px;
+            padding: 4px 12px;
+            background: var(--paper);
+            color: var(--ink);
+            cursor: pointer
+        }
+
+        .row {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 28px
+        }
+
+            .row .btn {
+                width: auto;
+                min-width: 200px
+            }
+
+        .score {
+            font-family: 'Lora', serif;
+            font-size: 56px;
+            font-weight: 700;
+            color: var(--em);
+            text-align: center
+        }
+
+        .missed {
+            list-style: none;
+            padding: 0;
+            max-width: 420px;
+            margin: 12px auto
+        }
+
+            .missed li {
+                display: flex;
+                justify-content: space-between;
+                gap: 12px;
+                border-bottom: 1px solid var(--line);
+                padding: 6px 0
+            }
+
+            .missed .ar {
+                font-family: 'Amiri', serif;
+                font-size: 26px;
+                direction: rtl
+            }
+
+        .dcards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 16px;
+            margin-top: 20px
+        }
+
+        .dcard {
+            display: block;
+            text-decoration: none;
+            color: var(--ink);
+            background: var(--paper);
+            border: 2px solid var(--gold);
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            transition: border-color .15s
+        }
+
+            .dcard:hover {
+                background: var(--tint)
+            }
+
+            .dcard b {
+                display: block;
+                font-family: 'Lora', serif;
+                color: var(--em);
+                font-size: 22px
+            }
+
+        .box {
+            background: var(--paper);
+            border: 2px solid var(--gold);
+            border-radius: 20px;
+            padding: 6px 26px 20px;
+            margin: 22px 0
+        }
+
+            .box h2 {
+                margin-top: 16px
+            }
+
+            .box > :last-child {
+                margin-bottom: 0
+            }
+
+        /* Tool styles */
+        .tool-control {
+            margin: 24px 0 16px;
+            text-align: center;
+        }
+
+        .slider-wrap {
+            margin: 20px 0 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .slider-val {
+            font-family: 'Lora', serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: var(--em);
+            line-height: 1;
+        }
+
+        .slider-label {
+            font-size: 16px;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+
+        input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            max-width: 480px;
+            height: 10px;
+            border-radius: 5px;
+            background: var(--tint2);
+            outline: none;
+            margin: 8px 0;
+        }
+
+            input[type="range"]::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+                width: 28px;
+                height: 28px;
+                border-radius: 50%;
+                background: var(--em);
+                border: 3px solid var(--paper);
+                box-shadow: 0 0 0 2px var(--gold);
+                cursor: pointer;
+                transition: transform 0.1s;
+            }
+
+                input[type="range"]::-webkit-slider-thumb:hover {
+                    transform: scale(1.15);
+                }
+
+            input[type="range"]::-moz-range-thumb {
+                width: 28px;
+                height: 28px;
+                border-radius: 50%;
+                background: var(--em);
+                border: 3px solid var(--paper);
+                box-shadow: 0 0 0 2px var(--gold);
+                cursor: pointer;
+            }
+
+        .m-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 24px 0 10px;
+        }
+
+        .m-card {
+            background: var(--paper);
+            border: 2px solid var(--line);
+            border-radius: 16px;
+            padding: 18px 14px;
+            text-align: center;
+            transition: border-color .2s;
+        }
+
+            .m-card.active {
+                border-color: var(--gold);
+                box-shadow: 0 4px 12px rgba(184, 137, 58, 0.15);
+            }
+
+            .m-card h3 {
+                margin: 0 0 4px;
+                font-size: 17px;
+                color: var(--muted);
+                font-weight: 600;
+            }
+
+            .m-card .pct {
+                font-family: 'Lora', serif;
+                font-size: 32px;
+                font-weight: 700;
+                color: var(--em);
+                line-height: 1.1;
+            }
+
+            .m-card .time {
+                margin-top: 6px;
+                font-size: 16px;
+                font-weight: 700;
+                color: var(--ink);
+            }
+
+            .m-card .desc {
+                font-size: 13px;
+                color: var(--muted);
+                margin-top: 4px;
+                line-height: 1.3;
+            }
+
+        .prog-container {
+            margin-top: 24px;
+            background: var(--tint);
+            border-radius: 999px;
+            height: 14px;
+            overflow: hidden;
+            border: 1px solid var(--line);
+        }
+
+        .prog-bar {
+            height: 100%;
+            background: var(--em);
+            border-radius: 999px;
+            transition: width .3s ease;
+        }
+
+        footer {
+            border-top: 2px solid var(--line);
+            padding: 18px 20px 26px;
+            text-align: center;
+            font-size: 15px;
+            color: var(--muted)
+        }
+    </style>
+</head>
+<body>
+    <header class="nav">
+        <a class="brand" href="#home">Words of Qur'an</a>
+        <nav>
+            <a href="#home" data-nav="home">Home</a>
+            <a href="#how" data-nav="how">How to Use</a>
+            <a href="#tool" data-nav="tool">Tool</a>
+            <a href="#about" data-nav="about">About</a>
+            <a href="#support" data-nav="support">Support</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="view" id="v-home">
+            <h1>Learn Qur'anic Words</h1>
+            <p class="lead">Study the most common words of the Qur'an, then test yourself. Pick what you want to work on and start.</p>
+            <div class="seg">
+                <button class="btn on" data-mode="learn">Learn</button>
+                <button class="btn" data-mode="practice">Practice</button>
+            </div>
+            <button class="btn" data-all>All Words</button>
+            <div id="groups"></div>
+            <button class="btn start" id="start">Start Learning!</button>
+            <div class="msg" id="msg"></div>
+        </section>
+
+        <section class="view" id="v-how">
+            <div class="prose">
+                <h1>How to Use</h1>
+                <div class="box">
+                    <h2>1. Learn</h2>
+                    <p>On the home page, choose <b>Learn</b>, pick one or more categories, and press <b>Start Learning!</b> You'll see each Arabic word with its meaning. When you feel ready, press <b>Practice these words</b>.</p>
+                </div>
+                <div class="box">
+                    <h2>2. Practice</h2>
+                    <p>Choose <b>Practice</b>, pick your categories, and press <b>Start Quiz!</b> You'll get a card for each word.</p>
+                    <ul>
+                        <li>Type the English meaning in the card's box and press <b>Enter</b>.</li>
+                        <li>Right answers turn green and you move to the next card automatically.</li>
+                        <li>Wrong answers turn red and show the meaning. If your answer was actually fine (for example, a different wording), press <b>✓ I was right</b>.</li>
+                        <li>Press <b>Finish Quiz</b> at the bottom to see your score and retry the words you missed.</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h2>Tips</h2>
+                    <ul>
+                        <li>Only the most common meaning is listed. Many words have others depending on context.</li>
+                        <li>"to", "the", and "a" are ignored, and small typos are forgiven.</li>
+                        <li>The small gray note on a card (like "fem.") tells you which form it is.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="view" id="v-tool">
+            <div class="prose">
+                <h1>Comprehension Estimator</h1>
+                <p class="lead">There are approximately <b>77,430</b> total words in the Qur'an, but only ~1,000 unique core words make up over <b>85%</b> of everything you read. Use the slider below to calculate how quickly you can unlock the Qur'an depending on how many words you learn each day!</p>
+
+                <div class="box tool-control">
+                    <div class="slider-wrap">
+                        <span class="slider-label">Daily Target</span>
+                        <div class="slider-val" id="rateVal">10</div>
+                        <span style="font-weight:600; color:var(--em);">words / day</span>
+                        <input type="range" id="rateSlider" min="2" max="30" value="10" step="1" aria-label="Words per day slider">
+                        <div style="width:100%; max-width:480px; display:flex; justify-content:space-between; font-size:13px; color:var(--muted);">
+                            <span>2 words (Relaxed)</span>
+                            <span>15 words (Focused)</span>
+                            <span>30 words (Intensive)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Projected Milestones</h2>
+                <div class="m-grid" id="milestones">
+                    <!-- Dynamic Milestones injected via JS -->
+                </div>
+
+                <div class="box" style="margin-top:28px;">
+                    <h2>How It Works</h2>
+                    <p>Because high-frequency vocabulary repeats so often throughout the Qur'an, progress isn't linear: it climbs rapidly at the beginning!</p>
+                    <ul>
+                        <li><b>First ~120 words:</b> Covers function words like pronouns and prepositions (41.1% of the entire text).</li>
+                        <li><b>Next ~230 words:</b> Adds essential thematic nouns like prophets, signs, and faith (brings you to 60%).</li>
+                        <li><b>Next ~600 words:</b> Covers primary 3-letter verbs and derived forms (surpasses 85% coverage).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="view" id="v-about">
+            <div class="prose">
+                <h1>About</h1>
+                <p>Words of Qur'an is <b>100% free and open source</b>. There are no ads, accounts, or paywalls, and it will stay that way.</p>
+                <p>
+                    It's a practice tool for learning the most frequent words of the Qur'an. When I was studying Japanese, I used <a href="https://kana-quiz.tofugu.com/" target="_blank" rel="noopener">Tofugu's Kana Quiz</a>
+                    to quiz myself on each letter. It was way more fun than just reading and taking notes, and I retained information much better. Later, I wanted to understand more of the Qur’an without always
+                    reading the translation. Then I found a pdf from understandquran.com, and thought it would be more fun to get instant feedback via a quiz so it would feel more like a game, and I figured other
+                    people might enjoy using it too.
+                </p>
+                <p>
+                    <b>A Little About Me:</b> This site was made in October 2026. I'm currently 22 years old. For the past year or two I've been really thinking about starting my own business to make money. I tried selling websites,
+                    doing e-commerce, physical products with suppliers, but nothing took off. Then I realized that maybe I was prioritizing money <i>too</i> much, and maybe I should be prioritizing Allah (swt)'s pleasure. That's why
+                    this site will remain free: if it benefits others, that's way better than any monetary value. I'm still not doing the greatest financially haha because I'm still in university, but that's okay: I trust that it'll all
+                    work out and Allah (swt) will take care of me.
+                </p>
+                <p>I developed this site solo as a Sadaqa Jaariya for my sister that has passed away. May she get all the rewards if this ends up benefitting anyone, ameen!</p>
+                <h2>Sources</h2>
+                <p>
+                    Word lists, categories, and meanings come from <i>85% of Qur'anic Words</i> by Dr. Abdulazeez Abdulraheem, published by <a href="https://www.understandquran.com" target="_blank" rel="noopener">Understand Al-Qur'an Academy</a>.
+                    All rights to that material belong to the Academy, I just liked how it was categorized so I asked their permission to use it. Any mistakes are not on them; the document above was used as a reference. All the coding and rewriting
+                    was done by me.
+                </p>
+                <h2>Found a mistake?</h2>
+                <p>Arabic and meanings need to be exactly right. If you spot an error, please let me know at <a href="#">[contact email or GitHub issues link]</a>.</p>
+                <p><a href="#">[GitHub repo link]</a></p>
+            </div>
+        </section>
+
+        <section class="view" id="v-support">
+            <div class="prose">
+                <h1>Support</h1>
+                <p class="lead">This site doesn't accept donations. If it helps you, please make du'a for everyone this site has helped or support one of these instead:</p>
+                <div class="dcards">
+                    <a class="dcard" href="https://www.understandquran.com" target="_blank" rel="noopener"><b>Understand Al-Qur'an Academy</b>The source of the word lists used here.</a>
+                    <a class="dcard" href="https://eternalvirtue.org" target="_blank" rel="noopener"><b>Eternal Virtue</b>eternalvirtue.org -- A local charity that I support that does a lot of goodness in my community.</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="view" id="v-learn">
+            <h1>Learn</h1>
+            <p class="lead">Read through these words and their meanings. Practice when you're ready.</p>
+            <div id="learnBody"></div>
+            <div class="row">
+                <button class="btn" onclick="location.hash='home'">Back</button>
+                <button class="btn on" id="practiceThese">Practice these words</button>
+            </div>
+        </section>
+
+        <section class="view" id="v-quiz">
+            <h1>Type the Meaning</h1>
+            <p class="lead">Type the English meaning in each card and press Enter. Press Finish Quiz at the bottom when you're done.</p>
+            <div class="cards" id="cards"></div>
+            <div class="row">
+                <button class="btn" onclick="location.hash='home'">Quit</button>
+                <button class="btn on" id="finish">Finish Quiz</button>
+            </div>
+        </section>
+
+        <section class="view" id="v-result">
+            <h1>Results</h1>
+            <div class="score" id="score"></div>
+            <div id="missedBox"></div>
+            <div class="row">
+                <button class="btn" onclick="location.hash='home'">Back to Home</button>
+                <button class="btn on" id="retry">Retry missed words</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Word lists from "85% of Qur'anic Words" by
+        <a href="https://www.understandquran.com" target="_blank" rel="noopener">understandquran.com</a>. Not affiliated with this site.
+    </footer>
+
+    <script>
+        const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+        let data, selected = new Set(), mode = 'learn', session = null, cards = [];
+
+        fetch('words.json').then(r => r.json()).then(d => { data = d; buildHome(); route(); })
+            .catch(() => { document.body.insertAdjacentHTML('afterbegin', '<p style="padding:20px;color:#b00">Could not load words.json. Run the page through a local server.</p>'); });
+
+        /* routing */
+        function route() {
+            let h = location.hash.slice(1) || 'home';
+            if (['learn', 'quiz', 'result'].includes(h) && !session) h = 'home';
+            $$('.view').forEach(v => v.classList.toggle('show', v.id === 'v-' + h)); $$
+                ('[data-nav]').forEach(a => {
+                    const isNav = a.dataset.nav === h;
+                    const isHomeFallback = !['how', 'tool', 'about', 'support'].includes(h) && a.dataset.nav === 'home';
+                    a.classList.toggle('on', isNav || isHomeFallback);
+                });
+            window.scrollTo(0, 0);
+        }
+        addEventListener('hashchange', route);
+
+        /* tool calculator */
+        const milestones = [
+            { targetPct: '41.1%', words: 120, label: 'Core Particles', desc: 'Pronouns, prepositions & basic pointers' },
+            { targetPct: '60.0%', words: 350, label: 'Core Vocabulary', desc: 'High-frequency nouns & divine attributes' },
+            { targetPct: '75.0%', words: 650, label: 'Sound & Weak Verbs', desc: 'Form I 3-letter verbs in all common patterns' },
+            { targetPct: '85.2%', words: 980, label: 'Full Syllabus', desc: 'All derived verb forms & specialized roots' }
+        ];
+
+        function formatDays(days) {
+            if (days < 30) return `${days} day${days === 1 ? '' : 's'}`;
+            const months = (days / 30.4).toFixed(1);
+            return `${days} days (~${months} mo)`;
+        }
+
+        function updateEstimator(rate) {
+            $('#rateVal').textContent = rate;
+            $('#milestones').innerHTML = milestones.map(m => {
+                const days = Math.ceil(m.words / rate);
+                return `
+                    <div class="m-card active">
+                        <h3>${m.label}</h3>
+                        <div class="pct">${m.targetPct}</div>
+                        <div class="time">${formatDays(days)}</div>
+                        <div class="desc">${m.words} words • ${m.desc}</div>
+                    </div>`;
+            }).join('');
+        }
+
+        const slider = $('#rateSlider');
+        if (slider) {
+            slider.addEventListener('input', e => updateEstimator(+e.target.value));
+            updateEstimator(+slider.value);
+        }
+
+        /* home */
+        function buildHome() {
+            const sets = [...new Set(data.categories.map(c => c.set))].sort((a, b) => a - b);
+            $('#groups').innerHTML = '<div class="sets">' + sets.map(s => `
+                <div class="set">
+                    <h2>Set ${s}</h2>
+                    <button class="btn" data-page="${s}">All Set ${s}</button>
+                    <div class="grid2">${data.categories.filter(c => c.set === s).map(c =>
+                `<button class="btn" data-cat="${c.id}">${c.title}<small>${c.words.length}</small></button>`).join('')}</div>
+                </div>`).join('') + '</div>';
+            sync();
+        }
+        function sync() {
+            $$('[data-cat]').forEach(b => b.classList.toggle('on', selected.has(b.dataset.cat))); $$
+                ('[data-page]').forEach(b => b.classList.toggle('on', idsOf(+b.dataset.page).every(i => selected.has(i))));
+            $('[data-all]').classList.toggle('on', selected.size === data.categories.length); $$('[data-mode]').forEach(b => b.classList.toggle('on', b.dataset.mode === mode)); $('#start').textContent = mode === 'learn' ? 'Start Learning!' : 'Start Quiz!';
+        }
+        const idsOf = s => data.categories.filter(c => c.set === s).map(c => c.id);
+        function toggle(ids) {
+            const all = ids.every(i => selected.has(i));
+            ids.forEach(i => all ? selected.delete(i) : selected.add(i));
+            $('#msg').textContent = ''; sync();
+        }
+        $('#v-home').addEventListener('click', e => {
+            const b = e.target.closest('button'); if (!b) return;
+            if (b.dataset.mode) { mode = b.dataset.mode; sync(); }
+            else if (b.dataset.cat) toggle([b.dataset.cat]);
+            else if (b.dataset.page) toggle(idsOf(+b.dataset.page));
+            else if ('all' in b.dataset) toggle(data.categories.map(c => c.id));
+        });
+        $('#start').onclick = () => {
+            if (!selected.size) { $('#msg').textContent = 'Pick at least one category first.'; return; }
+            session = { cats: data.categories.filter(c => selected.has(c.id)) };
+            if (mode === 'learn') { renderLearn(); location.hash = 'learn'; }
+            else { startQuiz(session.cats.flatMap(c => c.words)); }
+        };
+
+        /* learn */
+        function renderLearn() {
+            $('#learnBody').innerHTML = session.cats.map(c => `
+                <h2>${c.title}</h2>
+                <div class="cards">${c.words.map(w => `
+                  <div class="lcard"><div class="ar">${w.ar}</div><div class="en">${w.meaning}</div><div class="nt">${w.note || ''}</div></div>`).join('')}</div>`).join('');
+        }
+        $('#practiceThese').onclick = () => startQuiz(session.cats.flatMap(c => c.words));
+
+        /* quiz */
+        const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0;[a[i], a[j]] = [a[j], a[i]]; } return a; };
+        function startQuiz(words) {
+            cards = shuffle(words.slice()).map(w => ({ w, status: null }));
+            $('#cards').innerHTML = cards.map((c, i) => {
+                const n = c.w.ar.length, size = n > 8 ? 30 : n > 5 ? 40 : 52;
+                return `<div class="qcard" data-i="${i}"><div class="qar" style="font-size:${size}px">${c.w.ar}</div><div class="qnt">${c.w.note || ''}</div>
+                  <div class="qans"><input type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Meaning of ${c.w.ar}"></div></div>`;
+            }).join('');
+            location.hash = 'quiz';
+            setTimeout(() => $('#cards input').focus(), 50);
+        }
+        function norm(s) { return s.toLowerCase().replace(/\(.*?\)/g, '').replace(/[^a-z\s]/g, ' ').replace(/\b(to|the|a|an)\b/g, ' ').replace(/\s+/g, ' ').trim(); }
+        function lev(a, b) {
+            const m = Array.from({ length: a.length + 1 }, (_, i) => [i]);
+            for (let j = 1; j <= b.length; j++) m[0][j] = j;
+            for (let i = 1; i <= a.length; i++) for (let j = 1; j <= b.length; j++)
+                m[i][j] = Math.min(m[i - 1][j] + 1, m[i][j - 1] + 1, m[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+            return m[a.length][b.length];
+        }
+        function ok(input, answers) {
+            const x = norm(input); if (!x) return false;
+            return answers.some(a => { const y = norm(a); return x === y || (y.length > 4 && lev(x, y) <= 1); });
+        }
+        $('#cards').addEventListener('keydown', e => {
+            if (e.key !== 'Enter' || e.target.tagName !== 'INPUT') return;
+            const el = e.target.closest('.qcard'), i = +el.dataset.i, c = cards[i];
+            if (!e.target.value.trim()) return;
+            c.status = ok(e.target.value, c.w.answers) ? 'right' : 'wrong';
+            el.classList.add(c.status);
+            el.querySelector('.qans').innerHTML = `<div class="shown">${c.w.meaning}</div>` + (c.status === 'wrong' ? '<button class="ovr">✓ I was right</button>' : '');
+            const nxt = cards.findIndex((x, j) => j > i && !x.status) >= 0 ? cards.findIndex((x, j) => j > i && !x.status) : cards.findIndex(x => !x.status);
+            if (nxt >= 0) { const inp = $(`.qcard[data-i="${nxt}"] input`); inp.focus(); inp.closest('.qcard').scrollIntoView({ block: 'center', behavior: 'smooth' }); }
+        });
+        $('#cards').addEventListener('click', e => {
+            if (!e.target.classList.contains('ovr')) return;
+            const el = e.target.closest('.qcard'); cards[+el.dataset.i].status = 'right';
+            el.classList.replace('wrong', 'right'); e.target.remove();
+        });
+        $('#finish').onclick = () => {
+            const missed = cards.filter(c => c.status !== 'right');
+            $('#score').textContent = `${cards.length - missed.length} / ${cards.length}`;
+            $('#missedBox').innerHTML = missed.length
+                ? `<h2>Words to review</h2><ul class="missed">${missed.map(c => `<li><span>${c.w.meaning}</span><span class="ar">${c.w.ar}</span></li>`).join('')}</ul>`
+                : '<h2>Perfect!</h2>';
+            $('#retry').style.display = missed.length ? '' : 'none';
+            $('#retry').onclick = () => startQuiz(missed.map(c => c.w));
+            location.hash = 'result';
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,802 @@
+{
+  "source": "85% of Qur'anic Words, compiled by Dr. Abdulazeez Abdulraheem, Understand Al-Qur'an Academy (understandquran.com)",
+  "categories": [
+    {
+      "id": "this-that-1",
+      "title": "This, that...! (1)",
+      "page": 7,
+      "words": [
+        {
+          "ar": "هٰذَا",
+          "answers": [
+            "this"
+          ],
+          "note": "masc.",
+          "meaning": "this"
+        },
+        {
+          "ar": "ذٰلِكَ",
+          "answers": [
+            "that"
+          ],
+          "note": "masc.",
+          "meaning": "that"
+        },
+        {
+          "ar": "هٰذِهٖ",
+          "answers": [
+            "this"
+          ],
+          "note": "fem.",
+          "meaning": "this"
+        },
+        {
+          "ar": "تِلْكَ",
+          "answers": [
+            "that"
+          ],
+          "note": "fem.",
+          "meaning": "that"
+        },
+        {
+          "ar": "هٰؤُلَآءِ",
+          "answers": [
+            "these"
+          ],
+          "note": "masc./fem.",
+          "meaning": "these"
+        }
+      ],
+      "set": 1
+    },
+    {
+      "id": "this-that-2",
+      "title": "This, that...! (2)",
+      "page": 7,
+      "words": [
+        {
+          "ar": "ذٰلِكُمْ",
+          "answers": [
+            "that"
+          ],
+          "note": "masc.",
+          "meaning": "that"
+        },
+        {
+          "ar": "اُولٰٓئِكَ",
+          "answers": [
+            "those"
+          ],
+          "note": "masc./fem.",
+          "meaning": "those"
+        },
+        {
+          "ar": "اَلَّذِىْ",
+          "answers": [
+            "who",
+            "the one who",
+            "one who"
+          ],
+          "note": "masc.",
+          "meaning": "(the one) who"
+        },
+        {
+          "ar": "اَلَّتِىْ",
+          "answers": [
+            "who",
+            "the one who",
+            "one who"
+          ],
+          "note": "fem.",
+          "meaning": "(the one) who"
+        },
+        {
+          "ar": "اَلَّذِيْنَ",
+          "answers": [
+            "those who"
+          ],
+          "note": "masc.",
+          "meaning": "those who"
+        }
+      ],
+      "set": 1
+    },
+    {
+      "id": "this-that-3",
+      "title": "This, that...! (3)",
+      "page": 7,
+      "words": [
+        {
+          "ar": "هٰذِهٖ",
+          "answers": [
+            "these"
+          ],
+          "note": "for broken plurals",
+          "meaning": "these"
+        },
+        {
+          "ar": "تِلْكَ",
+          "answers": [
+            "those"
+          ],
+          "note": "for broken plurals",
+          "meaning": "those"
+        },
+        {
+          "ar": "اَلَّتِىْ",
+          "answers": [
+            "those who"
+          ],
+          "note": "for broken plurals",
+          "meaning": "those who"
+        }
+      ],
+      "set": 1
+    },
+    {
+      "id": "no-no-1",
+      "title": "No, No!!! (1)",
+      "page": 7,
+      "words": [
+        {
+          "ar": "لَآ اِلٰهَ",
+          "answers": [
+            "there is no god",
+            "no god"
+          ],
+          "meaning": "(there is) no god"
+        },
+        {
+          "ar": "اِلَّا اللّٰهُ",
+          "answers": [
+            "except allah"
+          ],
+          "meaning": "except Allah"
+        },
+        {
+          "ar": "كَلَّا",
+          "answers": [
+            "never",
+            "certainly not",
+            "never certainly not"
+          ],
+          "meaning": "never, certainly not"
+        },
+        {
+          "ar": "لَنْ",
+          "answers": [
+            "not"
+          ],
+          "note": "for future",
+          "meaning": "not"
+        },
+        {
+          "ar": "لَمْ",
+          "answers": [
+            "not"
+          ],
+          "note": "for past",
+          "meaning": "not"
+        }
+      ],
+      "set": 1
+    },
+    {
+      "id": "no-no-2",
+      "title": "No, No!!! (2)",
+      "page": 7,
+      "words": [
+        {
+          "ar": "مَا",
+          "answers": [
+            "not"
+          ],
+          "meaning": "not"
+        },
+        {
+          "ar": "لَيْسَ",
+          "answers": [
+            "not"
+          ],
+          "note": "fem.: لَيْسَتْ",
+          "meaning": "not"
+        },
+        {
+          "ar": "بَلٰى",
+          "answers": [
+            "yes",
+            "indeed",
+            "yes indeed"
+          ],
+          "meaning": "yes, indeed"
+        },
+        {
+          "ar": "غَيْر",
+          "answers": [
+            "not",
+            "other than",
+            "not other than"
+          ],
+          "meaning": "not, other than"
+        },
+        {
+          "ar": "دُوْنَ",
+          "answers": [
+            "besides",
+            "less than",
+            "besides less than"
+          ],
+          "meaning": "besides, less than"
+        }
+      ],
+      "set": 1
+    },
+    {
+      "id": "no-no-3",
+      "title": "No, No!!! (3)",
+      "page": 7,
+      "words": [
+        {
+          "ar": "اِلَّا",
+          "answers": [
+            "except",
+            "unless",
+            "if not",
+            "except unless if not"
+          ],
+          "meaning": "except, unless, if not"
+        },
+        {
+          "ar": "نَعَمْ",
+          "answers": [
+            "yes"
+          ],
+          "meaning": "yes"
+        },
+        {
+          "ar": "اَلَا",
+          "answers": [
+            "lo",
+            "do not",
+            "will not",
+            "beware"
+          ],
+          "meaning": "lo!; do not..., will not...; beware"
+        }
+      ],
+      "set": 1
+    },
+    {
+      "id": "whose-1",
+      "title": "Whose? (1)",
+      "page": 8,
+      "words": [
+        {
+          "ar": "ـهُ",
+          "answers": [
+            "his"
+          ],
+          "meaning": "his",
+          "note": "masc."
+        },
+        {
+          "ar": "ـهُمْ",
+          "answers": [
+            "their"
+          ],
+          "meaning": "their",
+          "note": "masc."
+        },
+        {
+          "ar": "ـكَ",
+          "answers": [
+            "your",
+            "yours"
+          ],
+          "meaning": "your",
+          "note": "masc."
+        },
+        {
+          "ar": "ـيْ",
+          "answers": [
+            "my",
+            "me"
+          ],
+          "meaning": "my",
+          "note": "me: نِيْ"
+        },
+        {
+          "ar": "ـكُمْ",
+          "answers": [
+            "your",
+            "yours",
+            "your all",
+            "you all"
+          ],
+          "meaning": "your (you all)",
+          "note": "masc. pl."
+        }
+      ],
+      "set": 2
+    },
+    {
+      "id": "whose-2",
+      "title": "Whose? (2)",
+      "page": 8,
+      "words": [
+        {
+          "ar": "ـنَا",
+          "answers": [
+            "us",
+            "our"
+          ],
+          "meaning": "us",
+          "note": "masc./fem."
+        },
+        {
+          "ar": "ـهَا",
+          "answers": [
+            "her",
+            "hers"
+          ],
+          "meaning": "her",
+          "note": "fem."
+        },
+        {
+          "ar": "ـهُنَّ",
+          "answers": [
+            "their"
+          ],
+          "meaning": "their",
+          "note": "fem."
+        },
+        {
+          "ar": "ـكِ",
+          "answers": [
+            "your",
+            "yours"
+          ],
+          "meaning": "your",
+          "note": "fem."
+        },
+        {
+          "ar": "ـكُنَّ",
+          "answers": [
+            "your",
+            "yours",
+            "your all",
+            "you all"
+          ],
+          "meaning": "your (you all)",
+          "note": "fem. pl."
+        }
+      ],
+      "set": 2
+    },
+    {
+      "id": "whose-3",
+      "title": "Whose? (3)",
+      "page": 8,
+      "words": [
+        {
+          "ar": "ـهَا",
+          "answers": [
+            "their"
+          ],
+          "meaning": "their",
+          "note": "for broken plurals"
+        },
+        {
+          "ar": "ـهُمَا",
+          "answers": [
+            "their",
+            "their two",
+            "they two"
+          ],
+          "meaning": "their (two)",
+          "note": "dual"
+        },
+        {
+          "ar": "ـكُمَا",
+          "answers": [
+            "your",
+            "yours",
+            "your two",
+            "you two"
+          ],
+          "meaning": "your (you two)",
+          "note": "dual"
+        }
+      ],
+      "set": 2
+    },
+    {
+      "id": "who-1",
+      "title": "Who? (1)",
+      "page": 8,
+      "words": [
+        {
+          "ar": "هُوَ",
+          "answers": [
+            "he"
+          ],
+          "meaning": "he",
+          "note": "masc."
+        },
+        {
+          "ar": "هُمْ",
+          "answers": [
+            "they"
+          ],
+          "meaning": "they",
+          "note": "masc."
+        },
+        {
+          "ar": "اَنْتَ",
+          "answers": [
+            "you"
+          ],
+          "meaning": "you",
+          "note": "masc."
+        },
+        {
+          "ar": "اَنَا",
+          "answers": [
+            "i"
+          ],
+          "meaning": "I",
+          "note": "masc./fem."
+        },
+        {
+          "ar": "اَنْتُمْ",
+          "answers": [
+            "you all",
+            "you plural",
+            "all of you"
+          ],
+          "meaning": "you all",
+          "note": "masc."
+        }
+      ],
+      "set": 2
+    },
+    {
+      "id": "who-2",
+      "title": "Who? (2)",
+      "page": 8,
+      "words": [
+        {
+          "ar": "نَحْنُ",
+          "answers": [
+            "we"
+          ],
+          "meaning": "we",
+          "note": "masc./fem."
+        },
+        {
+          "ar": "هِىَ",
+          "answers": [
+            "she"
+          ],
+          "meaning": "she",
+          "note": "fem."
+        },
+        {
+          "ar": "هُنَّ",
+          "answers": [
+            "they"
+          ],
+          "meaning": "they",
+          "note": "fem."
+        },
+        {
+          "ar": "اَنْتِ",
+          "answers": [
+            "you"
+          ],
+          "meaning": "you",
+          "note": "fem."
+        },
+        {
+          "ar": "اَنْتُنَّ",
+          "answers": [
+            "you all",
+            "you plural",
+            "all of you"
+          ],
+          "meaning": "you all",
+          "note": "fem."
+        }
+      ],
+      "set": 2
+    },
+    {
+      "id": "who-3",
+      "title": "Who? (3)",
+      "page": 8,
+      "words": [
+        {
+          "ar": "هِىَ",
+          "answers": [
+            "they"
+          ],
+          "meaning": "they",
+          "note": "for broken plurals"
+        },
+        {
+          "ar": "هُمَا",
+          "answers": [
+            "those two",
+            "they two",
+            "the two"
+          ],
+          "meaning": "those two",
+          "note": "dual"
+        },
+        {
+          "ar": "اَنْتُمَا",
+          "answers": [
+            "you two"
+          ],
+          "meaning": "you two",
+          "note": "dual"
+        }
+      ],
+      "set": 2
+    },
+    {
+      "id": "where-1",
+      "title": "Where? (1)",
+      "page": 9,
+      "set": 3,
+      "words": [
+        {
+          "ar": "فَوْقَ",
+          "answers": [
+            "above",
+            "up"
+          ],
+          "meaning": "above, up"
+        },
+        {
+          "ar": "تَحْتَ",
+          "answers": [
+            "under"
+          ],
+          "meaning": "under"
+        },
+        {
+          "ar": "بَيْنَ اَيْدِىْ",
+          "answers": [
+            "in front of",
+            "in front"
+          ],
+          "meaning": "in front of",
+          "note": "or بَيْنَ يَدَىْ"
+        },
+        {
+          "ar": "خَلْفَ",
+          "answers": [
+            "back",
+            "after"
+          ],
+          "meaning": "back, after"
+        },
+        {
+          "ar": "اَمَامَ",
+          "answers": [
+            "in front of",
+            "in front"
+          ],
+          "meaning": "in front of"
+        }
+      ]
+    },
+    {
+      "id": "where-2",
+      "title": "Where? (2)",
+      "page": 9,
+      "set": 3,
+      "words": [
+        {
+          "ar": "وَرَآءَ",
+          "answers": [
+            "behind"
+          ],
+          "meaning": "behind"
+        },
+        {
+          "ar": "يَمِيْن",
+          "answers": [
+            "right",
+            "oath"
+          ],
+          "meaning": "right; oath",
+          "note": "pl.: اَيْمَان"
+        },
+        {
+          "ar": "شِمَال",
+          "answers": [
+            "left"
+          ],
+          "meaning": "left",
+          "note": "pl.: شَمَآئِل"
+        },
+        {
+          "ar": "بَيْنَ",
+          "answers": [
+            "between"
+          ],
+          "meaning": "between"
+        },
+        {
+          "ar": "حَوْلَ",
+          "answers": [
+            "around"
+          ],
+          "meaning": "around"
+        }
+      ]
+    },
+    {
+      "id": "where-3",
+      "title": "Where? (3)",
+      "page": 9,
+      "set": 3,
+      "words": [
+        {
+          "ar": "حَيْثُ",
+          "answers": [
+            "wherever"
+          ],
+          "meaning": "wherever"
+        },
+        {
+          "ar": "اَيْنَمَا",
+          "answers": [
+            "wherever"
+          ],
+          "meaning": "wherever"
+        },
+        {
+          "ar": "هُنَا / هُنَالِكَ",
+          "answers": [
+            "here",
+            "there",
+            "here there"
+          ],
+          "meaning": "here / there"
+        }
+      ]
+    },
+    {
+      "id": "questions-1",
+      "title": "Questions!? (1)",
+      "page": 9,
+      "set": 3,
+      "words": [
+        {
+          "ar": "مَا",
+          "answers": [
+            "what",
+            "that which"
+          ],
+          "meaning": "what?, that which"
+        },
+        {
+          "ar": "مَنْ",
+          "answers": [
+            "who",
+            "the one who",
+            "one who"
+          ],
+          "meaning": "who?, the one who"
+        },
+        {
+          "ar": "مَتٰى",
+          "answers": [
+            "when",
+            "the time when"
+          ],
+          "meaning": "when?, the time when"
+        },
+        {
+          "ar": "اَيْنَ",
+          "answers": [
+            "where"
+          ],
+          "meaning": "where?"
+        },
+        {
+          "ar": "كَيْفَ",
+          "answers": [
+            "how"
+          ],
+          "meaning": "how?"
+        }
+      ]
+    },
+    {
+      "id": "questions-2",
+      "title": "Questions!? (2)",
+      "page": 9,
+      "set": 3,
+      "words": [
+        {
+          "ar": "كَمْ",
+          "answers": [
+            "how many"
+          ],
+          "meaning": "how many?"
+        },
+        {
+          "ar": "اَيُّ",
+          "answers": [
+            "which"
+          ],
+          "meaning": "which?"
+        },
+        {
+          "ar": "اَنّٰى",
+          "answers": [
+            "where from",
+            "why"
+          ],
+          "meaning": "where from?, why?"
+        },
+        {
+          "ar": "اَ / هَلْ",
+          "answers": [
+            "is",
+            "am",
+            "are",
+            "do",
+            "have",
+            "is am are do have"
+          ],
+          "meaning": "is? am? are? do? have?"
+        },
+        {
+          "ar": "مَاذَا",
+          "answers": [
+            "what"
+          ],
+          "meaning": "what?"
+        }
+      ]
+    },
+    {
+      "id": "questions-3",
+      "title": "Questions!? (3)",
+      "page": 9,
+      "set": 3,
+      "words": [
+        {
+          "ar": "لِمَ / لِمَاذَا",
+          "answers": [
+            "why"
+          ],
+          "meaning": "why?"
+        },
+        {
+          "ar": "لَوْلَا",
+          "answers": [
+            "if not",
+            "why not"
+          ],
+          "meaning": "if not, why not"
+        },
+        {
+          "ar": "لِمَنْ",
+          "answers": [
+            "for who",
+            "for the one who",
+            "for one who",
+            "for whom"
+          ],
+          "meaning": "for (the one) who"
+        }
+      ]
+    }
+  ]
+}
