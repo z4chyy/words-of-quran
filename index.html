@@ -71,7 +71,7 @@
 
             .nav nav a {
                 padding: 6px 14px;
-                border-radius: 999px;
+                border-radius: 4px;
                 text-decoration: none;
                 font-weight: 600;
                 color: var(--ink)
@@ -165,13 +165,14 @@
             max-width: 360px;
             margin: 0 auto 22px;
             background: var(--tint);
-            border-radius: 999px;
+            border-radius: 4px;
             padding: 4px
         }
 
             .seg .btn {
                 background: transparent;
-                width: 50%
+                width: 50%;
+                border-radius: 4px;
             }
 
                 .seg .btn:hover {
@@ -182,25 +183,59 @@
                     background: var(--em)
                 }
 
+        button[data-all], button[data-page], button[data-cat] {
+            background: var(--paper);
+            border: 2px solid var(--em);
+            border-radius: 8px;
+            color: var(--em);
+        }
+
+            button[data-all]:hover, button[data-page]:hover, button[data-cat]:hover {
+                background: var(--tint);
+            }
+
+            button[data-all].on, button[data-page].on, button[data-cat].on {
+                background: var(--em);
+                color: #fff8e6;
+            }
+
+        .start-wrap {
+            position: sticky;
+            bottom: 0;
+            padding: 80px 20px 24px; /* Increased top padding pushes the fade higher */
+            margin: 0 -20px -40px;
+            background: linear-gradient(to top, var(--bg) 35%, rgba(247, 240, 224, 0) 100%);
+            z-index: 10;
+            pointer-events: none;
+        }
+
+            .start-wrap > * {
+                pointer-events: auto; /* Re-enables clicking on the button itself */
+            }
+
         .start {
             display: block;
-            margin: 34px auto 0;
+            margin: 0 auto;
             max-width: 340px;
             background: var(--em);
             color: #fff8e6;
             font-size: 22px;
-            box-shadow: 0 0 0 3px var(--bg), 0 0 0 5px var(--gold)
+            box-shadow: 0 8px 16px rgba(10, 69, 56, 0.25), 0 0 0 3px var(--bg), 0 0 0 5px var(--gold);
+            transition: background .15s, transform .1s;
         }
 
             .start:hover {
-                background: var(--emd)
+                background: var(--emd);
+                transform: translateY(-2px);
             }
 
         .msg {
             text-align: center;
             color: var(--bad);
             min-height: 26px;
-            margin-top: 10px
+            margin-top: 8px;
+            font-weight: 600;
+            text-shadow: 0 1px 2px var(--bg); /* Makes text readable over the grid */
         }
 
         .sets {
@@ -208,6 +243,40 @@
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 28px;
             margin-top: 8px
+        }
+
+        /* Section Banners & Set Subtitles */
+        .sec-wrap {
+            margin-top: 36px;
+        }
+
+        .sec-title {
+            font-family: 'Lora', serif;
+            color: var(--em);
+            font-size: 26px;
+            text-align: left;
+            margin: 32px 0 16px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid var(--gold);
+        }
+
+        .set-head {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+            .set-head h3 {
+                font-family: 'Lora', serif;
+                color: var(--em);
+                font-size: 22px;
+                margin: 0;
+            }
+
+        .set-sub {
+            color: var(--muted);
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: 2px;
         }
 
         .grid2 {
@@ -220,8 +289,11 @@
             .grid2 .btn {
                 font-size: 16px;
                 padding: 10px 6px;
-                border-radius: 16px
+                border-radius: 8px;
             }
+                .grid2 .btn:last-child:nth-child(odd) {
+                    grid-column: span 2;
+                }
 
                 .grid2 .btn small {
                     display: block;
@@ -579,22 +651,6 @@
                 line-height: 1.3;
             }
 
-        .prog-container {
-            margin-top: 24px;
-            background: var(--tint);
-            border-radius: 999px;
-            height: 14px;
-            overflow: hidden;
-            border: 1px solid var(--line);
-        }
-
-        .prog-bar {
-            height: 100%;
-            background: var(--em);
-            border-radius: 999px;
-            transition: width .3s ease;
-        }
-
         footer {
             border-top: 2px solid var(--line);
             padding: 18px 20px 26px;
@@ -619,15 +675,26 @@
     <main>
         <section class="view" id="v-home">
             <h1>Learn Qur'anic Words</h1>
+            <div class="box" style="max-width: 620px; margin: 0 auto 24px; text-align: center; padding-top: 20px;">
+                <i>
+                    <b>
+                        At only 3 words a day, you could understand 85% of the Qur’an in less than a year.
+                        Allah (swt) loves small yet consistent deeds, so start now! May Allah
+                        (swt) make this journey easy and full of barakah for you.
+                    </b>
+                </i>
+            </div>
             <p class="lead">Study the most common words of the Qur'an, then test yourself. Pick what you want to work on and start.</p>
             <div class="seg">
-                <button class="btn on" data-mode="learn">Learn</button>
                 <button class="btn" data-mode="practice">Practice</button>
+                <button class="btn" data-mode="learn">Learn</button>
             </div>
             <button class="btn" data-all>All Words</button>
             <div id="groups"></div>
-            <button class="btn start" id="start">Start Learning!</button>
-            <div class="msg" id="msg"></div>
+            <div class="start-wrap">
+                <button class="btn start" id="start">Start Quiz!</button>
+                <div class="msg" id="msg"></div>
+            </div>
         </section>
 
         <section class="view" id="v-how">
@@ -705,10 +772,10 @@
                     people might enjoy using it too.
                 </p>
                 <p>
-                    <b>A Little About Me:</b> This site was made in October 2026. I'm currently 22 years old. For the past year or two I've been really thinking about starting my own business to make money. I tried selling websites,
+                    <b>A Little About Me:</b> This site was made in October 2026. At the time of writing this, I'm currently 22 years old. For the past year or two I've been really thinking about starting my own business to make money. I tried selling websites,
                     doing e-commerce, physical products with suppliers, but nothing took off. Then I realized that maybe I was prioritizing money <i>too</i> much, and maybe I should be prioritizing Allah (swt)'s pleasure. That's why
-                    this site will remain free: if it benefits others, that's way better than any monetary value. I'm still not doing the greatest financially haha because I'm still in university, but that's okay: I trust that it'll all
-                    work out and Allah (swt) will take care of me.
+                    this site will remain free: if it benefits others, that's way better than any monetary value. I'm still in university so I'm not making any big bucks, but that's okay: I trust that it'll all
+                    work out and Allah (swt) will take care of my affairs.
                 </p>
                 <p>I developed this site solo as a Sadaqa Jaariya for my sister that has passed away. May she get all the rewards if this ends up benefitting anyone, ameen!</p>
                 <h2>Sources</h2>
@@ -719,7 +786,7 @@
                 </p>
                 <h2>Found a mistake?</h2>
                 <p>Arabic and meanings need to be exactly right. If you spot an error, please let me know at <a href="#">[contact email or GitHub issues link]</a>.</p>
-                <p><a href="#">[GitHub repo link]</a></p>
+                <p><a href="https://github.com/z4chyy/words-of-quran">[GitHub repo link]</a></p>
             </div>
         </section>
 
@@ -728,8 +795,9 @@
                 <h1>Support</h1>
                 <p class="lead">This site doesn't accept donations. If it helps you, please make du'a for everyone this site has helped or support one of these instead:</p>
                 <div class="dcards">
-                    <a class="dcard" href="https://www.understandquran.com" target="_blank" rel="noopener"><b>Understand Al-Qur'an Academy</b>The source of the word lists used here.</a>
-                    <a class="dcard" href="https://eternalvirtue.org" target="_blank" rel="noopener"><b>Eternal Virtue</b>eternalvirtue.org -- A local charity that I support that does a lot of goodness in my community.</a>
+                    <a class="dcard" href="https://understandquran.com/charity-allah-swt/" target="_blank" rel="noopener"><b>Understand Al-Qur'an Academy</b><br />The source of the word lists used on this site. They don't accept direct donations, so instead I would highly suggest <strong>donating in your community:</strong> buy a meal for someone, help your neighbours, donate to a local charity, etc.</a>
+                    <a class="dcard" href="#support" target="_blank" rel="noopener"><b>Water Well Construction</b><br />**not setup yet** -- Donations here will be pooled together to build a water well somewhere needed in the world.
+                    Once built, photos and progress will be posted here.</a>
                 </div>
             </div>
         </section>
@@ -760,6 +828,8 @@
             <div id="missedBox"></div>
             <div class="row">
                 <button class="btn" onclick="location.hash='home'">Back to Home</button>
+                <!-- Retake Quiz button added here -->
+                <button class="btn" id="retake">Retake Quiz</button>
                 <button class="btn on" id="retry">Retry missed words</button>
             </div>
         </section>
@@ -772,7 +842,7 @@
 
     <script>
         const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
-        let data, selected = new Set(), mode = 'learn', session = null, cards = [];
+        let data, selected = new Set(), mode = localStorage.getItem('woq_mode') || 'practice', session = null, cards = [];
 
         fetch('words.json').then(r => r.json()).then(d => { data = d; buildHome(); route(); })
             .catch(() => { document.body.insertAdjacentHTML('afterbegin', '<p style="padding:20px;color:#b00">Could not load words.json. Run the page through a local server.</p>'); });
@@ -810,12 +880,12 @@
             $('#milestones').innerHTML = milestones.map(m => {
                 const days = Math.ceil(m.words / rate);
                 return `
-                    <div class="m-card active">
-                        <h3>${m.label}</h3>
-                        <div class="pct">${m.targetPct}</div>
-                        <div class="time">${formatDays(days)}</div>
-                        <div class="desc">${m.words} words • ${m.desc}</div>
-                    </div>`;
+                        <div class="m-card active">
+                            <h3>${m.label}</h3>
+                            <div class="pct">${m.targetPct}</div>
+                            <div class="time">${formatDays(days)}</div>
+                            <div class="desc">${m.words} words • ${m.desc}</div>
+                        </div>`;
             }).join('');
         }
 
@@ -825,16 +895,107 @@
             updateEstimator(+slider.value);
         }
 
+        /* Section mapping & Subtitles */
+        function getSectionName(setNum, cat) {
+            // 1. If you explicitly add a "section" field in words.json, use that:
+            if (cat && cat.section) return cat.section;
+
+            // 2. Otherwise, automatically group by set number:
+            if (setNum <= 15) return "General Words (0 - 60.1%)";
+            if (setNum <= 20) return "3-Letter Basic Verbs (Thulāthī Mujarrad) (60.2 - 67.4%%)";
+            if (setNum <= 25) return "3-Letter Weak & Irregular Verbs (67.5 - 76.8%)";
+            if (setNum <= 37) return "Derived Verb Forms (Mazīd Fīh) (76.9 - 85.2%)";
+            if (setNum <= 38) return "Silat-ul-Fi'l (Verb + Preposition)";
+            return "BONUS: Verb Conjugations (TPI)";
+        }
+
+        // Subtitles for the verb sets (or define "setSubtitle" inside words.json)
+        const SET_SUBTITLES = {
+            1: "This/That/No",
+            2: "Who",
+            3: "Where/Questions",
+            4: "When/Miscellaneous",
+            5: "Prepositions",
+            6: "Prefixes/Inna/Miscellaneous",
+            7: "Desrcibing Attributes",
+            8: "Describing Attributes/Nouns of Superiority",
+            9: "Names & Allah (swt)'s Signs",
+            10: "Last Day",
+            11: "Faith/Deen",
+            12: "Blessings/Deeds",
+            13: "Body Parts & Relatives",
+            14: "People & World",
+            15: "Miscellaneous",
+            16: "fataha – yaftahu (فَتَحَ يَفْتَحُ)",
+            17: "nasara – yansuru (نَصَرَ يَنْصُرُ)",
+            18: "nasara – yansuru (cont.)",
+            19: "dharaba – yadhribu (ضَرَبَ يَضْرِبُ)",
+            20: "sami'a – yasma'u (سَمِعَ يَسْمَعُ)",
+            21: "Muda'af (Doubled)",
+            22: "Mithal (Assimilated)",
+            23: "Ajwaf (Hollow --? Weak middle letter)",
+            24: "Naqis (Defective --> Weak 3rd letter)",
+            25: "Mahmuz (Contains Hamza)",
+            26: "Form II: fa''ala (فَعَّلَ يُفَعِّلُ)",
+            27: "Form II: fa''ala (cont.)",
+            28: "Form III: fā'ala (فَاعَلَ يُفَاعِلُ)",
+            29: "Form IV: af'ala (أَفْعَلَ يُفْعِلُ)",
+            30: "Form IV: af'ala (cont.)",
+            31: "Form IV: af'ala – Hollow",
+            32: "Form IV: af'ala – Defective",
+            33: "Form IV: af'ala – Doubled/Various",
+            34: "Form V: tafa''ala (تَفَعَّلَ يَتَفَعَّلُ)",
+            35: "Forms VI, VII, IX (تَفَاعَلَ / انْفَعَلَ / افْعَلَّ)",
+            36: "Form VIII: ifta'ala (افْتَعَلَ يَفْتَعِلُ)",
+            37: "Form X: istaf'ala (اسْتَفْعَلَ يَسْتَفْعِلُ)",
+            38: "Silat-ul-Fi'l (Verbs and their Prepositions)",
+            39: "BONUS: Past Tense & Imperfect Tense (Masculine)",
+            40: "BONUS: Commands, Active & Passive Participles (Masculine)",
+            41: "BONUS: Past Tense & Imperfect Tense (Feminine)",
+            42: "BONUS: Commands, Active & Passive Participles (Feminine)",
+        };
+
         /* home */
         function buildHome() {
-            const sets = [...new Set(data.categories.map(c => c.set))].sort((a, b) => a - b);
-            $('#groups').innerHTML = '<div class="sets">' + sets.map(s => `
-                <div class="set">
-                    <h2>Set ${s}</h2>
-                    <button class="btn" data-page="${s}">All Set ${s}</button>
-                    <div class="grid2">${data.categories.filter(c => c.set === s).map(c =>
-                `<button class="btn" data-cat="${c.id}">${c.title}<small>${c.words.length}</small></button>`).join('')}</div>
-                </div>`).join('') + '</div>';
+            // 1. Organize sets by section
+            const sectionGroups = {};
+            data.categories.forEach(c => {
+                const sec = getSectionName(c.set, c);
+                if (!sectionGroups[sec]) sectionGroups[sec] = new Set();
+                sectionGroups[sec].add(c.set);
+            });
+
+            // 2. Build HTML for each section and its sets
+            let html = '';
+            for (const [secTitle, setSet] of Object.entries(sectionGroups)) {
+                const sortedSets = [...setSet].sort((a, b) => a - b);
+                html += `
+            <div class="sec-wrap">
+                <h2 class="sec-title">${secTitle}</h2>
+                <div class="sets">
+                    ${sortedSets.map(s => {
+                    const cats = data.categories.filter(c => c.set === s);
+                    const subtitle = cats[0]?.setSubtitle || SET_SUBTITLES[s] || '';
+                    return `
+                        <div class="set">
+                            <div class="set-head">
+                                <h3>Set ${s}</h3>${subtitle ? `<div class="set-sub">${subtitle}</div>` : ''}
+                            </div>
+                            <button class="btn" data-page="${s}">All Set ${s}</button>
+                            <div class="grid2">
+                                ${cats.map(c => `
+                                    <button class="btn" data-cat="${c.id}">
+                                        ${c.title}<small>${c.words.length}</small>
+                                    </button>
+                                `).join('')}
+                            </div>
+                        </div>`;
+                }).join('')}
+                </div>
+            </div>`;
+            }
+
+            $('#groups').innerHTML = html;
             sync();
         }
         function sync() {
@@ -850,7 +1011,11 @@
         }
         $('#v-home').addEventListener('click', e => {
             const b = e.target.closest('button'); if (!b) return;
-            if (b.dataset.mode) { mode = b.dataset.mode; sync(); }
+            if (b.dataset.mode) {
+                mode = b.dataset.mode;
+                localStorage.setItem('woq_mode', mode);
+                sync();
+            }
             else if (b.dataset.cat) toggle([b.dataset.cat]);
             else if (b.dataset.page) toggle(idsOf(+b.dataset.page));
             else if ('all' in b.dataset) toggle(data.categories.map(c => c.id));
@@ -865,9 +1030,9 @@
         /* learn */
         function renderLearn() {
             $('#learnBody').innerHTML = session.cats.map(c => `
-                <h2>${c.title}</h2>
-                <div class="cards">${c.words.map(w => `
-                  <div class="lcard"><div class="ar">${w.ar}</div><div class="en">${w.meaning}</div><div class="nt">${w.note || ''}</div></div>`).join('')}</div>`).join('');
+                    <h2>${c.title}</h2>
+                    <div class="cards">${c.words.map(w => `
+                      <div class="lcard"><div class="ar">${w.ar}</div><div class="en">${w.meaning}</div><div class="nt">${w.note || ''}</div></div>`).join('')}</div>`).join('');
         }
         $('#practiceThese').onclick = () => startQuiz(session.cats.flatMap(c => c.words));
 
@@ -878,7 +1043,7 @@
             $('#cards').innerHTML = cards.map((c, i) => {
                 const n = c.w.ar.length, size = n > 8 ? 30 : n > 5 ? 40 : 52;
                 return `<div class="qcard" data-i="${i}"><div class="qar" style="font-size:${size}px">${c.w.ar}</div><div class="qnt">${c.w.note || ''}</div>
-                  <div class="qans"><input type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Meaning of ${c.w.ar}"></div></div>`;
+                      <div class="qans"><input type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Meaning of ${c.w.ar}"></div></div>`;
             }).join('');
             location.hash = 'quiz';
             setTimeout(() => $('#cards input').focus(), 50);
@@ -910,6 +1075,10 @@
             const el = e.target.closest('.qcard'); cards[+el.dataset.i].status = 'right';
             el.classList.replace('wrong', 'right'); e.target.remove();
         });
+
+        /* result actions */
+        $('#retake').onclick = () => startQuiz(session.cats.flatMap(c => c.words));
+
         $('#finish').onclick = () => {
             const missed = cards.filter(c => c.status !== 'right');
             $('#score').textContent = `${cards.length - missed.length} / ${cards.length}`;

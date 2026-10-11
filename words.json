@@ -5,544 +5,409 @@
       "id": "this-that-1",
       "title": "This, that...! (1)",
       "page": 7,
+      "set": 1,
       "words": [
         {
           "ar": "هٰذَا",
-          "answers": [
-            "this"
-          ],
+          "answers": [ "this" ],
           "note": "masc.",
           "meaning": "this"
         },
         {
           "ar": "ذٰلِكَ",
-          "answers": [
-            "that"
-          ],
+          "answers": [ "that" ],
           "note": "masc.",
           "meaning": "that"
         },
         {
-          "ar": "هٰذِهٖ",
-          "answers": [
-            "this"
-          ],
+          "ar": "هٰذِهِ",
+          "answers": [ "this" ],
           "note": "fem.",
           "meaning": "this"
         },
         {
           "ar": "تِلْكَ",
-          "answers": [
-            "that"
-          ],
+          "answers": [ "that" ],
           "note": "fem.",
           "meaning": "that"
         },
         {
-          "ar": "هٰؤُلَآءِ",
-          "answers": [
-            "these"
-          ],
+          "ar": "هٰٓؤُلَاءِ",
+          "answers": [ "these" ],
           "note": "masc./fem.",
           "meaning": "these"
         }
-      ],
-      "set": 1
+      ]
     },
     {
       "id": "this-that-2",
       "title": "This, that...! (2)",
       "page": 7,
+      "set": 1,
       "words": [
         {
           "ar": "ذٰلِكُمْ",
-          "answers": [
-            "that"
-          ],
+          "answers": [ "that" ],
           "note": "masc.",
           "meaning": "that"
         },
         {
-          "ar": "اُولٰٓئِكَ",
-          "answers": [
-            "those"
-          ],
+          "ar": "أُولٰٓئِكَ",
+          "answers": [ "those" ],
           "note": "masc./fem.",
           "meaning": "those"
         },
         {
-          "ar": "اَلَّذِىْ",
-          "answers": [
-            "who",
-            "the one who",
-            "one who"
-          ],
+          "ar": "الَّذِي",
+          "answers": [ "who", "the one who" ],
           "note": "masc.",
-          "meaning": "(the one) who"
+          "meaning": "the one who"
         },
         {
-          "ar": "اَلَّتِىْ",
-          "answers": [
-            "who",
-            "the one who",
-            "one who"
-          ],
+          "ar": "الَّتِي",
+          "answers": [ "who", "the one who" ],
           "note": "fem.",
-          "meaning": "(the one) who"
-        },
-        {
-          "ar": "اَلَّذِيْنَ",
-          "answers": [
-            "those who"
-          ],
-          "note": "masc.",
-          "meaning": "those who"
+          "meaning": "the one who"
         }
-      ],
-      "set": 1
+      ]
     },
     {
       "id": "this-that-3",
       "title": "This, that...! (3)",
       "page": 7,
+      "set": 1,
       "words": [
         {
-          "ar": "هٰذِهٖ",
-          "answers": [
-            "these"
-          ],
+          "ar": "الَّذِينَ",
+          "answers": [ "those who" ],
+          "note": "masc.",
+          "meaning": "those who"
+        },
+        {
+          "ar": "هٰذِهِ",
+          "answers": [ "these" ],
           "note": "for broken plurals",
           "meaning": "these"
         },
         {
           "ar": "تِلْكَ",
-          "answers": [
-            "those"
-          ],
+          "answers": [ "those" ],
           "note": "for broken plurals",
           "meaning": "those"
         },
         {
-          "ar": "اَلَّتِىْ",
-          "answers": [
-            "those who"
-          ],
+          "ar": "الَّتِي",
+          "answers": [ "those who" ],
           "note": "for broken plurals",
           "meaning": "those who"
         }
-      ],
-      "set": 1
+      ]
     },
     {
       "id": "no-no-1",
       "title": "No, No!!! (1)",
       "page": 7,
+      "set": 1,
       "words": [
         {
-          "ar": "لَآ اِلٰهَ",
-          "answers": [
-            "there is no god",
-            "no god"
-          ],
-          "meaning": "(there is) no god"
+          "ar": "لَا إِلٰهَ",
+          "answers": [ "there is no god", "no god" ],
+          "note": "",
+          "meaning": "there is no god"
         },
         {
-          "ar": "اِلَّا اللّٰهُ",
-          "answers": [
-            "except allah"
-          ],
+          "ar": "إِلَّا اللهُ",
+          "answers": [ "except allah" ],
+          "note": "",
           "meaning": "except Allah"
         },
         {
-          "ar": "كَلَّا",
-          "answers": [
-            "never",
-            "certainly not",
-            "never certainly not"
-          ],
+          "ar": "كَلَّا",
+          "answers": [ "never", "certainly not" ],
+          "note": "",
           "meaning": "never, certainly not"
         },
         {
           "ar": "لَنْ",
-          "answers": [
-            "not"
-          ],
+          "answers": [ "not" ],
           "note": "for future",
           "meaning": "not"
         },
         {
           "ar": "لَمْ",
-          "answers": [
-            "not"
-          ],
+          "answers": [ "not" ],
           "note": "for past",
           "meaning": "not"
         }
-      ],
-      "set": 1
+      ]
     },
     {
       "id": "no-no-2",
       "title": "No, No!!! (2)",
       "page": 7,
+      "set": 1,
       "words": [
         {
           "ar": "مَا",
-          "answers": [
-            "not"
-          ],
+          "answers": [ "not" ],
+          "note": "",
           "meaning": "not"
         },
         {
           "ar": "لَيْسَ",
-          "answers": [
-            "not"
-          ],
-          "note": "fem.: لَيْسَتْ",
+          "answers": [ "not" ],
+          "note": "fem. لَيْسَتْ",
           "meaning": "not"
         },
         {
           "ar": "بَلٰى",
-          "answers": [
-            "yes",
-            "indeed",
-            "yes indeed"
-          ],
+          "answers": [ "yes indeed", "yes" ],
+          "note": "",
           "meaning": "yes, indeed"
         },
         {
           "ar": "غَيْر",
-          "answers": [
-            "not",
-            "other than",
-            "not other than"
-          ],
+          "answers": [ "not", "other than" ],
+          "note": "",
           "meaning": "not, other than"
-        },
-        {
-          "ar": "دُوْنَ",
-          "answers": [
-            "besides",
-            "less than",
-            "besides less than"
-          ],
-          "meaning": "besides, less than"
         }
-      ],
-      "set": 1
+      ]
     },
     {
       "id": "no-no-3",
       "title": "No, No!!! (3)",
       "page": 7,
+      "set": 1,
       "words": [
         {
-          "ar": "اِلَّا",
-          "answers": [
-            "except",
-            "unless",
-            "if not",
-            "except unless if not"
-          ],
+          "ar": "دُون",
+          "answers": [ "besides", "less than" ],
+          "note": "",
+          "meaning": "besides, less than"
+        },
+        {
+          "ar": "إِلَّا",
+          "answers": [ "except", "unless", "if not" ],
+          "note": "",
           "meaning": "except, unless, if not"
         },
         {
           "ar": "نَعَمْ",
-          "answers": [
-            "yes"
-          ],
+          "answers": [ "yes" ],
+          "note": "",
           "meaning": "yes"
         },
         {
-          "ar": "اَلَا",
-          "answers": [
-            "lo",
-            "do not",
-            "will not",
-            "beware"
-          ],
+          "ar": "أَلَا",
+          "answers": [ "beware", "lo" ],
+          "note": "",
           "meaning": "lo!; do not..., will not...; beware"
         }
-      ],
-      "set": 1
+      ]
     },
     {
       "id": "whose-1",
       "title": "Whose? (1)",
       "page": 8,
+      "set": 2,
       "words": [
         {
-          "ar": "ـهُ",
-          "answers": [
-            "his"
-          ],
-          "meaning": "his",
-          "note": "masc."
+          "ar": "ـهٗ",
+          "answers": [ "his" ],
+          "note": "masc.",
+          "meaning": "his"
         },
         {
           "ar": "ـهُمْ",
-          "answers": [
-            "their"
-          ],
-          "meaning": "their",
-          "note": "masc."
+          "answers": [ "their" ],
+          "note": "masc.",
+          "meaning": "their"
         },
         {
           "ar": "ـكَ",
-          "answers": [
-            "your",
-            "yours"
-          ],
-          "meaning": "your",
-          "note": "masc."
+          "answers": [ "your" ],
+          "note": "masc.",
+          "meaning": "your"
         },
         {
-          "ar": "ـيْ",
-          "answers": [
-            "my",
-            "me"
-          ],
-          "meaning": "my",
-          "note": "me: نِيْ"
+          "ar": "ـي",
+          "answers": [ "my", "me" ],
+          "note": "with verbs: نِي (me)",
+          "meaning": "my"
         },
         {
           "ar": "ـكُمْ",
-          "answers": [
-            "your",
-            "yours",
-            "your all",
-            "you all"
-          ],
-          "meaning": "your (you all)",
-          "note": "masc. pl."
+          "answers": [ "yours", "your" ],
+          "note": "masc.",
+          "meaning": "yours"
         }
-      ],
-      "set": 2
+      ]
     },
     {
       "id": "whose-2",
       "title": "Whose? (2)",
       "page": 8,
+      "set": 2,
       "words": [
         {
           "ar": "ـنَا",
-          "answers": [
-            "us",
-            "our"
-          ],
-          "meaning": "us",
-          "note": "masc./fem."
+          "answers": [ "us", "our" ],
+          "note": "masc./fem.",
+          "meaning": "us"
         },
         {
           "ar": "ـهَا",
-          "answers": [
-            "her",
-            "hers"
-          ],
-          "meaning": "her",
-          "note": "fem."
+          "answers": [ "her" ],
+          "note": "fem.",
+          "meaning": "her"
         },
         {
-          "ar": "ـهُنَّ",
-          "answers": [
-            "their"
-          ],
-          "meaning": "their",
-          "note": "fem."
+          "ar": "ـهُنَّ",
+          "answers": [ "their" ],
+          "note": "fem.",
+          "meaning": "their"
         },
         {
           "ar": "ـكِ",
-          "answers": [
-            "your",
-            "yours"
-          ],
-          "meaning": "your",
-          "note": "fem."
-        },
-        {
-          "ar": "ـكُنَّ",
-          "answers": [
-            "your",
-            "yours",
-            "your all",
-            "you all"
-          ],
-          "meaning": "your (you all)",
-          "note": "fem. pl."
+          "answers": [ "your" ],
+          "note": "fem.",
+          "meaning": "your"
         }
-      ],
-      "set": 2
+      ]
     },
     {
       "id": "whose-3",
       "title": "Whose? (3)",
       "page": 8,
+      "set": 2,
       "words": [
         {
+          "ar": "ـكُنَّ",
+          "answers": [ "yours", "your" ],
+          "note": "fem.",
+          "meaning": "yours"
+        },
+        {
           "ar": "ـهَا",
-          "answers": [
-            "their"
-          ],
-          "meaning": "their",
-          "note": "for broken plurals"
+          "answers": [ "their" ],
+          "note": "for broken plurals",
+          "meaning": "their"
         },
         {
           "ar": "ـهُمَا",
-          "answers": [
-            "their",
-            "their two",
-            "they two"
-          ],
-          "meaning": "their (two)",
-          "note": "dual"
+          "answers": [ "their" ],
+          "note": "dual",
+          "meaning": "their"
         },
         {
           "ar": "ـكُمَا",
-          "answers": [
-            "your",
-            "yours",
-            "your two",
-            "you two"
-          ],
-          "meaning": "your (you two)",
-          "note": "dual"
+          "answers": [ "your" ],
+          "note": "dual",
+          "meaning": "your"
         }
-      ],
-      "set": 2
+      ]
     },
     {
       "id": "who-1",
       "title": "Who? (1)",
       "page": 8,
+      "set": 2,
       "words": [
         {
           "ar": "هُوَ",
-          "answers": [
-            "he"
-          ],
-          "meaning": "he",
-          "note": "masc."
+          "answers": [ "he" ],
+          "note": "masc.",
+          "meaning": "he"
         },
         {
           "ar": "هُمْ",
-          "answers": [
-            "they"
-          ],
-          "meaning": "they",
-          "note": "masc."
+          "answers": [ "they" ],
+          "note": "masc.",
+          "meaning": "they"
         },
         {
-          "ar": "اَنْتَ",
-          "answers": [
-            "you"
-          ],
-          "meaning": "you",
-          "note": "masc."
+          "ar": "أَنْتَ",
+          "answers": [ "you" ],
+          "note": "masc.",
+          "meaning": "you"
         },
         {
-          "ar": "اَنَا",
-          "answers": [
-            "i"
-          ],
-          "meaning": "I",
-          "note": "masc./fem."
+          "ar": "أَنَا",
+          "answers": [ "i" ],
+          "note": "masc./fem.",
+          "meaning": "I"
         },
         {
-          "ar": "اَنْتُمْ",
-          "answers": [
-            "you all",
-            "you plural",
-            "all of you"
-          ],
-          "meaning": "you all",
-          "note": "masc."
+          "ar": "أَنْتُمْ",
+          "answers": [ "you all", "you" ],
+          "note": "masc.",
+          "meaning": "you all"
         }
-      ],
-      "set": 2
+      ]
     },
     {
       "id": "who-2",
       "title": "Who? (2)",
       "page": 8,
+      "set": 2,
       "words": [
         {
           "ar": "نَحْنُ",
-          "answers": [
-            "we"
-          ],
-          "meaning": "we",
-          "note": "masc./fem."
+          "answers": [ "we" ],
+          "note": "masc./fem.",
+          "meaning": "we"
         },
         {
-          "ar": "هِىَ",
-          "answers": [
-            "she"
-          ],
-          "meaning": "she",
-          "note": "fem."
+          "ar": "هِيَ",
+          "answers": [ "she" ],
+          "note": "fem.",
+          "meaning": "she"
         },
         {
-          "ar": "هُنَّ",
-          "answers": [
-            "they"
-          ],
-          "meaning": "they",
-          "note": "fem."
+          "ar": "هُنَّ",
+          "answers": [ "they" ],
+          "note": "fem.",
+          "meaning": "they"
         },
         {
-          "ar": "اَنْتِ",
-          "answers": [
-            "you"
-          ],
-          "meaning": "you",
-          "note": "fem."
-        },
-        {
-          "ar": "اَنْتُنَّ",
-          "answers": [
-            "you all",
-            "you plural",
-            "all of you"
-          ],
-          "meaning": "you all",
-          "note": "fem."
+          "ar": "أَنْتِ",
+          "answers": [ "you" ],
+          "note": "fem.",
+          "meaning": "you"
         }
-      ],
-      "set": 2
+      ]
     },
     {
       "id": "who-3",
       "title": "Who? (3)",
       "page": 8,
+      "set": 2,
       "words": [
         {
-          "ar": "هِىَ",
-          "answers": [
-            "they"
-          ],
-          "meaning": "they",
-          "note": "for broken plurals"
+          "ar": "أَنْتُنَّ",
+          "answers": [ "you all", "you" ],
+          "note": "fem.",
+          "meaning": "you all"
+        },
+        {
+          "ar": "هِيَ",
+          "answers": [ "they" ],
+          "note": "for broken plurals",
+          "meaning": "they"
         },
         {
           "ar": "هُمَا",
-          "answers": [
-            "those two",
-            "they two",
-            "the two"
-          ],
-          "meaning": "those two",
-          "note": "dual"
+          "answers": [ "those two", "they" ],
+          "note": "dual",
+          "meaning": "those two"
         },
         {
-          "ar": "اَنْتُمَا",
-          "answers": [
-            "you two"
-          ],
-          "meaning": "you two",
-          "note": "dual"
+          "ar": "أَنْتُمَا",
+          "answers": [ "you two", "you" ],
+          "note": "dual",
+          "meaning": "you two"
         }
-      ],
-      "set": 2
+      ]
     },
     {
       "id": "where-1",
@@ -551,43 +416,33 @@
       "set": 3,
       "words": [
         {
-          "ar": "فَوْقَ",
-          "answers": [
-            "above",
-            "up"
-          ],
+          "ar": "فَوْق",
+          "answers": [ "above", "up" ],
+          "note": "",
           "meaning": "above, up"
         },
         {
-          "ar": "تَحْتَ",
-          "answers": [
-            "under"
-          ],
+          "ar": "تَحْت",
+          "answers": [ "under" ],
+          "note": "",
           "meaning": "under"
         },
         {
-          "ar": "بَيْنَ اَيْدِىْ",
-          "answers": [
-            "in front of",
-            "in front"
-          ],
-          "meaning": "in front of",
-          "note": "or بَيْنَ يَدَىْ"
+          "ar": "بَيْن أَيْدِي",
+          "answers": [ "in front of" ],
+          "note": "also: بَيْن يَدَيْ",
+          "meaning": "in front of"
         },
         {
-          "ar": "خَلْفَ",
-          "answers": [
-            "back",
-            "after"
-          ],
+          "ar": "خَلْف",
+          "answers": [ "back", "after" ],
+          "note": "",
           "meaning": "back, after"
         },
         {
-          "ar": "اَمَامَ",
-          "answers": [
-            "in front of",
-            "in front"
-          ],
+          "ar": "أَمَام",
+          "answers": [ "in front of" ],
+          "note": "",
           "meaning": "in front of"
         }
       ]
@@ -599,42 +454,28 @@
       "set": 3,
       "words": [
         {
-          "ar": "وَرَآءَ",
-          "answers": [
-            "behind"
-          ],
+          "ar": "وَرَاء",
+          "answers": [ "behind" ],
+          "note": "",
           "meaning": "behind"
         },
         {
-          "ar": "يَمِيْن",
-          "answers": [
-            "right",
-            "oath"
-          ],
-          "meaning": "right; oath",
-          "note": "pl.: اَيْمَان"
+          "ar": "يَمِين",
+          "answers": [ "right", "oath" ],
+          "note": "plural: أَيْمَان",
+          "meaning": "right; oath"
         },
         {
           "ar": "شِمَال",
-          "answers": [
-            "left"
-          ],
-          "meaning": "left",
-          "note": "pl.: شَمَآئِل"
+          "answers": [ "left" ],
+          "note": "plural: شَمَائِل",
+          "meaning": "left"
         },
         {
-          "ar": "بَيْنَ",
-          "answers": [
-            "between"
-          ],
+          "ar": "بَيْن",
+          "answers": [ "between" ],
+          "note": "",
           "meaning": "between"
-        },
-        {
-          "ar": "حَوْلَ",
-          "answers": [
-            "around"
-          ],
-          "meaning": "around"
         }
       ]
     },
@@ -645,27 +486,28 @@
       "set": 3,
       "words": [
         {
+          "ar": "حَوْل",
+          "answers": [ "around" ],
+          "note": "",
+          "meaning": "around"
+        },
+        {
           "ar": "حَيْثُ",
-          "answers": [
-            "wherever"
-          ],
+          "answers": [ "wherever" ],
+          "note": "",
           "meaning": "wherever"
         },
         {
-          "ar": "اَيْنَمَا",
-          "answers": [
-            "wherever"
-          ],
+          "ar": "أَيْنَمَا",
+          "answers": [ "wherever" ],
+          "note": "",
           "meaning": "wherever"
         },
         {
-          "ar": "هُنَا / هُنَالِكَ",
-          "answers": [
-            "here",
-            "there",
-            "here there"
-          ],
-          "meaning": "here / there"
+          "ar": "هٰهُنَا",
+          "answers": [ "here", "there" ],
+          "note": "also: هُنَالِكَ",
+          "meaning": "here, there"
         }
       ]
     },
@@ -677,42 +519,33 @@
       "words": [
         {
           "ar": "مَا",
-          "answers": [
-            "what",
-            "that which"
-          ],
-          "meaning": "what?, that which"
+          "answers": [ "what", "that which" ],
+          "note": "",
+          "meaning": "what, that which"
         },
         {
           "ar": "مَنْ",
-          "answers": [
-            "who",
-            "the one who",
-            "one who"
-          ],
-          "meaning": "who?, the one who"
+          "answers": [ "who", "the one who" ],
+          "note": "",
+          "meaning": "who, the one who"
         },
         {
           "ar": "مَتٰى",
-          "answers": [
-            "when",
-            "the time when"
-          ],
-          "meaning": "when?, the time when"
+          "answers": [ "when", "the time when" ],
+          "note": "",
+          "meaning": "when, the time when"
         },
         {
-          "ar": "اَيْنَ",
-          "answers": [
-            "where"
-          ],
-          "meaning": "where?"
+          "ar": "أَيْنَ",
+          "answers": [ "where" ],
+          "note": "",
+          "meaning": "where"
         },
         {
           "ar": "كَيْفَ",
-          "answers": [
-            "how"
-          ],
-          "meaning": "how?"
+          "answers": [ "how" ],
+          "note": "",
+          "meaning": "how"
         }
       ]
     },
@@ -724,44 +557,27 @@
       "words": [
         {
           "ar": "كَمْ",
-          "answers": [
-            "how many"
-          ],
-          "meaning": "how many?"
+          "answers": [ "how many" ],
+          "note": "",
+          "meaning": "how many"
         },
         {
-          "ar": "اَيُّ",
-          "answers": [
-            "which"
-          ],
-          "meaning": "which?"
+          "ar": "أَيّ",
+          "answers": [ "which" ],
+          "note": "",
+          "meaning": "which"
         },
         {
-          "ar": "اَنّٰى",
-          "answers": [
-            "where from",
-            "why"
-          ],
-          "meaning": "where from?, why?"
+          "ar": "أَنّٰى",
+          "answers": [ "where from", "why" ],
+          "note": "",
+          "meaning": "where from, why"
         },
         {
-          "ar": "اَ / هَلْ",
-          "answers": [
-            "is",
-            "am",
-            "are",
-            "do",
-            "have",
-            "is am are do have"
-          ],
-          "meaning": "is? am? are? do? have?"
-        },
-        {
-          "ar": "مَاذَا",
-          "answers": [
-            "what"
-          ],
-          "meaning": "what?"
+          "ar": "أَ",
+          "answers": [ "is", "do", "have" ],
+          "note": "also: هَلْ",
+          "meaning": "is, am, are, do, have"
         }
       ]
     },
@@ -772,29 +588,5371 @@
       "set": 3,
       "words": [
         {
-          "ar": "لِمَ / لِمَاذَا",
-          "answers": [
-            "why"
-          ],
-          "meaning": "why?"
+          "ar": "مَاذَا",
+          "answers": [ "what" ],
+          "note": "",
+          "meaning": "what"
+        },
+        {
+          "ar": "لِمَ",
+          "answers": [ "why" ],
+          "note": "also: لِمَاذَا",
+          "meaning": "why"
         },
         {
           "ar": "لَوْلَا",
-          "answers": [
-            "if not",
-            "why not"
-          ],
+          "answers": [ "if not", "why not" ],
+          "note": "",
           "meaning": "if not, why not"
         },
         {
           "ar": "لِمَنْ",
-          "answers": [
-            "for who",
-            "for the one who",
-            "for one who",
-            "for whom"
-          ],
-          "meaning": "for (the one) who"
+          "answers": [ "for who", "for the one who" ],
+          "note": "",
+          "meaning": "for the one who"
+        }
+      ]
+    },
+    {
+      "id": "miscellaneous-1",
+      "title": "Miscellaneous (1)",
+      "page": 10,
+      "set": 4,
+      "words": [
+        {
+          "ar": "ذُو",
+          "answers": [ "endowed with", "owner" ],
+          "note": "also: ذَا، ذِي; masc.",
+          "meaning": "endowed with; owner"
+        },
+        {
+          "ar": "ذَات",
+          "answers": [ "endowed with", "owner" ],
+          "note": "fem.",
+          "meaning": "endowed with; owner"
+        },
+        {
+          "ar": "أُولُوا",
+          "answers": [ "people of", "owners of" ],
+          "note": "also: أُولِي",
+          "meaning": "people of; owners of"
+        },
+        {
+          "ar": "أَهْل",
+          "answers": [ "people of", "relatives" ],
+          "note": "",
+          "meaning": "people of; relatives"
+        },
+        {
+          "ar": "اٰل",
+          "answers": [ "family", "relatives", "people" ],
+          "note": "",
+          "meaning": "family, relatives, people"
+        }
+      ]
+    },
+    {
+      "id": "miscellaneous-2",
+      "title": "Miscellaneous (2)",
+      "page": 10,
+      "set": 4,
+      "words": [
+        {
+          "ar": "سُبْحٰن",
+          "answers": [ "glory be" ],
+          "note": "",
+          "meaning": "glory be"
+        },
+        {
+          "ar": "نِعْمَ",
+          "answers": [ "what an excellent", "excellent" ],
+          "note": "",
+          "meaning": "what an excellent"
+        },
+        {
+          "ar": "بِئْسَ",
+          "answers": [ "what an evil", "evil" ],
+          "note": "",
+          "meaning": "what an evil"
+        },
+        {
+          "ar": "رَيْب",
+          "answers": [ "doubt" ],
+          "note": "",
+          "meaning": "doubt"
+        }
+      ]
+    },
+    {
+      "id": "miscellaneous-3",
+      "title": "Miscellaneous (3)",
+      "page": 10,
+      "set": 4,
+      "words": [
+        {
+          "ar": "سُوْء",
+          "answers": [ "evil" ],
+          "note": "also: سَوْء",
+          "meaning": "evil"
+        },
+        {
+          "ar": "مِثْل",
+          "answers": [ "similar" ],
+          "note": "",
+          "meaning": "similar"
+        },
+        {
+          "ar": "مَثَل",
+          "answers": [ "example" ],
+          "note": "plural: أَمْثَال",
+          "meaning": "example"
+        },
+        {
+          "ar": "مِمَّنْ",
+          "answers": [ "than the one who", "from those who" ],
+          "note": "from: مِنْ + مَنْ",
+          "meaning": "than the one who; from those who"
+        }
+      ]
+    },
+    {
+      "id": "when-1",
+      "title": "When?, ... (1)",
+      "page": 10,
+      "set": 4,
+      "words": [
+        {
+          "ar": "قَبْل",
+          "answers": [ "before" ],
+          "note": "",
+          "meaning": "before"
+        },
+        {
+          "ar": "بَعْد",
+          "answers": [ "after" ],
+          "note": "",
+          "meaning": "after"
+        },
+        {
+          "ar": "حِين",
+          "answers": [ "time", "period", "at the time of" ],
+          "note": "",
+          "meaning": "time, period, at the time of"
+        },
+        {
+          "ar": "إِذْ",
+          "answers": [ "when" ],
+          "note": "for past",
+          "meaning": "when"
+        },
+        {
+          "ar": "إِذَا",
+          "answers": [ "when" ],
+          "note": "for future",
+          "meaning": "when"
+        }
+      ]
+    },
+    {
+      "id": "when-2",
+      "title": "When?, ... (2)",
+      "page": 10,
+      "set": 4,
+      "words": [
+        {
+          "ar": "ثُمَّ",
+          "answers": [ "then" ],
+          "note": "",
+          "meaning": "then"
+        },
+        {
+          "ar": "فَ",
+          "answers": [ "then", "thus", "therefore" ],
+          "note": "",
+          "meaning": "then, thus, therefore"
+        },
+        {
+          "ar": "بَلْ",
+          "answers": [ "nay", "rather", "but" ],
+          "note": "",
+          "meaning": "nay, rather, but, however"
+        },
+        {
+          "ar": "عِنْدَ",
+          "answers": [ "near", "with" ],
+          "note": "also: لَدَى، لَدُنْ",
+          "meaning": "near, with"
+        }
+      ]
+    },
+    {
+      "id": "when-3",
+      "title": "When?, ... (3)",
+      "page": 10,
+      "set": 4,
+      "words": [
+        {
+          "ar": "لَئِنْ",
+          "answers": [ "if indeed" ],
+          "note": "",
+          "meaning": "if indeed"
+        },
+        {
+          "ar": "إِنْ ... إِلَّا",
+          "answers": [ "nothing but" ],
+          "note": "",
+          "meaning": "nothing but"
+        },
+        {
+          "ar": "مَا... إِلَّا",
+          "answers": [ "nothing but" ],
+          "note": "",
+          "meaning": "nothing but"
+        },
+        {
+          "ar": "أَلَّا",
+          "answers": [ "that not", "so as not to" ],
+          "note": "from: أَنْ + لَا",
+          "meaning": "that not; so as not to"
+        }
+      ]
+    },
+    {
+      "id": "prepositions-ma-1",
+      "title": "Prepositions,... + مَا (1)",
+      "page": 11,
+      "set": 5,
+      "words": [
+        {
+          "ar": "بِمَا",
+          "answers": [ "with what", "because" ],
+          "note": "",
+          "meaning": "with what; because"
+        },
+        {
+          "ar": "عَمَّا",
+          "answers": [ "about what" ],
+          "note": "",
+          "meaning": "about what"
+        },
+        {
+          "ar": "فِيمَا",
+          "answers": [ "in what" ],
+          "note": "",
+          "meaning": "in what"
+        },
+        {
+          "ar": "كَمَا",
+          "answers": [ "as", "just as" ],
+          "note": "",
+          "meaning": "as, just as"
+        },
+        {
+          "ar": "لِمَا",
+          "answers": [ "for what", "that which" ],
+          "note": "",
+          "meaning": "for what, that which"
+        }
+      ]
+    },
+    {
+      "id": "prepositions-ma-2",
+      "title": "Prepositions,... + مَا (2)",
+      "page": 11,
+      "set": 5,
+      "words": [
+        {
+          "ar": "مِمَّا",
+          "answers": [ "out of what" ],
+          "note": "",
+          "meaning": "out of what"
+        },
+        {
+          "ar": "أَمَّا",
+          "answers": [ "as to", "as for" ],
+          "note": "",
+          "meaning": "as to, as for"
+        },
+        {
+          "ar": "إِمَّا",
+          "answers": [ "if", "either", "or" ],
+          "note": "",
+          "meaning": "if; either, or"
+        },
+        {
+          "ar": "أَنَّمَا",
+          "answers": [ "that" ],
+          "note": "",
+          "meaning": "that"
+        }
+      ]
+    },
+    {
+      "id": "prepositions-ma-3",
+      "title": "Prepositions,... + مَا (3)",
+      "page": 11,
+      "set": 5,
+      "words": [
+        {
+          "ar": "إِنَّمَا",
+          "answers": [ "verily", "is but", "only" ],
+          "note": "",
+          "meaning": "verily; is but"
+        },
+        {
+          "ar": "كَأَنَّمَا",
+          "answers": [ "as if" ],
+          "note": "",
+          "meaning": "as if"
+        },
+        {
+          "ar": "كُلَّمَا",
+          "answers": [ "whenever" ],
+          "note": "",
+          "meaning": "whenever"
+        },
+        {
+          "ar": "لَمَّا",
+          "answers": [ "when" ],
+          "note": "",
+          "meaning": "when"
+        }
+      ]
+    },
+    {
+      "id": "prepositions-1",
+      "title": "Prepositions,... (1)",
+      "page": 11,
+      "set": 5,
+      "words": [
+        {
+          "ar": "بِـ",
+          "answers": [ "with", "in", "from" ],
+          "note": "",
+          "meaning": "with, in, from"
+        },
+        {
+          "ar": "عَنْ",
+          "answers": [ "about" ],
+          "note": "",
+          "meaning": "about"
+        },
+        {
+          "ar": "فِي",
+          "answers": [ "in" ],
+          "note": "",
+          "meaning": "in"
+        },
+        {
+          "ar": "كَـ",
+          "answers": [ "as", "like" ],
+          "note": "",
+          "meaning": "as, like"
+        },
+        {
+          "ar": "لِـ",
+          "answers": [ "for" ],
+          "note": "also: لَـ",
+          "meaning": "for"
+        }
+      ]
+    },
+    {
+      "id": "prepositions-2",
+      "title": "Prepositions,... (2)",
+      "page": 11,
+      "set": 5,
+      "words": [
+        {
+          "ar": "مِنْ",
+          "answers": [ "from" ],
+          "note": "",
+          "meaning": "from"
+        },
+        {
+          "ar": "إِلٰى",
+          "answers": [ "towards", "to" ],
+          "note": "",
+          "meaning": "towards"
+        },
+        {
+          "ar": "تَـ",
+          "answers": [ "by" ],
+          "note": "of oath",
+          "meaning": "by"
+        },
+        {
+          "ar": "حَتّٰى",
+          "answers": [ "until" ],
+          "note": "",
+          "meaning": "until"
+        }
+      ]
+    },
+    {
+      "id": "prepositions-3",
+      "title": "Prepositions,... (3)",
+      "page": 11,
+      "set": 5,
+      "words": [
+        {
+          "ar": "عَلٰى",
+          "answers": [ "on", "upon" ],
+          "note": "",
+          "meaning": "on"
+        },
+        {
+          "ar": "وَ",
+          "answers": [ "and", "by" ],
+          "note": "also used for oath",
+          "meaning": "and; by"
+        },
+        {
+          "ar": "مَعَ",
+          "answers": [ "with" ],
+          "note": "",
+          "meaning": "with"
+        },
+        {
+          "ar": "يَا",
+          "answers": [ "o", "oh" ],
+          "note": "also: يَٰٓأَيُّهَا",
+          "meaning": "O"
+        }
+      ]
+    },
+    {
+      "id": "prefix-for-verb-1",
+      "title": "Prefix for verb, ... (1)",
+      "page": 12,
+      "set": 6,
+      "words": [
+        {
+          "ar": "قَدْ",
+          "answers": [ "has", "surely", "verily" ],
+          "note": "with past tense verb: has; with imperfect tense verb: surely, verily",
+          "meaning": "has; surely, verily"
+        },
+        {
+          "ar": "سَـ",
+          "answers": [ "will" ],
+          "note": "for near future (with imperfect verb)",
+          "meaning": "will"
+        },
+        {
+          "ar": "سَوْفَ",
+          "answers": [ "will" ],
+          "note": "for future (with imperfect verb)",
+          "meaning": "will"
+        }
+      ]
+    },
+    {
+      "id": "prefix-for-verb-2",
+      "title": "Prefix for verb, ... (2)",
+      "page": 12,
+      "set": 6,
+      "words": [
+        {
+          "ar": "لَـ ... ـنَّ",
+          "answers": [ "will surely" ],
+          "note": "with imperfect verb",
+          "meaning": "will surely"
+        },
+        {
+          "ar": "لَقَدْ",
+          "answers": [ "indeed" ],
+          "note": "with past tense verb",
+          "meaning": "indeed"
+        },
+        {
+          "ar": "لَـ",
+          "answers": [ "indeed", "surely" ],
+          "note": "",
+          "meaning": "indeed, surely"
+        },
+        {
+          "ar": "لِـ",
+          "answers": [ "let somebody do", "let" ],
+          "note": "imperative; also: لْـ",
+          "meaning": "let somebody do"
+        }
+      ]
+    },
+    {
+      "id": "inna-1",
+      "title": "Inna ... (1)",
+      "page": 12,
+      "set": 6,
+      "words": [
+        {
+          "ar": "إِنَّ",
+          "answers": [ "verily", "truly" ],
+          "note": "",
+          "meaning": "verily, truly"
+        },
+        {
+          "ar": "أَنَّ",
+          "answers": [ "that" ],
+          "note": "",
+          "meaning": "that"
+        },
+        {
+          "ar": "كَأَنَّ",
+          "answers": [ "as if" ],
+          "note": "",
+          "meaning": "as if"
+        },
+        {
+          "ar": "لٰكِنَّ",
+          "answers": [ "but", "however" ],
+          "note": "also: لٰكِنْ",
+          "meaning": "but, however"
+        }
+      ]
+    },
+    {
+      "id": "inna-2",
+      "title": "Inna ... (2)",
+      "page": 12,
+      "set": 6,
+      "words": [
+        {
+          "ar": "لَعَلَّ",
+          "answers": [ "perhaps", "may be" ],
+          "note": "",
+          "meaning": "perhaps, may be"
+        },
+        {
+          "ar": "أَنْ",
+          "answers": [ "that" ],
+          "note": "",
+          "meaning": "that"
+        },
+        {
+          "ar": "إِنْ",
+          "answers": [ "if" ],
+          "note": "",
+          "meaning": "if"
+        },
+        {
+          "ar": "عَسٰى",
+          "answers": [ "perhaps" ],
+          "note": "",
+          "meaning": "perhaps"
+        },
+        {
+          "ar": "لَوْ",
+          "answers": [ "if" ],
+          "note": "",
+          "meaning": "if"
+        }
+      ]
+    },
+    {
+      "id": "page-12-misc-1",
+      "title": "Page 12 Miscellaneous (1)",
+      "page": 12,
+      "set": 6,
+      "words": [
+        {
+          "ar": "إِيَّا",
+          "answers": [ "alone" ],
+          "note": "also: وَحْدَ",
+          "meaning": "alone"
+        },
+        {
+          "ar": "جِنّ",
+          "answers": [ "jinn" ],
+          "note": "",
+          "meaning": "Jinn"
+        },
+        {
+          "ar": "جُنُود",
+          "answers": [ "forces", "soldiers" ],
+          "note": "plural",
+          "meaning": "forces"
+        },
+        {
+          "ar": "مَيِّت",
+          "answers": [ "dead" ],
+          "note": "plural: مَوْتٰى",
+          "meaning": "dead"
+        },
+        {
+          "ar": "إِنْس",
+          "answers": [ "mankind" ],
+          "note": "",
+          "meaning": "mankind"
+        }
+      ]
+    },
+    {
+      "id": "page-12-misc-2",
+      "title": "Page 12 Miscellaneous (2)",
+      "page": 12,
+      "set": 6,
+      "words": [
+        {
+          "ar": "بَعْض",
+          "answers": [ "some of", "some" ],
+          "note": "",
+          "meaning": "some of"
+        },
+        {
+          "ar": "كُلّ",
+          "answers": [ "everyone", "all" ],
+          "note": "",
+          "meaning": "everyone; all"
+        },
+        {
+          "ar": "أَوْ",
+          "answers": [ "or" ],
+          "note": "",
+          "meaning": "or"
+        },
+        {
+          "ar": "أَمْ",
+          "answers": [ "or" ],
+          "note": "",
+          "meaning": "or"
+        },
+        {
+          "ar": "اَلْـ",
+          "answers": [ "the" ],
+          "note": "",
+          "meaning": "the"
+        }
+      ]
+    },
+    {
+      "id": "attributes-1",
+      "title": "Some attributes (1)",
+      "page": 13,
+      "set": 7,
+      "words": [
+        {
+          "ar": "أَوَّل",
+          "answers": [ "first" ],
+          "note": "fem. أُولٰى",
+          "meaning": "first"
+        },
+        {
+          "ar": "آخِر",
+          "answers": [ "last" ],
+          "note": "fem. آخِرَة",
+          "meaning": "last"
+        },
+        {
+          "ar": "آخَر",
+          "answers": [ "other" ],
+          "note": "fem. أُخْرٰى",
+          "meaning": "other"
+        },
+        {
+          "ar": "أَمِين",
+          "answers": [ "trustworthy" ],
+          "note": "",
+          "meaning": "trustworthy"
+        },
+        {
+          "ar": "بَصِير",
+          "answers": [ "one who sees clearly", "all seeing" ],
+          "note": "",
+          "meaning": "one who sees clearly"
+        }
+      ]
+    },
+    {
+      "id": "attributes-2",
+      "title": "Some attributes (2)",
+      "page": 13,
+      "set": 7,
+      "words": [
+        {
+          "ar": "بَعِيد",
+          "answers": [ "far" ],
+          "note": "",
+          "meaning": "far"
+        },
+        {
+          "ar": "تَوَّاب",
+          "answers": [ "most forgiving", "oft forgiving" ],
+          "note": "",
+          "meaning": "most forgiving, oft-forgiving"
+        },
+        {
+          "ar": "حَفِيظ",
+          "answers": [ "protector" ],
+          "note": "",
+          "meaning": "protector"
+        },
+        {
+          "ar": "حَكِيم",
+          "answers": [ "wise" ],
+          "note": "",
+          "meaning": "wise"
+        }
+      ]
+    },
+    {
+      "id": "attributes-3",
+      "title": "Some attributes (3)",
+      "page": 13,
+      "set": 7,
+      "words": [
+        {
+          "ar": "حَلِيم",
+          "answers": [ "forbearing" ],
+          "note": "",
+          "meaning": "forbearing"
+        },
+        {
+          "ar": "حَمِيد",
+          "answers": [ "praiseworthy" ],
+          "note": "",
+          "meaning": "praiseworthy"
+        },
+        {
+          "ar": "حَمِيم",
+          "answers": [ "warm", "boiling water" ],
+          "note": "warm (friend); boiling water",
+          "meaning": "warm; boiling water"
+        },
+        {
+          "ar": "خَبِير",
+          "answers": [ "knowing", "ever aware" ],
+          "note": "",
+          "meaning": "knowing, ever aware"
+        }
+      ]
+    },
+    {
+      "id": "attributes-4",
+      "title": "Some attributes (4)",
+      "page": 13,
+      "set": 7,
+      "words": [
+        {
+          "ar": "رَبّ",
+          "answers": [ "lord", "sustainer" ],
+          "note": "",
+          "meaning": "Lord; Sustainer"
+        },
+        {
+          "ar": "رَحْمٰن",
+          "answers": [ "compassionate" ],
+          "note": "",
+          "meaning": "Compassionate"
+        },
+        {
+          "ar": "رَحِيم",
+          "answers": [ "merciful" ],
+          "note": "",
+          "meaning": "merciful"
+        },
+        {
+          "ar": "سَلَام",
+          "answers": [ "peace" ],
+          "note": "",
+          "meaning": "peace"
+        },
+        {
+          "ar": "سَمِيع",
+          "answers": [ "one who listens", "all hearing" ],
+          "note": "",
+          "meaning": "one who listens"
+        }
+      ]
+    },
+    {
+      "id": "attributes-5",
+      "title": "Some attributes (5)",
+      "page": 13,
+      "set": 7,
+      "words": [
+        {
+          "ar": "شَكُور",
+          "answers": [ "grateful" ],
+          "note": "",
+          "meaning": "grateful"
+        },
+        {
+          "ar": "عَزِيز",
+          "answers": [ "mighty" ],
+          "note": "",
+          "meaning": "mighty"
+        },
+        {
+          "ar": "عَظِيم",
+          "answers": [ "supreme", "great" ],
+          "note": "",
+          "meaning": "supreme"
+        },
+        {
+          "ar": "غَفُور",
+          "answers": [ "most forgiving" ],
+          "note": "",
+          "meaning": "most forgiving"
+        }
+      ]
+    },
+    {
+      "id": "attributes-6",
+      "title": "Some attributes (6)",
+      "page": 13,
+      "set": 7,
+      "words": [
+        {
+          "ar": "قَدِير",
+          "answers": [ "all powerful", "powerful" ],
+          "note": "",
+          "meaning": "All-powerful"
+        },
+        {
+          "ar": "نَذِير",
+          "answers": [ "warner" ],
+          "note": "plural: نُذُر",
+          "meaning": "warner"
+        },
+        {
+          "ar": "نَصِير",
+          "answers": [ "strong helper", "helper" ],
+          "note": "",
+          "meaning": "strong helper"
+        },
+        {
+          "ar": "وَكِيل",
+          "answers": [ "trustee", "disposer of affairs" ],
+          "note": "",
+          "meaning": "one who takes care of a thing for another"
+        }
+      ]
+    },
+    {
+      "id": "noun-of-superiority-1",
+      "title": "Noun of Superiority (1)",
+      "page": 14,
+      "set": 8,
+      "words": [
+        {
+          "ar": "أَشَدّ",
+          "answers": [ "most severe" ],
+          "note": "",
+          "meaning": "most severe"
+        },
+        {
+          "ar": "أَعْلٰى",
+          "answers": [ "higher", "superior" ],
+          "note": "",
+          "meaning": "higher, superior"
+        },
+        {
+          "ar": "أَعْلَم",
+          "answers": [ "better knowing", "more informed" ],
+          "note": "",
+          "meaning": "better-knowing, more informed"
+        },
+        {
+          "ar": "أَقْرَب",
+          "answers": [ "nearer", "closer" ],
+          "note": "",
+          "meaning": "nearer"
+        },
+        {
+          "ar": "أَكْبَر",
+          "answers": [ "bigger", "greater" ],
+          "note": "",
+          "meaning": "bigger"
+        }
+      ]
+    },
+    {
+      "id": "noun-of-superiority-2",
+      "title": "Noun of Superiority (2)",
+      "page": 14,
+      "set": 8,
+      "words": [
+        {
+          "ar": "أَكْثَر",
+          "answers": [ "more", "most" ],
+          "note": "",
+          "meaning": "more; most"
+        },
+        {
+          "ar": "أَحْسَن",
+          "answers": [ "better", "best" ],
+          "note": "",
+          "meaning": "better"
+        },
+        {
+          "ar": "أَحَقّ",
+          "answers": [ "more entitled", "more worthy" ],
+          "note": "",
+          "meaning": "more entitled; more worthy"
+        },
+        {
+          "ar": "أَدْنٰى",
+          "answers": [ "nearer", "more likely", "lower" ],
+          "note": "",
+          "meaning": "nearer; more likely; lower; less"
+        }
+      ]
+    },
+    {
+      "id": "noun-of-superiority-3",
+      "title": "Noun of Superiority (3)",
+      "page": 14,
+      "set": 8,
+      "words": [
+        {
+          "ar": "أَظْلَم",
+          "answers": [ "more unjust" ],
+          "note": "",
+          "meaning": "more unjust"
+        },
+        {
+          "ar": "أَهْدٰى",
+          "answers": [ "better guided" ],
+          "note": "",
+          "meaning": "better guided"
+        },
+        {
+          "ar": "أَوْلٰى",
+          "answers": [ "nearer", "closer", "woe" ],
+          "note": "",
+          "meaning": "nearer, closer; woe"
+        },
+        {
+          "ar": "أَحَبّ",
+          "answers": [ "more beloved" ],
+          "note": "",
+          "meaning": "more beloved"
+        }
+      ]
+    },
+    {
+      "id": "some-attributes-1",
+      "title": "Some attributes ... (1)",
+      "page": 14,
+      "set": 8,
+      "words": [
+        {
+          "ar": "شَدِيد",
+          "answers": [ "severe", "strong" ],
+          "note": "",
+          "meaning": "severe; strong"
+        },
+        {
+          "ar": "عَلِيّ",
+          "answers": [ "high", "exalted" ],
+          "note": "",
+          "meaning": "high, exalted"
+        },
+        {
+          "ar": "عَلِيم",
+          "answers": [ "knower", "all knowing" ],
+          "note": "plural: عُلَمَاء",
+          "meaning": "knower"
+        },
+        {
+          "ar": "قَرِيب",
+          "answers": [ "near", "close" ],
+          "note": "",
+          "meaning": "near"
+        },
+        {
+          "ar": "كَبِير",
+          "answers": [ "big", "great" ],
+          "note": "fem. كَبِيرَة",
+          "meaning": "big"
+        }
+      ]
+    },
+    {
+      "id": "some-attributes-2",
+      "title": "Some attributes ... (2)",
+      "page": 14,
+      "set": 8,
+      "words": [
+        {
+          "ar": "كَثِير",
+          "answers": [ "plenty", "much" ],
+          "note": "fem. كَثِيرَة",
+          "meaning": "plenty; much"
+        },
+        {
+          "ar": "سَرِيع",
+          "answers": [ "quick", "swift", "fast" ],
+          "note": "",
+          "meaning": "quick; swift; fast"
+        },
+        {
+          "ar": "قَهَّار",
+          "answers": [ "prevailing", "irresistible" ],
+          "note": "",
+          "meaning": "prevailing, irresistible"
+        },
+        {
+          "ar": "غَفَّار",
+          "answers": [ "oft forgiving" ],
+          "note": "",
+          "meaning": "oft-forgiving"
+        }
+      ]
+    },
+    {
+      "id": "some-attributes-3",
+      "title": "Some attributes ... (3)",
+      "page": 14,
+      "set": 8,
+      "words": [
+        {
+          "ar": "قَلِيل",
+          "answers": [ "little", "few" ],
+          "note": "fem. قَلِيلَة",
+          "meaning": "little"
+        },
+        {
+          "ar": "كَرِيم",
+          "answers": [ "noble", "honorable", "generous" ],
+          "note": "",
+          "meaning": "noble; honorable; generous"
+        },
+        {
+          "ar": "لَطِيف",
+          "answers": [ "subtle" ],
+          "note": "",
+          "meaning": "subtle"
+        },
+        {
+          "ar": "وَهَّاب",
+          "answers": [ "the bestower", "bestower" ],
+          "note": "",
+          "meaning": "the Bestower"
+        }
+      ]
+    },
+    {
+      "id": "prophets-and-1",
+      "title": "Prophets and ... (1)",
+      "page": 15,
+      "set": 9,
+      "words": [
+        {
+          "ar": "رَسُول",
+          "answers": [ "messenger" ],
+          "note": "plural: رُسُل",
+          "meaning": "messenger"
+        },
+        {
+          "ar": "نَبِيّ",
+          "answers": [ "prophet" ],
+          "note": "plurals: نَبِيُّونَ، نَبِيِّينَ، أَنْبِيَاءُ",
+          "meaning": "prophet"
+        },
+        {
+          "ar": "آدَم",
+          "answers": [ "adam" ],
+          "meaning": "Adam"
+        },
+        {
+          "ar": "نُوحٍ",
+          "answers": [ "noah", "nuh" ],
+          "meaning": "Nuh (A.S.)"
+        },
+        {
+          "ar": "إِبْرَاهِيم",
+          "answers": [ "abraham", "ibrahim" ],
+          "meaning": "Ibrahim (A.S.)"
+        }
+      ]
+    },
+    {
+      "id": "prophets-and-2",
+      "title": "Prophets and ... (2)",
+      "page": 15,
+      "set": 9,
+      "words": [
+        {
+          "ar": "لُوط",
+          "answers": [ "lot", "lut" ],
+          "meaning": "Lut (A.S.)"
+        },
+        {
+          "ar": "إِسْمَاعِيلَ",
+          "answers": [ "ishmael", "ismail" ],
+          "meaning": "Ismail (A.S.)"
+        },
+        {
+          "ar": "إِسْحَاق",
+          "answers": [ "isaac", "ishaq" ],
+          "meaning": "Ishaaq (A.S.)"
+        },
+        {
+          "ar": "يَعْقُوبُ",
+          "answers": [ "jacob", "yaqub", "ya'qub" ],
+          "note": "also referred to as إِسْرَآئِيل (Isra'il)",
+          "meaning": "Yaqub (A.S.)"
+        },
+        {
+          "ar": "يُوسُف",
+          "answers": [ "joseph", "yusuf" ],
+          "meaning": "Yusuf (A.S.)"
+        }
+      ]
+    },
+    {
+      "id": "prophets-and-3",
+      "title": "Prophets and ... (3)",
+      "page": 15,
+      "set": 9,
+      "words": [
+        {
+          "ar": "هُود",
+          "answers": [ "hud" ],
+          "meaning": "Hud (A.S.)"
+        },
+        {
+          "ar": "شُعَيْبٍ",
+          "answers": [ "shuayb", "shuaib", "shu'ayb" ],
+          "meaning": "Shu'ayb (A.S.)"
+        },
+        {
+          "ar": "صَالِح",
+          "answers": [ "salih", "saleh" ],
+          "meaning": "Salih (A.S.)"
+        },
+        {
+          "ar": "مُوسَى",
+          "answers": [ "moses", "musa" ],
+          "meaning": "Musa (A.S.)"
+        },
+        {
+          "ar": "عِيسَى ابْنُ مَرْيَمَ",
+          "answers": [ "jesus", "isa", "jesus son of mary" ],
+          "meaning": "Isa (A.S.), son of Maryam (R.A.)"
+        }
+      ]
+    },
+    {
+      "id": "prophets-and-4",
+      "title": "Prophets and ... (4)",
+      "page": 15,
+      "set": 9,
+      "words": [
+        {
+          "ar": "هَارُون",
+          "answers": [ "aaron", "harun" ],
+          "meaning": "Harun (A.S.)"
+        },
+        {
+          "ar": "دَاوُد",
+          "answers": [ "david", "dawud" ],
+          "meaning": "Dawud (A.S.)"
+        },
+        {
+          "ar": "سُلَيْمَانَ",
+          "answers": [ "solomon", "sulaiman", "sulayman" ],
+          "meaning": "Sulayman (A.S.)"
+        },
+        {
+          "ar": "عَاد",
+          "answers": [ "aad", "ad" ],
+          "note": "people of Hud",
+          "meaning": "Aad"
+        },
+        {
+          "ar": "ثَمُودَ",
+          "answers": [ "thamud" ],
+          "note": "people of Salih",
+          "meaning": "Thamud"
+        }
+      ]
+    },
+    {
+      "id": "prophets-other-1",
+      "title": "Other Prophets",
+      "page": 15,
+      "set": 9,
+      "words": [
+        {
+          "ar": "مُحَمَّد",
+          "answers": [ "muhammad" ],
+          "meaning": "Muhammad (S.A.W.)"
+        },
+        {
+          "ar": "زَكَرِيَّا",
+          "answers": [ "zachariah", "zakariya", "zakariyya" ],
+          "meaning": "Zachariah (A.S.)"
+        },
+        {
+          "ar": "يَحْيَىٰ",
+          "answers": [ "john", "yahya" ],
+          "meaning": "Yahya (A.S.)"
+        },
+        {
+          "ar": "يُونُس",
+          "answers": [ "jonah", "yunus" ],
+          "meaning": "Yunus (A.S.)"
+        },
+        {
+          "ar": "أَيُّوب",
+          "answers": [ "job", "ayyub" ],
+          "meaning": "Ayyub (A.S.)"
+        }
+      ]
+    },
+    {
+      "id": "other-notable-figures",
+      "title": "Other Notable Figures",
+      "page": 15,
+      "set": 9,
+      "words": [
+        {
+          "ar": "فِرْعَوْنَ",
+          "answers": [ "pharaoh", "firawn" ],
+          "meaning": "Pharaoh"
+        },
+        {
+          "ar": "هَامَانَ",
+          "answers": [ "haman" ],
+          "meaning": "Haman"
+        },
+        {
+          "ar": "قَارُون",
+          "answers": [ "korah", "qarun" ],
+          "meaning": "Qarun"
+        },
+        {
+          "ar": "شَيْطَان",
+          "answers": [ "satan", "devil", "shaytan" ],
+          "note": "plural: شَيَاطِين",
+          "meaning": "Shaytan"
+        }
+      ]
+    },
+    {
+      "id": "allahs-signs-1",
+      "title": "Allah's Signs... (1)",
+      "page": 15,
+      "set": 9,
+      "words": [
+        {
+          "ar": "آيَة",
+          "answers": [ "sign", "verse" ],
+          "note": "plural: آيَات",
+          "meaning": "sign; verse"
+        },
+        {
+          "ar": "بَيِّنَة",
+          "answers": [ "evidence", "proof", "clear proof" ],
+          "note": "plural: بَيِّنَات",
+          "meaning": "evidence"
+        },
+        {
+          "ar": "أَنْعَام",
+          "answers": [ "cattle" ],
+          "note": "plural",
+          "meaning": "cattle"
+        },
+        {
+          "ar": "جَبَل",
+          "answers": [ "mountain" ],
+          "note": "plural: جِبَال",
+          "meaning": "mountain"
+        },
+        {
+          "ar": "بَحْر",
+          "answers": [ "sea", "river", "large river" ],
+          "meaning": "sea; large river"
+        }
+      ]
+    },
+    {
+      "id": "allahs-signs-2",
+      "title": "Allah's Signs... (2)",
+      "page": 15,
+      "set": 9,
+      "words": [
+        {
+          "ar": "شَمْس",
+          "answers": [ "sun" ],
+          "meaning": "sun"
+        },
+        {
+          "ar": "قَمَر",
+          "answers": [ "moon" ],
+          "meaning": "moon"
+        },
+        {
+          "ar": "لَيْل",
+          "answers": [ "night" ],
+          "meaning": "night"
+        },
+        {
+          "ar": "نَهَار",
+          "answers": [ "day" ],
+          "meaning": "day"
+        }
+      ]
+    },
+    {
+      "id": "allahs-signs-3",
+      "title": "Allah's Signs... (3)",
+      "page": 15,
+      "set": 9,
+      "words": [
+        {
+          "ar": "أَرْض",
+          "answers": [ "earth" ],
+          "meaning": "earth"
+        },
+        {
+          "ar": "سَمَاء",
+          "answers": [ "sky", "heaven" ],
+          "note": "plural: سَمَاوَات",
+          "meaning": "sky"
+        },
+        {
+          "ar": "سَبْع",
+          "answers": [ "seven" ],
+          "note": "fem.: سَبْعَة",
+          "meaning": "seven"
+        },
+        {
+          "ar": "رِيح",
+          "answers": [ "wind" ],
+          "note": "plural: رِيَاح",
+          "meaning": "wind"
+        }
+      ]
+    },
+    {
+      "id": "last-day-1",
+      "title": "Last day, ... (1)",
+      "page": 16,
+      "set": 10,
+      "words": [
+        {
+          "ar": "الْآخِرَة",
+          "answers": [ "the hereafter", "hereafter" ],
+          "note": "",
+          "meaning": "the Hereafter"
+        },
+        {
+          "ar": "قِيَامَة",
+          "answers": [ "resurrection" ],
+          "note": "",
+          "meaning": "Resurrection"
+        },
+        {
+          "ar": "سَاعَة",
+          "answers": [ "hour", "day of resurrection" ],
+          "note": "day of resurrection",
+          "meaning": "hour"
+        },
+        {
+          "ar": "يَوْم",
+          "answers": [ "day" ],
+          "note": "plural: أَيَّام",
+          "meaning": "day"
+        },
+        {
+          "ar": "يَوْمَئِذٍ",
+          "answers": [ "that day" ],
+          "note": "",
+          "meaning": "that day"
+        }
+      ]
+    },
+    {
+      "id": "last-day-2",
+      "title": "Last day, ... (2)",
+      "page": 16,
+      "set": 10,
+      "words": [
+        {
+          "ar": "أَجَل",
+          "answers": [ "term" ],
+          "note": "",
+          "meaning": "term"
+        },
+        {
+          "ar": "مُسَمًّى",
+          "answers": [ "fixed", "appointed" ],
+          "note": "",
+          "meaning": "fixed"
+        },
+        {
+          "ar": "مَصِير",
+          "answers": [ "destination" ],
+          "note": "",
+          "meaning": "destination"
+        },
+        {
+          "ar": "مَأْوٰى",
+          "answers": [ "refuge", "abode" ],
+          "note": "",
+          "meaning": "refuge, abode"
+        }
+      ]
+    },
+    {
+      "id": "last-day-3",
+      "title": "Last day, ... (3)",
+      "page": 16,
+      "set": 10,
+      "words": [
+        {
+          "ar": "أَجْر",
+          "answers": [ "compensation", "reward" ],
+          "note": "plural: أُجُور",
+          "meaning": "compensation, reward"
+        },
+        {
+          "ar": "جَزَاء",
+          "answers": [ "reward" ],
+          "note": "",
+          "meaning": "reward"
+        },
+        {
+          "ar": "عَاقِبَة",
+          "answers": [ "end", "outcome" ],
+          "note": "",
+          "meaning": "end"
+        },
+        {
+          "ar": "عِقَاب",
+          "answers": [ "chastisement", "punishment" ],
+          "note": "as a result of sin",
+          "meaning": "chastisement"
+        }
+      ]
+    },
+    {
+      "id": "last-day-4",
+      "title": "Last day, ... (4)",
+      "page": 16,
+      "set": 10,
+      "words": [
+        {
+          "ar": "صَاحِب",
+          "answers": [ "companion", "fellow" ],
+          "note": "plural: أَصْحَاب",
+          "meaning": "companion, fellow"
+        },
+        {
+          "ar": "جَنَّة",
+          "answers": [ "garden", "paradise" ],
+          "note": "plural: جَنَّات",
+          "meaning": "garden"
+        },
+        {
+          "ar": "جَهَنَّم",
+          "answers": [ "hell", "the hell" ],
+          "note": "",
+          "meaning": "the Hell"
+        },
+        {
+          "ar": "جَحِيم",
+          "answers": [ "hellfire", "blazing fire" ],
+          "note": "",
+          "meaning": "hellfire"
+        },
+        {
+          "ar": "ثَوَاب",
+          "answers": [ "reward" ],
+          "note": "",
+          "meaning": "reward"
+        }
+      ]
+    },
+    {
+      "id": "last-day-5",
+      "title": "Last day, ... (5)",
+      "page": 16,
+      "set": 10,
+      "words": [
+        {
+          "ar": "عَذَاب",
+          "answers": [ "torment", "punishment" ],
+          "note": "",
+          "meaning": "torment, punishment"
+        },
+        {
+          "ar": "نَعِيم",
+          "answers": [ "bliss", "delight" ],
+          "note": "",
+          "meaning": "bliss, delight"
+        },
+        {
+          "ar": "سَعِير",
+          "answers": [ "blazing fire" ],
+          "note": "",
+          "meaning": "blazing fire"
+        },
+        {
+          "ar": "أَلِيم",
+          "answers": [ "painful" ],
+          "note": "",
+          "meaning": "painful"
+        }
+      ]
+    },
+    {
+      "id": "last-day-6",
+      "title": "Last day, ... (6)",
+      "page": 16,
+      "set": 10,
+      "words": [
+        {
+          "ar": "أَبَدًا",
+          "answers": [ "forever", "ever" ],
+          "note": "",
+          "meaning": "forever; ever"
+        },
+        {
+          "ar": "نَهَر",
+          "answers": [ "river" ],
+          "note": "plural: أَنْهَار",
+          "meaning": "river"
+        },
+        {
+          "ar": "نَار",
+          "answers": [ "fire" ],
+          "note": "",
+          "meaning": "fire"
+        },
+        {
+          "ar": "وَيْل",
+          "answers": [ "woe" ],
+          "note": "",
+          "meaning": "woe"
+        }
+      ]
+    },
+    {
+      "id": "faith-1",
+      "title": "Faith, ... (1)",
+      "page": 17,
+      "set": 11,
+      "words": [
+        {
+          "ar": "إِلٰه",
+          "answers": [ "god", "deity" ],
+          "note": "plural: آلِهَة",
+          "meaning": "god; deity"
+        },
+        {
+          "ar": "وَاحِد",
+          "answers": [ "one" ],
+          "note": "fem. وَاحِدَة",
+          "meaning": "one"
+        },
+        {
+          "ar": "أَحَد",
+          "answers": [ "one" ],
+          "note": "fem. إِحْدٰى",
+          "meaning": "one"
+        },
+        {
+          "ar": "كِتَاب",
+          "answers": [ "book" ],
+          "note": "plural: كُتُب",
+          "meaning": "book"
+        },
+        {
+          "ar": "قُرْآن",
+          "answers": [ "quran", "reading", "recitation" ],
+          "note": "",
+          "meaning": "Qur'an; reading, recitation"
+        }
+      ]
+    },
+    {
+      "id": "faith-2",
+      "title": "Faith, ... (2)",
+      "page": 17,
+      "set": 11,
+      "words": [
+        {
+          "ar": "التَّوْرَاة",
+          "answers": [ "torah" ],
+          "note": "",
+          "meaning": "Torah"
+        },
+        {
+          "ar": "الْإِنْجِيل",
+          "answers": [ "bible", "gospel" ],
+          "note": "",
+          "meaning": "Bible"
+        },
+        {
+          "ar": "شَرِيك",
+          "answers": [ "partner", "associate" ],
+          "note": "plural: شُرَكَاء",
+          "meaning": "partner, associate"
+        },
+        {
+          "ar": "تَقْوٰى",
+          "answers": [ "piety", "fear", "protection" ],
+          "note": "",
+          "meaning": "piety; fear; protection"
+        }
+      ]
+    },
+    {
+      "id": "faith-3",
+      "title": "Faith, ... (3)",
+      "page": 17,
+      "set": 11,
+      "words": [
+        {
+          "ar": "غَيْب",
+          "answers": [ "unseen" ],
+          "note": "",
+          "meaning": "unseen"
+        },
+        {
+          "ar": "كَلِمَة",
+          "answers": [ "word" ],
+          "note": "",
+          "meaning": "word"
+        },
+        {
+          "ar": "شَهَادَة",
+          "answers": [ "witness", "testimony" ],
+          "note": "",
+          "meaning": "witness"
+        },
+        {
+          "ar": "شَهِيد",
+          "answers": [ "witness", "present" ],
+          "note": "plural: شُهَدَاء",
+          "meaning": "witness, present"
+        }
+      ]
+    },
+    {
+      "id": "deen-1",
+      "title": "Deen, ... (1)",
+      "page": 17,
+      "set": 11,
+      "words": [
+        {
+          "ar": "دِين",
+          "answers": [ "religion", "law", "judgement" ],
+          "note": "",
+          "meaning": "religion; law; judgement"
+        },
+        {
+          "ar": "حِكْمَة",
+          "answers": [ "wisdom" ],
+          "note": "",
+          "meaning": "wisdom"
+        },
+        {
+          "ar": "حَمْد",
+          "answers": [ "praise" ],
+          "note": "",
+          "meaning": "praise"
+        },
+        {
+          "ar": "صَلَاة",
+          "answers": [ "prayer" ],
+          "note": "",
+          "meaning": "prayer"
+        },
+        {
+          "ar": "زَكَاة",
+          "answers": [ "charity", "poor due", "zakah" ],
+          "note": "",
+          "meaning": "poor-due, charity"
+        }
+      ]
+    },
+    {
+      "id": "deen-2",
+      "title": "Deen, ... (2)",
+      "page": 17,
+      "set": 11,
+      "words": [
+        {
+          "ar": "حَقّ",
+          "answers": [ "truth", "true", "right" ],
+          "note": "",
+          "meaning": "truth, true; right"
+        },
+        {
+          "ar": "بَاطِل",
+          "answers": [ "falsehood" ],
+          "note": "",
+          "meaning": "falsehood"
+        },
+        {
+          "ar": "نُور",
+          "answers": [ "light" ],
+          "note": "opposite: ظُلُمَات (plural: darknesses)",
+          "meaning": "light"
+        },
+        {
+          "ar": "مُبِين",
+          "answers": [ "clear", "self expressive" ],
+          "note": "",
+          "meaning": "clear, self-expressive"
+        }
+      ]
+    },
+    {
+      "id": "deen-3",
+      "title": "Deen, ... (3)",
+      "page": 17,
+      "set": 11,
+      "words": [
+        {
+          "ar": "عَهْد",
+          "answers": [ "covenant" ],
+          "note": "",
+          "meaning": "covenant"
+        },
+        {
+          "ar": "مِيثَاق",
+          "answers": [ "covenant", "treaty" ],
+          "note": "",
+          "meaning": "covenant, treaty"
+        },
+        {
+          "ar": "مَلَك",
+          "answers": [ "angel" ],
+          "note": "plural: مَلَائِكَة",
+          "meaning": "angel"
+        },
+        {
+          "ar": "عَرْش",
+          "answers": [ "throne" ],
+          "note": "",
+          "meaning": "throne"
+        }
+      ]
+    },
+    {
+      "id": "blessings-1",
+      "title": "Blessings, ... (1)",
+      "page": 18,
+      "set": 12,
+      "words": [
+        {
+          "ar": "فَضْل",
+          "answers": [ "grace", "bounty" ],
+          "note": "",
+          "meaning": "grace"
+        },
+        {
+          "ar": "نِعْمَة",
+          "answers": [ "favor", "blessing" ],
+          "note": "plural: أَنْعُم",
+          "meaning": "favor"
+        },
+        {
+          "ar": "آلَاء",
+          "answers": [ "favors", "blessings" ],
+          "note": "plural",
+          "meaning": "favors"
+        },
+        {
+          "ar": "طَيِّبَة",
+          "answers": [ "good" ],
+          "note": "plural: طَيِّبَات",
+          "meaning": "good"
+        },
+        {
+          "ar": "مَاء",
+          "answers": [ "water" ],
+          "note": "",
+          "meaning": "water"
+        }
+      ]
+    },
+    {
+      "id": "blessings-2",
+      "title": "Blessings, ... (2)",
+      "page": 18,
+      "set": 12,
+      "words": [
+        {
+          "ar": "مُلْك",
+          "answers": [ "dominion", "reign", "kingdom" ],
+          "note": "",
+          "meaning": "dominion, reign"
+        },
+        {
+          "ar": "سُلْطَان",
+          "answers": [ "authority", "warrant" ],
+          "note": "",
+          "meaning": "authority; warrant"
+        },
+        {
+          "ar": "فَوْز",
+          "answers": [ "success", "achievement" ],
+          "note": "",
+          "meaning": "success"
+        },
+        {
+          "ar": "فَرِيق",
+          "answers": [ "party", "group" ],
+          "note": "",
+          "meaning": "party, group"
+        }
+      ]
+    },
+    {
+      "id": "blessings-3",
+      "title": "Blessings, ... (3)",
+      "page": 18,
+      "set": 12,
+      "words": [
+        {
+          "ar": "جَمِيع",
+          "answers": [ "all", "everybody" ],
+          "note": "",
+          "meaning": "all, everybody"
+        },
+        {
+          "ar": "أَجْمَعُون",
+          "answers": [ "all" ],
+          "note": "also: أَجْمَعِين",
+          "meaning": "all"
+        },
+        {
+          "ar": "سَوَاء",
+          "answers": [ "same", "equal", "fair" ],
+          "note": "",
+          "meaning": "same; equal; level; fair"
+        },
+        {
+          "ar": "إِذْن",
+          "answers": [ "permission", "leave" ],
+          "note": "",
+          "meaning": "permission"
+        }
+      ]
+    },
+    {
+      "id": "deeds-1",
+      "title": "Deeds, ... (1)",
+      "page": 18,
+      "set": 12,
+      "words": [
+        {
+          "ar": "أَعْمَال",
+          "answers": [ "actions", "deeds", "works" ],
+          "note": "plural",
+          "meaning": "actions, deeds, works"
+        },
+        {
+          "ar": "حَسَنَة",
+          "answers": [ "good", "good deed" ],
+          "note": "plural: حَسَنَات",
+          "meaning": "good"
+        },
+        {
+          "ar": "سَيِّئَة",
+          "answers": [ "evil", "bad" ],
+          "note": "plural: سَيِّئَات",
+          "meaning": "evil, bad"
+        },
+        {
+          "ar": "خَيْر",
+          "answers": [ "good", "better" ],
+          "note": "",
+          "meaning": "good, better"
+        },
+        {
+          "ar": "شَرّ",
+          "answers": [ "evil", "bad", "worse" ],
+          "note": "",
+          "meaning": "evil, bad, worse"
+        }
+      ]
+    },
+    {
+      "id": "deeds-2",
+      "title": "Deeds, ... (2)",
+      "page": 18,
+      "set": 12,
+      "words": [
+        {
+          "ar": "إِثْم",
+          "answers": [ "sin" ],
+          "note": "",
+          "meaning": "sin"
+        },
+        {
+          "ar": "ذَنْب",
+          "answers": [ "sin" ],
+          "note": "plural: ذُنُوب",
+          "meaning": "sin"
+        },
+        {
+          "ar": "جُنَاح",
+          "answers": [ "sin", "blame" ],
+          "note": "",
+          "meaning": "sin"
+        },
+        {
+          "ar": "حَرَام",
+          "answers": [ "unlawful", "sacred" ],
+          "note": "plural: حُرُم",
+          "meaning": "unlawful"
+        }
+      ]
+    },
+    {
+      "id": "deeds-3",
+      "title": "Deeds, ... (3)",
+      "page": 18,
+      "set": 12,
+      "words": [
+        {
+          "ar": "اِسْم",
+          "answers": [ "name" ],
+          "note": "plural: أَسْمَاء",
+          "meaning": "name"
+        },
+        {
+          "ar": "حَدِيث",
+          "answers": [ "discourse", "speech", "hadith" ],
+          "note": "plural: أَحَادِيث",
+          "meaning": "discourse; speech"
+        },
+        {
+          "ar": "بَأْس",
+          "answers": [ "punishment", "power", "adversity" ],
+          "note": "",
+          "meaning": "punishment; power; adversity"
+        },
+        {
+          "ar": "نَصِيب",
+          "answers": [ "share", "portion" ],
+          "note": "",
+          "meaning": "share, portion"
+        }
+      ]
+    },
+    {
+      "id": "self-body-parts-1",
+      "title": "Self (body parts...) (1)",
+      "page": 19,
+      "set": 13,
+      "words": [
+        {
+          "ar": "وَجْه",
+          "answers": [ "face" ],
+          "note": "plural: وُجُوه",
+          "meaning": "face"
+        },
+        {
+          "ar": "عَيْن",
+          "answers": [ "eye", "spring" ],
+          "note": "plural: أَعْيُن",
+          "meaning": "eye; spring"
+        },
+        {
+          "ar": "أَبْصَار",
+          "answers": [ "sights", "eyes", "vision" ],
+          "note": "plural",
+          "meaning": "sights"
+        },
+        {
+          "ar": "أَفْوَاه",
+          "answers": [ "mouths" ],
+          "note": "plural",
+          "meaning": "mouths"
+        },
+        {
+          "ar": "لِسَان",
+          "answers": [ "tongue", "language" ],
+          "note": "plural: أَلْسِنَة",
+          "meaning": "tongue; language"
+        }
+      ]
+    },
+    {
+      "id": "self-body-parts-2",
+      "title": "Self (body parts...) (2)",
+      "page": 19,
+      "set": 13,
+      "words": [
+        {
+          "ar": "قَلْب",
+          "answers": [ "heart" ],
+          "note": "plural: قُلُوب",
+          "meaning": "heart"
+        },
+        {
+          "ar": "صَدْر",
+          "answers": [ "chest", "bosom" ],
+          "note": "plural: صُدُور",
+          "meaning": "chest"
+        },
+        {
+          "ar": "بَطْن",
+          "answers": [ "belly", "womb" ],
+          "note": "plural: بُطُون",
+          "meaning": "belly, womb"
+        },
+        {
+          "ar": "يَد",
+          "answers": [ "hand" ],
+          "note": "plural: أَيْدِي",
+          "meaning": "hand"
+        }
+      ]
+    },
+    {
+      "id": "self-body-parts-3",
+      "title": "Self (body parts...) (3)",
+      "page": 19,
+      "set": 13,
+      "words": [
+        {
+          "ar": "رِجْل",
+          "answers": [ "foot", "leg" ],
+          "note": "plural: أَرْجُل",
+          "meaning": "foot"
+        },
+        {
+          "ar": "نَفْس",
+          "answers": [ "soul", "self" ],
+          "note": "plural: أَنْفُس",
+          "meaning": "soul"
+        },
+        {
+          "ar": "رُوح",
+          "answers": [ "soul", "spirit" ],
+          "note": "",
+          "meaning": "soul; spirit"
+        },
+        {
+          "ar": "قُوَّة",
+          "answers": [ "power", "strength" ],
+          "note": "",
+          "meaning": "power, strength"
+        }
+      ]
+    },
+    {
+      "id": "relatives-1",
+      "title": "Relatives, ... (1)",
+      "page": 19,
+      "set": 13,
+      "words": [
+        {
+          "ar": "أُمّ",
+          "answers": [ "mother" ],
+          "note": "plural: أُمَّهَات",
+          "meaning": "mother"
+        },
+        {
+          "ar": "أَب",
+          "answers": [ "father" ],
+          "note": "also: أَبَتِ; plural: آبَاء",
+          "meaning": "father"
+        },
+        {
+          "ar": "زَوْج",
+          "answers": [ "wife", "husband", "spouse" ],
+          "note": "plural: أَزْوَاج",
+          "meaning": "wife; husband"
+        },
+        {
+          "ar": "رَجُل",
+          "answers": [ "man" ],
+          "note": "plural: رِجَال",
+          "meaning": "man"
+        },
+        {
+          "ar": "اِمْرَأَة",
+          "answers": [ "woman", "women" ],
+          "note": "plural: نِسَاء",
+          "meaning": "woman, women"
+        }
+      ]
+    },
+    {
+      "id": "relatives-2",
+      "title": "Relatives, ... (2)",
+      "page": 19,
+      "set": 13,
+      "words": [
+        {
+          "ar": "وَلَد",
+          "answers": [ "child", "son" ],
+          "note": "plural: أَوْلَاد",
+          "meaning": "child"
+        },
+        {
+          "ar": "وَالِد",
+          "answers": [ "father", "parent" ],
+          "note": "dual: وَالِدَيْن",
+          "meaning": "father"
+        },
+        {
+          "ar": "ذُرِّيَّة",
+          "answers": [ "descendants", "children", "offspring" ],
+          "note": "",
+          "meaning": "descendants; children"
+        },
+        {
+          "ar": "اِبْن",
+          "answers": [ "son" ],
+          "note": "",
+          "meaning": "son"
+        }
+      ]
+    },
+    {
+      "id": "relatives-3",
+      "title": "Relatives, ... (3)",
+      "page": 19,
+      "set": 13,
+      "words": [
+        {
+          "ar": "بَنُون",
+          "answers": [ "sons", "children" ],
+          "note": "also: بَنِين، أَبْنَاء",
+          "meaning": "sons"
+        },
+        {
+          "ar": "أَخ",
+          "answers": [ "brother" ],
+          "note": "forms: أَخُو، أَخَا، أَخِي",
+          "meaning": "brother"
+        },
+        {
+          "ar": "إِخْوَان",
+          "answers": [ "brothers" ],
+          "note": "plural",
+          "meaning": "brothers"
+        },
+        {
+          "ar": "مَوْلٰى",
+          "answers": [ "protector", "patron", "master" ],
+          "note": "",
+          "meaning": "protector"
+        }
+      ]
+    },
+    {
+      "id": "people-1",
+      "title": "People, ... (1)",
+      "page": 20,
+      "set": 14,
+      "words": [
+        {
+          "ar": "أُمَّة",
+          "answers": [ "community", "nation" ],
+          "note": "plural: أُمَم",
+          "meaning": "community"
+        },
+        {
+          "ar": "قَوْم",
+          "answers": [ "people", "nation" ],
+          "note": "",
+          "meaning": "people"
+        },
+        {
+          "ar": "إِنْسَان",
+          "answers": [ "man", "human", "mankind" ],
+          "note": "",
+          "meaning": "man"
+        },
+        {
+          "ar": "نَاس",
+          "answers": [ "people", "mankind", "men" ],
+          "note": "",
+          "meaning": "men, people"
+        },
+        {
+          "ar": "بَشَر",
+          "answers": [ "human", "man", "mankind" ],
+          "note": "",
+          "meaning": "human"
+        }
+      ]
+    },
+    {
+      "id": "people-2",
+      "title": "People, ... (2)",
+      "page": 20,
+      "set": 14,
+      "words": [
+        {
+          "ar": "ذَكَر",
+          "answers": [ "male" ],
+          "note": "plural: ذُكُور",
+          "meaning": "male"
+        },
+        {
+          "ar": "أُنْثٰى",
+          "answers": [ "female" ],
+          "note": "plural: إِنَاث",
+          "meaning": "female"
+        },
+        {
+          "ar": "عَبْد",
+          "answers": [ "slave", "servant" ],
+          "note": "plural: عِبَاد",
+          "meaning": "slave"
+        },
+        {
+          "ar": "عَدُوّ",
+          "answers": [ "enemy" ],
+          "note": "plural: أَعْدَاء",
+          "meaning": "enemy"
+        }
+      ]
+    },
+    {
+      "id": "people-3",
+      "title": "People, ... (3)",
+      "page": 20,
+      "set": 14,
+      "words": [
+        {
+          "ar": "كُفَّار",
+          "answers": [ "disbelievers" ],
+          "note": "plural",
+          "meaning": "disbelievers"
+        },
+        {
+          "ar": "مُجْرِم",
+          "answers": [ "criminal", "evildoer" ],
+          "note": "",
+          "meaning": "criminal"
+        },
+        {
+          "ar": "مَلَأ",
+          "answers": [ "chiefs", "leaders", "nobles" ],
+          "note": "",
+          "meaning": "chiefs, leaders"
+        },
+        {
+          "ar": "وَلِيّ",
+          "answers": [ "protecting friend", "guardian", "ally" ],
+          "note": "plural: أَوْلِيَاء",
+          "meaning": "protecting friend; guardian"
+        }
+      ]
+    },
+    {
+      "id": "world-1",
+      "title": "World, ... (1)",
+      "page": 20,
+      "set": 14,
+      "words": [
+        {
+          "ar": "بَيْت",
+          "answers": [ "house", "home" ],
+          "note": "plural: بُيُوت",
+          "meaning": "house"
+        },
+        {
+          "ar": "دَار",
+          "answers": [ "abode", "home" ],
+          "note": "plural: دِيَار",
+          "meaning": "abode"
+        },
+        {
+          "ar": "دُنْيَا",
+          "answers": [ "world" ],
+          "note": "",
+          "meaning": "world"
+        },
+        {
+          "ar": "سَبِيل",
+          "answers": [ "way", "path" ],
+          "note": "plural: سُبُل",
+          "meaning": "way"
+        },
+        {
+          "ar": "صِرَاط",
+          "answers": [ "path" ],
+          "note": "",
+          "meaning": "path"
+        }
+      ]
+    },
+    {
+      "id": "world-2",
+      "title": "World, ... (2)",
+      "page": 20,
+      "set": 14,
+      "words": [
+        {
+          "ar": "عَالَمِين",
+          "answers": [ "worlds" ],
+          "note": "plural",
+          "meaning": "worlds"
+        },
+        {
+          "ar": "فِتْنَة",
+          "answers": [ "trial", "persecution" ],
+          "note": "",
+          "meaning": "trial; persecution"
+        },
+        {
+          "ar": "قَرْيَة",
+          "answers": [ "town", "city" ],
+          "note": "plural: قُرٰى",
+          "meaning": "town"
+        },
+        {
+          "ar": "مَال",
+          "answers": [ "wealth", "money" ],
+          "note": "plural: أَمْوَال",
+          "meaning": "wealth"
+        }
+      ]
+    },
+    {
+      "id": "world-3",
+      "title": "World, ... (3)",
+      "page": 20,
+      "set": 14,
+      "words": [
+        {
+          "ar": "مَتَاع",
+          "answers": [ "provision", "enjoyment" ],
+          "note": "",
+          "meaning": "provision; enjoyment"
+        },
+        {
+          "ar": "مَسْجِد",
+          "answers": [ "mosque" ],
+          "note": "plural: مَسَاجِد",
+          "meaning": "mosque"
+        },
+        {
+          "ar": "مَكَان",
+          "answers": [ "place", "abode" ],
+          "note": "fem. مَكَانَة",
+          "meaning": "place; abode"
+        },
+        {
+          "ar": "شَجَرَة",
+          "answers": [ "tree" ],
+          "note": "plural: شَجَر",
+          "meaning": "tree"
+        }
+      ]
+    },
+    {
+      "id": "page-21-misc-1",
+      "title": "Miscellaneous (1)",
+      "page": 21,
+      "set": 15,
+      "words": [
+        {
+          "ar": "أَعْمٰى",
+          "answers": [ "blind" ],
+          "note": "",
+          "meaning": "blind"
+        },
+        {
+          "ar": "أَلْبَاب",
+          "answers": [ "intellect", "understanding" ],
+          "note": "plural",
+          "meaning": "intellect"
+        },
+        {
+          "ar": "بَرّ",
+          "answers": [ "land" ],
+          "note": "",
+          "meaning": "land"
+        },
+        {
+          "ar": "بَلَاغ",
+          "answers": [ "to convey", "conveyance" ],
+          "note": "",
+          "meaning": "to convey"
+        },
+        {
+          "ar": "بَنَات",
+          "answers": [ "daughters" ],
+          "note": "plural",
+          "meaning": "daughters"
+        }
+      ]
+    },
+    {
+      "id": "page-21-misc-2",
+      "title": "Miscellaneous (2)",
+      "page": 21,
+      "set": 15,
+      "words": [
+        {
+          "ar": "بُشْرٰى",
+          "answers": [ "good news", "glad tidings" ],
+          "note": "fem.",
+          "meaning": "good news"
+        },
+        {
+          "ar": "بَاب",
+          "answers": [ "gate", "door" ],
+          "note": "plural: أَبْوَاب",
+          "meaning": "gate"
+        },
+        {
+          "ar": "تَأْوِيل",
+          "answers": [ "interpretation" ],
+          "note": "",
+          "meaning": "interpretation"
+        },
+        {
+          "ar": "تُرَاب",
+          "answers": [ "dust" ],
+          "note": "",
+          "meaning": "dust"
+        }
+      ]
+    },
+    {
+      "id": "page-21-misc-3",
+      "title": "Miscellaneous (3)",
+      "page": 21,
+      "set": 15,
+      "words": [
+        {
+          "ar": "ثَلَاثَة",
+          "answers": [ "three" ],
+          "note": "fem.",
+          "meaning": "three"
+        },
+        {
+          "ar": "ثَمَرَات",
+          "answers": [ "fruits" ],
+          "note": "plural",
+          "meaning": "fruits"
+        },
+        {
+          "ar": "حُدُود",
+          "answers": [ "limits", "boundaries" ],
+          "note": "plural",
+          "meaning": "limits"
+        },
+        {
+          "ar": "حُسْنٰى",
+          "answers": [ "the best", "best" ],
+          "note": "fem.",
+          "meaning": "the best"
+        }
+      ]
+    },
+    {
+      "id": "page-21-misc-4",
+      "title": "Miscellaneous (4)",
+      "page": 21,
+      "set": 15,
+      "words": [
+        {
+          "ar": "دَابَّة",
+          "answers": [ "moving creatures", "creatures", "beast" ],
+          "note": "",
+          "meaning": "moving creatures"
+        },
+        {
+          "ar": "دَرَجَات",
+          "answers": [ "ranks", "degrees" ],
+          "note": "plural",
+          "meaning": "ranks, degrees"
+        },
+        {
+          "ar": "سُنَّة",
+          "answers": [ "way", "practice", "sunnah" ],
+          "note": "fem.",
+          "meaning": "way"
+        },
+        {
+          "ar": "شَفَاعَة",
+          "answers": [ "intercession" ],
+          "note": "fem.",
+          "meaning": "intercession"
+        },
+        {
+          "ar": "عَدْل",
+          "answers": [ "compensation", "justice" ],
+          "note": "",
+          "meaning": "compensation"
+        }
+      ]
+    },
+    {
+      "id": "page-21-misc-5",
+      "title": "Miscellaneous (5)",
+      "page": 21,
+      "set": 15,
+      "words": [
+        {
+          "ar": "لَعْنَة",
+          "answers": [ "curse" ],
+          "note": "fem.",
+          "meaning": "curse"
+        },
+        {
+          "ar": "لَيْت",
+          "answers": [ "wish", "if only" ],
+          "note": "",
+          "meaning": "wish"
+        },
+        {
+          "ar": "مَدِينَة",
+          "answers": [ "city", "town" ],
+          "note": "fem.",
+          "meaning": "city"
+        },
+        {
+          "ar": "مَرَض",
+          "answers": [ "disease", "illness" ],
+          "note": "",
+          "meaning": "disease"
+        }
+      ]
+    },
+    {
+      "id": "page-21-misc-6",
+      "title": "Miscellaneous (6)",
+      "page": 21,
+      "set": 15,
+      "words": [
+        {
+          "ar": "مَقَام",
+          "answers": [ "standing place", "station" ],
+          "note": "",
+          "meaning": "standing place"
+        },
+        {
+          "ar": "مَلِك",
+          "answers": [ "king" ],
+          "note": "",
+          "meaning": "king"
+        },
+        {
+          "ar": "مِلَّة",
+          "answers": [ "religion", "creed" ],
+          "note": "fem.",
+          "meaning": "religion"
+        },
+        {
+          "ar": "نَبَأ",
+          "answers": [ "news", "tidings" ],
+          "note": "",
+          "meaning": "news"
+        }
+      ]
+    },
+    {
+      "id": "verbs-fataha-1",
+      "title": "Verbs: fataha - yaftahu (1)",
+      "page": 22,
+      "set": 16,
+      "words": [
+        {
+          "ar": "فَعَلَ",
+          "answers": [ "to do", "do", "did" ],
+          "note": "impf: يَفْعَلُ | impv: اِفْعَلْ | doer: فَاعِل | psv: مَفْعُول | noun: فِعْل",
+          "meaning": "to do"
+        },
+        {
+          "ar": "فَتَحَ",
+          "answers": [ "to give victory", "to open", "open" ],
+          "note": "impf: يَفْتَحُ | impv: افْتَحْ | doer: فَاتِح | psv: مَفْتُوح | noun: فَتْح",
+          "meaning": "to give victory; to open"
+        },
+        {
+          "ar": "بَعَثَ",
+          "answers": [ "to raise", "to resurrect", "resurrect" ],
+          "note": "impf: يَبْعَثُ | impv: ابْعَثْ | doer: بَاعِث | psv: مَبْعُوث | noun: بَعْث",
+          "meaning": "to raise; to resurrect"
+        },
+        {
+          "ar": "جَعَلَ",
+          "answers": [ "to place", "to set up", "to make" ],
+          "note": "impf: يَجْعَلُ | impv: اِجْعَلْ | doer: جَاعِل | psv: مَجْعُول | noun: جَعْل",
+          "meaning": "to place; to set up"
+        }
+      ]
+    },
+    {
+      "id": "verbs-fataha-2",
+      "title": "Verbs: fataha - yaftahu (2)",
+      "page": 22,
+      "set": 16,
+      "words": [
+        {
+          "ar": "جَمَعَ",
+          "answers": [ "to gather", "to collect", "gather" ],
+          "note": "impf: يَجْمَعُ | impv: اجْمَعْ | doer: جَامِع | psv: مَجْمُوع | noun: جَمْع",
+          "meaning": "to gather, to collect"
+        },
+        {
+          "ar": "ذَهَبَ",
+          "answers": [ "to go", "go", "went" ],
+          "note": "impf: يَذْهَبُ | impv: اِذْهَبْ | doer: ذَاهِب | psv: مَذْهُوب | noun: ذَهَاب",
+          "meaning": "to go"
+        },
+        {
+          "ar": "رَفَعَ",
+          "answers": [ "to raise", "raise", "raised" ],
+          "note": "impf: يَرْفَعُ | impv: ارْفَعْ | doer: رَافِع | psv: مَرْفُوع | noun: رَفْع",
+          "meaning": "to raise"
+        },
+        {
+          "ar": "سَحَرَ",
+          "answers": [ "to enchant", "to bewitch", "bewitch" ],
+          "note": "impf: يَسْحَرُ | impv: إِسْحَرُ | doer: سَاحِر | psv: مَسْحُور | noun: سِحْر",
+          "meaning": "to enchant, to bewitch"
+        }
+      ]
+    },
+    {
+      "id": "verbs-fataha-3",
+      "title": "Verbs: fataha - yaftahu (3)",
+      "page": 22,
+      "set": 16,
+      "words": [
+        {
+          "ar": "صَلَحَ",
+          "answers": [ "to act righteously", "act righteously", "to be righteous" ],
+          "note": "impf: يَصْلَحُ | impv: اِصْلَحْ | doer: صَالِح | psv: مَصْلُوح | noun: صَلَاح",
+          "meaning": "to act righteously"
+        },
+        {
+          "ar": "لَعَنَ",
+          "answers": [ "to curse", "curse", "cursed" ],
+          "note": "impf: يَلْعَنُ | impv: الْعَنُ | doer: لَاعِن | psv: مَلْعُون | noun: لَعْن",
+          "meaning": "to curse"
+        },
+        {
+          "ar": "نَفَعَ",
+          "answers": [ "to profit", "to benefit", "benefit" ],
+          "note": "impf: يَنْفَعُ | impv: انْفَعْ | doer: نَافِع | psv: مَنْفُوع | noun: نَفْع",
+          "meaning": "to profit"
+        },
+        {
+          "ar": "مَنَعَ",
+          "answers": [ "to prevent", "prevent", "prevented" ],
+          "note": "impf: يَمْنَعُ | impv: اِمْنَعْ | doer: مَانِع | psv: مَمْنُوع | noun: مَنْع",
+          "meaning": "to prevent"
+        }
+      ]
+    },
+    {
+      "id": "nasara-1",
+      "title": "nasara - yansuru (1)",
+      "page": 23,
+      "set": 17,
+      "words": [
+        {
+          "ar": "نَصَرَ",
+          "answers": [ "to help", "help", "helped" ],
+          "note": "impf: يَنْصُرُ | impv: اُنْصُرْ | doer: نَاصِر | psv: مَنْصُور | noun: نَصْر",
+          "meaning": "to help"
+        },
+        {
+          "ar": "بَلَغَ",
+          "answers": [ "to reach", "reach", "reached" ],
+          "note": "impf: يَبْلُغُ | impv: اُبْلُغْ | doer: بَالِغ | psv: مَبْلُوغ | noun: بُلُوغ",
+          "meaning": "to reach"
+        },
+        {
+          "ar": "بَسَطَ",
+          "answers": [ "to extend", "extend", "extended" ],
+          "note": "impf: يَبْسُطُ | impv: اُبْسُطْ | doer: بَاسِط | psv: مَبْسُوط | noun: بَسْط",
+          "meaning": "to extend"
+        },
+        {
+          "ar": "تَرَكَ",
+          "answers": [ "to leave", "leave", "left" ],
+          "note": "impf: يَتْرُكُ | impv: اُتْرُكْ | doer: تَارِك | psv: مَتْرُوك | noun: تَرْك",
+          "meaning": "to leave"
+        },
+        {
+          "ar": "حَشَرَ",
+          "answers": [ "to gather", "gather", "gathered" ],
+          "note": "impf: يَحْشُرُ | impv: اُحْشُرْ | doer: حَاشِر | psv: مَحْشُور | noun: حَشْر",
+          "meaning": "to gather; to bring together"
+        }
+      ]
+    },
+    {
+      "id": "nasara-2",
+      "title": "nasara - yansuru (2)",
+      "page": 23,
+      "set": 17,
+      "words": [
+        {
+          "ar": "حَكَمَ",
+          "answers": [ "to judge", "judge", "judged" ],
+          "note": "impf: يَحْكُمُ | impv: اُحْكُمْ | doer: حَاكِم | psv: مَحْكُوم | noun: حُكْم",
+          "meaning": "to judge; to rule"
+        },
+        {
+          "ar": "خَرَجَ",
+          "answers": [ "to come out", "come out", "came out" ],
+          "note": "impf: يَخْرُجُ | impv: اُخْرُجْ | doer: خَارِج | psv: مَخْرُوج | noun: خُرُوج",
+          "meaning": "to come out"
+        },
+        {
+          "ar": "خَلَدَ",
+          "answers": [ "to live forever", "live forever" ],
+          "note": "impf: يَخْلُدُ | impv: اُخْلُدْ | doer: خَالِد | psv: مَخْلُود | noun: خُلُود",
+          "meaning": "to live forever"
+        },
+        {
+          "ar": "خَلَقَ",
+          "answers": [ "to create", "create", "created" ],
+          "note": "impf: يَخْلُقُ | impv: اُخْلُقْ | doer: خَالِق | psv: مَخْلُوق | noun: خَلْق",
+          "meaning": "to create out of nothing"
+        }
+      ]
+    },
+    {
+      "id": "nasara-3",
+      "title": "nasara - yansuru (3)",
+      "page": 23,
+      "set": 17,
+      "words": [
+        {
+          "ar": "دَخَلَ",
+          "answers": [ "to enter", "enter", "entered" ],
+          "note": "impf: يَدْخُلُ | impv: اُدْخُلْ | doer: دَاخِل | psv: مَدْخُول | noun: دُخُول",
+          "meaning": "to enter"
+        },
+        {
+          "ar": "ذَكَرَ",
+          "answers": [ "to remember", "remember", "remembered" ],
+          "note": "impf: يَذْكُرُ | impv: اُذْكُرْ | doer: ذَاكِر | psv: مَذْكُور | noun: ذِكْر",
+          "meaning": "to remember"
+        },
+        {
+          "ar": "رَزَقَ",
+          "answers": [ "to provide", "provide", "provided" ],
+          "note": "impf: يَرْزُقُ | impv: اُرْزُقْ | doer: رَازِق | psv: مَرْزُوق | noun: رِزْق",
+          "meaning": "to provide"
+        },
+        {
+          "ar": "سَجَدَ",
+          "answers": [ "to prostrate", "prostrate", "prostrated" ],
+          "note": "impf: يَسْجُدُ | impv: اُسْجُدْ | doer: سَاجِد | psv: مَسْجُود | noun: سُجُود",
+          "meaning": "to prostrate"
+        }
+      ]
+    },
+    {
+      "id": "nasara-4",
+      "title": "nasara - yansuru (4)",
+      "page": 24,
+      "set": 18,
+      "words": [
+        {
+          "ar": "شَعَرَ",
+          "answers": [ "to perceive", "perceive", "perceived" ],
+          "note": "impf: يَشْعُرُ | impv: اُشْعُرْ | doer: شَاعِر | psv: مَشْعُور | noun: شُعُور",
+          "meaning": "to perceive"
+        },
+        {
+          "ar": "شَكَرَ",
+          "answers": [ "to be grateful", "thank", "thanked" ],
+          "note": "impf: يَشْكُرُ | impv: اُشْكُرْ | doer: شَاكِر | psv: مَشْكُور | noun: شُكْر",
+          "meaning": "to be grateful"
+        },
+        {
+          "ar": "صَدَقَ",
+          "answers": [ "to be true", "say the truth", "spoke truth" ],
+          "note": "impf: يَصْدُقُ | impv: اُصْدُقْ | doer: صَادِق | psv: مَصْدُوق | noun: صِدْق",
+          "meaning": "to be true; to say the truth"
+        },
+        {
+          "ar": "عَبَدَ",
+          "answers": [ "to worship", "worship", "worshipped" ],
+          "note": "impf: يَعْبُدُ | impv: اُعْبُدْ | doer: عَابِد | psv: مَعْبُود | noun: عِبَادَة",
+          "meaning": "to worship; to serve"
+        },
+        {
+          "ar": "فَسَقَ",
+          "answers": [ "to transgress", "transgress", "transgressed" ],
+          "note": "impf: يَفْسُقُ | impv: اُفْسُقْ | doer: فَاسِق | psv: مَفْسُوق | noun: فِسْق، فُسُوق",
+          "meaning": "to transgress"
+        }
+      ]
+    },
+    {
+      "id": "nasara-5",
+      "title": "nasara - yansuru (5)",
+      "page": 24,
+      "set": 18,
+      "words": [
+        {
+          "ar": "قَتَلَ",
+          "answers": [ "to kill", "kill", "killed" ],
+          "note": "impf: يَقْتُلُ | impv: اُقْتُلْ | doer: قَاتِل | psv: مَقْتُول | noun: قَتْل",
+          "meaning": "to kill; to slay"
+        },
+        {
+          "ar": "قَعَدَ",
+          "answers": [ "to sit", "sit", "sat" ],
+          "note": "impf: يَقْعُدُ | impv: اُقْعُدْ | doer: قَاعِد | psv: مَقْعُود | noun: قُعُود",
+          "meaning": "to sit; to remain behind"
+        },
+        {
+          "ar": "كَتَبَ",
+          "answers": [ "to write", "write", "wrote" ],
+          "note": "impf: يَكْتُبُ | impv: اُكْتُبْ | doer: كَاتِب | psv: مَكْتُوب | noun: كِتَابَة",
+          "meaning": "to prescribe; to write"
+        },
+        {
+          "ar": "كَتَمَ",
+          "answers": [ "to conceal", "conceal", "concealed" ],
+          "note": "impf: يَكْتُمُ | impv: اُكْتُمْ | doer: كَاتِم | psv: مَكْتُوم | noun: كَتْم، كِتْمَان",
+          "meaning": "to conceal"
+        }
+      ]
+    },
+    {
+      "id": "nasara-6",
+      "title": "nasara - yansuru (6)",
+      "page": 24,
+      "set": 18,
+      "words": [
+        {
+          "ar": "كَفَرَ",
+          "answers": [ "to disbelieve", "disbelieve", "disbelieved" ],
+          "note": "impf: يَكْفُرُ | impv: اُكْفُرْ | doer: كَافِر | psv: مَكْفُور | noun: كُفْر",
+          "meaning": "to disbelieve; to be ungrateful"
+        },
+        {
+          "ar": "مَكَرَ",
+          "answers": [ "to plot", "plot", "plotted" ],
+          "note": "impf: يَمْكُرُ | impv: اُمْكُرْ | doer: مَاكِر | psv: مَمْكُور | noun: مَكْر",
+          "meaning": "to plot"
+        },
+        {
+          "ar": "نَظَرَ",
+          "answers": [ "to look", "look", "looked" ],
+          "note": "impf: يَنْظُرُ | impv: اُنْظُرْ | doer: نَاظِر | psv: مَنْظُور | noun: نَظَر",
+          "meaning": "to look; to wait"
+        },
+        {
+          "ar": "نَفَخَ",
+          "answers": [ "to breathe", "breathe", "breathed" ],
+          "note": "impf: يَنْفُخُ | impv: اُنْفُخْ | doer: نَافِخ | psv: مَنْفُوخ | noun: نَفْخ",
+          "meaning": "to breathe"
+        }
+      ]
+    },
+    {
+      "id": "dharaba-1",
+      "title": "dharaba - yadhribu (1)",
+      "page": 25,
+      "set": 19,
+      "words": [
+        {
+          "ar": "ضَرَبَ",
+          "answers": [ "to strike", "strike", "struck" ],
+          "note": "impf: يَضْرِبُ | impv: اِضْرِبْ | doer: ضَارِب | psv: مَضْرُوب | noun: ضَرْب",
+          "meaning": "to strike"
+        },
+        {
+          "ar": "حَمَلَ",
+          "answers": [ "to carry", "carry", "carried" ],
+          "note": "impf: يَحْمِلُ | impv: اِحْمِلْ | doer: حَامِل | psv: مَحْمُول | noun: حَمْل",
+          "meaning": "to carry; to bear"
+        },
+        {
+          "ar": "صَبَرَ",
+          "answers": [ "to bear with patience", "be patient", "endure" ],
+          "note": "impf: يَصْبِرُ | impv: اِصْبِرْ | doer: صَابِر | noun: صَبْر",
+          "meaning": "to bear with patience"
+        },
+        {
+          "ar": "ظَلَمَ",
+          "answers": [ "to wrong", "wrong", "wronged" ],
+          "note": "impf: يَظْلِمُ | impv: اِظْلِمْ | doer: ظَالِم | psv: مَظْلُوم | noun: ظُلْم",
+          "meaning": "to wrong"
+        },
+        {
+          "ar": "عَرَفَ",
+          "answers": [ "to recognize", "recognize", "recognized" ],
+          "note": "impf: يَعْرِفُ | impv: اِعْرِفْ | doer: عَارِف | psv: مَعْرُوف | noun: مَعْرِفَة",
+          "meaning": "to recognize"
+        }
+      ]
+    },
+    {
+      "id": "dharaba-2",
+      "title": "dharaba - yadhribu (2)",
+      "page": 25,
+      "set": 19,
+      "words": [
+        {
+          "ar": "عَقَلَ",
+          "answers": [ "to understand", "understand", "understood" ],
+          "note": "impf: يَعْقِلُ | impv: اِعْقِلْ | doer: عَاقِل | psv: مَعْقُول | noun: عَقْل",
+          "meaning": "to understand; to comprehend"
+        },
+        {
+          "ar": "غَفَرَ",
+          "answers": [ "to forgive", "forgive", "forgave" ],
+          "note": "impf: يَغْفِرُ | impv: اِغْفِرْ | doer: غَافِر | psv: مَغْفُور | noun: مَغْفِرَة",
+          "meaning": "to forgive; to cover"
+        },
+        {
+          "ar": "قَدَرَ",
+          "answers": [ "to decree", "decree", "decreed" ],
+          "note": "impf: يَقْدِرُ | impv: اِقْدِرْ | doer: قَادِر | psv: مَقْدُور | noun: قَدْر، قُدْرَة",
+          "meaning": "to decree; to have power"
+        },
+        {
+          "ar": "كَذَبَ",
+          "answers": [ "to lie", "lie", "lied" ],
+          "note": "impf: يَكْذِبُ | impv: اِكْذِبْ | doer: كَاذِب | psv: مَكْذُوب | noun: كَذِب",
+          "meaning": "to lie"
+        }
+      ]
+    },
+    {
+      "id": "dharaba-3",
+      "title": "dharaba - yadhribu (3)",
+      "page": 25,
+      "set": 19,
+      "words": [
+        {
+          "ar": "كَسَبَ",
+          "answers": [ "to earn", "earn", "earned" ],
+          "note": "impf: يَكْسِبُ | impv: اِكْسِبْ | doer: كَاسِب | psv: مَكْسُوب | noun: كَسْب",
+          "meaning": "to earn"
+        },
+        {
+          "ar": "مَلَكَ",
+          "answers": [ "to possess", "possess", "possessed" ],
+          "note": "impf: يَمْلِكُ | impv: اِمْلِكْ | doer: مَالِك | psv: مَمْلُوك | noun: مُلْك",
+          "meaning": "to possess"
+        },
+        {
+          "ar": "سَبَقَ",
+          "answers": [ "to precede", "precede", "preceded" ],
+          "note": "impf: يَسْبِقُ | impv: اِسْبِقْ | doer: سَابِق | psv: مَسْبُوق | noun: سَبْق",
+          "meaning": "to precede"
+        },
+        {
+          "ar": "رَجَعَ",
+          "answers": [ "to return", "return", "returned" ],
+          "note": "impf: يَرْجِعُ | impv: اِرْجِعْ | doer: رَاجِع | psv: مَرْجُوع | noun: رُجُوع",
+          "meaning": "to return"
+        }
+      ]
+    },
+    {
+      "id": "sami-a-1",
+      "title": "sami'a - yasma'u (1)",
+      "page": 26,
+      "set": 20,
+      "words": [
+        {
+          "ar": "سَمِعَ",
+          "answers": [ "to hear", "hear", "heard" ],
+          "note": "impf: يَسْمَعُ | impv: اِسْمَعْ | doer: سَامِع | psv: مَسْمُوع | noun: سَمَاعَة",
+          "meaning": "to hear"
+        },
+        {
+          "ar": "حَزِنَ",
+          "answers": [ "to be grieved", "grieve", "grieved" ],
+          "note": "impf: يَحْزَنُ | impv: اِحْزَنْ | doer: حَزِين | psv: مَحْزُون | noun: حُزْن",
+          "meaning": "to be grieved"
+        },
+        {
+          "ar": "حَسِبَ",
+          "answers": [ "to think", "consider", "considered" ],
+          "note": "impf: يَحْسَبُ | impv: اِحْسَبْ | doer: حَاسِب | psv: مَحْسُوب | noun: حُسْبَان",
+          "meaning": "to think; to consider"
+        },
+        {
+          "ar": "حَفِظَ",
+          "answers": [ "to guard", "protect", "protected" ],
+          "note": "impf: يَحْفَظُ | impv: اِحْفَظْ | doer: حَافِظ | psv: مَحْفُوظ | noun: حِفْظ",
+          "meaning": "to guard; to protect"
+        },
+        {
+          "ar": "خَسِرَ",
+          "answers": [ "to lose", "lose", "lost" ],
+          "note": "impf: يَخْسَرُ | impv: اِخْسَرْ | doer: خَاسِر | psv: مَخْسُور | noun: خُسْر",
+          "meaning": "to lose"
+        }
+      ]
+    },
+    {
+      "id": "sami-a-2",
+      "title": "sami'a - yasma'u (2)",
+      "page": 26,
+      "set": 20,
+      "words": [
+        {
+          "ar": "رَحِمَ",
+          "answers": [ "to have mercy", "to have mercy on someone", "have mercy", "had mercy" ],
+          "note": "impf: يَرْحَمُ | impv: اِرْحَمْ | doer: رَاحِم | psv: مَرْحُوم | noun: رَحْمَة",
+          "meaning": "to have mercy on someone"
+        },
+        {
+          "ar": "شَهِدَ",
+          "answers": [ "to bear witness", "witness", "witnessed" ],
+          "note": "impf: يَشْهَدُ | impv: اِشْهَدْ | doer: شَاهِد | psv: مَشْهُود | noun: شُهُود",
+          "meaning": "to bear witness; to be present"
+        },
+        {
+          "ar": "عَلِمَ",
+          "answers": [ "to know", "know", "knew" ],
+          "note": "impf: يَعْلَمُ | impv: اِعْلَمْ | doer: عَالِم | psv: مَعْلُوم | noun: عِلْم",
+          "meaning": "to know"
+        },
+        {
+          "ar": "عَمِلَ",
+          "answers": [ "to work", "do", "did" ],
+          "note": "impf: يَعْمَلُ | impv: اِعْمَلْ | doer: عَامِل | psv: مَعْمُول | noun: عَمَل",
+          "meaning": "to work; to do"
+        }
+      ]
+    },
+    {
+      "id": "sami-a-3",
+      "title": "sami'a - yasma'u (3)",
+      "page": 26,
+      "set": 20,
+      "words": [
+        {
+          "ar": "فَقِهَ",
+          "answers": [ "to understand", "understand", "understood" ],
+          "note": "impf: يَفْقَهُ | impv: اِفْقَهْ | doer: فَقِه | psv: مَفْقُوه | noun: فِقْه",
+          "meaning": "to understand"
+        },
+        {
+          "ar": "فَرِحَ",
+          "answers": [ "to rejoice", "rejoice", "rejoiced" ],
+          "note": "impf: يَفْرَحُ | impv: اِفْرَحْ | doer: فَرِح | psv: مَفْرُوح | noun: فَرَح",
+          "meaning": "to rejoice"
+        },
+        {
+          "ar": "كَرِهَ",
+          "answers": [ "to dislike", "dislike", "disliked" ],
+          "note": "impf: يَكْرَهُ | impv: اِكْرَهْ | doer: كَارِه | psv: مَكْرُوه | noun: كُرْه",
+          "meaning": "to dislike; to detest"
+        },
+        {
+          "ar": "لَبِثَ",
+          "answers": [ "to stay", "stay", "stayed" ],
+          "note": "impf: يَلْبَثُ | impv: اِلْبَثْ | doer: لَابِث | psv: مَلْبُوث | noun: لَبْث",
+          "meaning": "to stay"
+        }
+      ]
+    },
+    {
+      "id": "muda-af-1",
+      "title": "Muda'af (Doubled) (1)",
+      "page": 27,
+      "set": 21,
+      "words": [
+        {
+          "ar": "ضَلَّ",
+          "answers": [ "to go astray", "go astray", "went astray" ],
+          "note": "impf: يَضِلُّ | impv: اِضْلِلْ | doer: ضَالّ | psv: مَضْلُول | noun: ضَلَالَة، ضَلَال",
+          "meaning": "to go astray; to err; to waste"
+        },
+        {
+          "ar": "حَقَّ",
+          "answers": [ "to be true", "be true", "deserve" ],
+          "note": "impf: يَحِقُّ | impv: اِحْقِقْ | doer: حَقِيق | psv: مَحْقُوق | noun: حَقّ",
+          "meaning": "to be true; to become true, to deserve"
+        },
+        {
+          "ar": "حَيَّ",
+          "answers": [ "to live", "live", "lived" ],
+          "note": "impf: يَحْيٰى | impv: اِحْيَ | doer: حَيّ | noun: حَيَاة",
+          "meaning": "to live; to greet"
+        },
+        {
+          "ar": "خَرَّ",
+          "answers": [ "to fall down", "fall down", "fell down" ],
+          "note": "impf: يَخِرُّ | impv: اِخْرِرْ | doer: خَارّ | noun: خَرّ",
+          "meaning": "to fall down"
+        },
+        {
+          "ar": "رَدَّ",
+          "answers": [ "to return", "return", "returned" ],
+          "note": "impf: يَرُدُّ | impv: اُرْدُدْ | doer: رَادّ | psv: مَرْدُود | noun: رَدّ",
+          "meaning": "to give back; to return"
+        }
+      ]
+    },
+    {
+      "id": "muda-af-2",
+      "title": "Muda'af (Doubled) (2)",
+      "page": 27,
+      "set": 21,
+      "words": [
+        {
+          "ar": "صَدَّ",
+          "answers": [ "to turn away", "turn away", "hinder" ],
+          "note": "impf: يَصُدُّ | impv: اُصْدُدْ | doer: صَادّ | psv: مَصْدُود | noun: صَدّ",
+          "meaning": "to turn away; to hinder"
+        },
+        {
+          "ar": "ضَرَّ",
+          "answers": [ "to hurt", "harm", "harmed" ],
+          "note": "impf: يَضُرُّ | impv: اُضْرُرْ | doer: ضَارّ | psv: مَضْرُور | noun: ضَرّ",
+          "meaning": "to hurt; to harm"
+        },
+        {
+          "ar": "ظَنَّ",
+          "answers": [ "to think", "believe", "thought" ],
+          "note": "impf: يَظُنُّ | impv: اُظْنُنْ | doer: ظَانّ | psv: مَظْنُون | noun: ظَنّ",
+          "meaning": "to think; to believe"
+        },
+        {
+          "ar": "عَدَّ",
+          "answers": [ "to count", "count", "counted" ],
+          "note": "impf: يَعُدُّ | impv: اُعْدُدْ | doer: عَادّ | psv: مَعْدُود | noun: عَدّ",
+          "meaning": "to count"
+        }
+      ]
+    },
+    {
+      "id": "muda-af-3",
+      "title": "Muda'af (Doubled) (3)",
+      "page": 27,
+      "set": 21,
+      "words": [
+        {
+          "ar": "غَرَّ",
+          "answers": [ "to deceive", "deceive", "deceived" ],
+          "note": "impf: يَغُرُّ | impv: اُغْرُرْ | doer: غَارّ | psv: مَغْرُور | noun: غُرُور",
+          "meaning": "to deceive"
+        },
+        {
+          "ar": "مَدَّ",
+          "answers": [ "to spread out", "stretch", "stretched" ],
+          "note": "impf: يَمُدُّ | impv: اُمْدُدْ | doer: مَادّ | psv: مَمْدُود | noun: مَدّ",
+          "meaning": "to spread out; to stretch"
+        },
+        {
+          "ar": "مَسَّ",
+          "answers": [ "to touch", "touch", "touched" ],
+          "note": "impf: يَمَسُّ | impv: اِمْسَسْ | doer: مَاسّ | psv: مَمْسُوس | noun: مَسّ",
+          "meaning": "to touch"
+        },
+        {
+          "ar": "وَدَّ",
+          "answers": [ "to love", "wish", "wished" ],
+          "note": "impf: يَوَدُّ | impv: اِوْدَدْ | doer: وَادّ | psv: مَوْدُود | noun: وُدّ",
+          "meaning": "to love; to wish"
+        }
+      ]
+    },
+    {
+      "id": "mithal-1",
+      "title": "Mithal (Assimilated) (1)",
+      "page": 28,
+      "set": 22,
+      "words": [
+        {
+          "ar": "وَعَدَ",
+          "answers": [ "to promise", "promise", "promised" ],
+          "note": "impf: يَعِدُ | impv: عِدْ | doer: وَاعِد | psv: مَوْعُود | noun: وَعْد",
+          "meaning": "to promise"
+        },
+        {
+          "ar": "وَجَدَ",
+          "answers": [ "to find", "find", "found" ],
+          "note": "impf: يَجِدُ | impv: جِدْ | doer: وَاجِد | psv: مَوْجُود | noun: وُجُود",
+          "meaning": "to find"
+        },
+        {
+          "ar": "وَذَرَ",
+          "answers": [ "to leave behind", "leave", "left" ],
+          "note": "impf: يَذَرُ | impv: ذَرْ | doer: وَاذِر | psv: مَوْذُور | noun: وَذْر",
+          "meaning": "to leave behind"
+        },
+        {
+          "ar": "وَرِثَ",
+          "answers": [ "to inherit", "inherit", "inherited" ],
+          "note": "impf: يَرِثُ | impv: رِثْ | doer: وَارِث | psv: مَوْرُوث | noun: وِرَاثَة",
+          "meaning": "to inherit"
+        },
+        {
+          "ar": "وَزَرَ",
+          "answers": [ "to bear a load", "bear a burden", "bore" ],
+          "note": "impf: يَزِرُ | impv: زِرْ | doer: وَازِر | psv: مَوْزُور | noun: وِزْر",
+          "meaning": "to bear a load"
+        }
+      ]
+    },
+    {
+      "id": "mithal-2",
+      "title": "Mithal (Assimilated) (2)",
+      "page": 28,
+      "set": 22,
+      "words": [
+        {
+          "ar": "وَسِعَ",
+          "answers": [ "to embrace", "comprehend", "encompass" ],
+          "note": "impf: يَسَعُ | impv: سَعْ | doer: وَاسِع | psv: مَوْسُوع | noun: سَعَة",
+          "meaning": "to embrace; to comprehend"
+        },
+        {
+          "ar": "وَصَفَ",
+          "answers": [ "to describe", "describe", "described" ],
+          "note": "impf: يَصِفُ | impv: صِفْ | doer: وَاصِف | psv: مَوْصُوف | noun: وَصْف",
+          "meaning": "to describe; to ascribe"
+        },
+        {
+          "ar": "وَصَلَ",
+          "answers": [ "to join", "join", "joined" ],
+          "note": "impf: يَصِلُ | impv: صِلْ | doer: وَاصِل | psv: مَوْصُول | noun: وَصْل",
+          "meaning": "to join"
+        },
+        {
+          "ar": "وَضَعَ",
+          "answers": [ "to put", "set", "placed" ],
+          "note": "impf: يَضَعُ | impv: ضَعْ | doer: وَاضِع | psv: مَوْضُوع | noun: وَضْع",
+          "meaning": "to put; to set"
+        }
+      ]
+    },
+    {
+      "id": "mithal-3",
+      "title": "Mithal (Assimilated) (3)",
+      "page": 28,
+      "set": 22,
+      "words": [
+        {
+          "ar": "وَعَظَ",
+          "answers": [ "to instruct", "admonish", "admonished" ],
+          "note": "impf: يَعِظُ | impv: عِظْ | doer: وَاعِظ | psv: مَوْعُوظ | noun: وَعْظ",
+          "meaning": "to instruct"
+        },
+        {
+          "ar": "وَقَعَ",
+          "answers": [ "to befall", "occur", "occurred" ],
+          "note": "impf: يَقَعُ | impv: قَعْ | doer: وَاقِع | psv: مَوْقُوع | noun: وُقُوع",
+          "meaning": "to befall, to occur"
+        },
+        {
+          "ar": "وَقٰى",
+          "answers": [ "to protect", "save", "saved" ],
+          "note": "impf: يَقِي | impv: قِ | doer: وَاقٍ | psv: مَوْقِيّ | noun: وِقَايَة",
+          "meaning": "to protect; to save"
+        },
+        {
+          "ar": "وَهَبَ",
+          "answers": [ "to grant", "grant", "granted" ],
+          "note": "impf: يَهَبُ | impv: هَبْ | doer: وَاهِب | psv: مَوْهُوب | noun: وَهْب",
+          "meaning": "to grant"
+        }
+      ]
+    },
+    {
+      "id": "ajwaf-1",
+      "title": "Ajwaf (Hollow) (1)",
+      "page": 29,
+      "set": 23,
+      "words": [
+        {
+          "ar": "قَالَ",
+          "answers": [ "to say", "say", "said" ],
+          "note": "impf: يَقُولُ | impv: قُلْ | doer: قَائِل | psv: مَقُول | noun: قَوْل",
+          "meaning": "to say"
+        },
+        {
+          "ar": "كَانَ",
+          "answers": [ "to be", "be", "was" ],
+          "note": "impf: يَكُونُ | impv: كُنْ | doer: كَائِن | psv: مَكُون | noun: كَوْن",
+          "meaning": "to be"
+        },
+        {
+          "ar": "تَابَ",
+          "answers": [ "to repent", "repent", "repented" ],
+          "note": "impf: يَتُوبُ | impv: تُبْ | doer: تَائِب | psv: مَتُوب | noun: تَوْبَة",
+          "meaning": "to repent"
+        },
+        {
+          "ar": "خَافَ",
+          "answers": [ "to be afraid", "fear", "feared" ],
+          "note": "impf: يَخَافُ | impv: خَفْ | doer: خَائِف | psv: مَخُوف | noun: خَوْف",
+          "meaning": "to be afraid"
+        },
+        {
+          "ar": "ذَاقَ",
+          "answers": [ "to taste", "taste", "tasted" ],
+          "note": "impf: يَذُوقُ | impv: ذُقْ | doer: ذَائِق | psv: مَذُوق | noun: ذَوْق",
+          "meaning": "to taste"
+        }
+      ]
+    },
+    {
+      "id": "ajwaf-2",
+      "title": "Ajwaf (Hollow) (2)",
+      "page": 29,
+      "set": 23,
+      "words": [
+        {
+          "ar": "زَادَ",
+          "answers": [ "to increase", "increase", "increased" ],
+          "note": "impf: يَزِيدُ | impv: زِدْ | doer: زَائِد | psv: مَزُود | noun: زِيَادَة",
+          "meaning": "to increase"
+        },
+        {
+          "ar": "سَارَ",
+          "answers": [ "to travel", "travel", "traveled" ],
+          "note": "impf: يَسِيرُ | impv: سِرْ | doer: سَائِر | noun: سَيْر",
+          "meaning": "to travel"
+        },
+        {
+          "ar": "فَازَ",
+          "answers": [ "to succeed", "succeed", "succeeded" ],
+          "note": "impf: يَفُوزُ | impv: فُزْ | doer: فَائِز | psv: مَفُوز | noun: فَوْز",
+          "meaning": "to succeed; to gain victory"
+        },
+        {
+          "ar": "قَامَ",
+          "answers": [ "to stand up", "stand", "stood" ],
+          "note": "impf: يَقُومُ | impv: قُمْ | doer: قَائِم | noun: قِيَام، قَوْمَة",
+          "meaning": "to stand up; to raise"
+        }
+      ]
+    },
+    {
+      "id": "ajwaf-3",
+      "title": "Ajwaf (Hollow) (3)",
+      "page": 29,
+      "set": 23,
+      "words": [
+        {
+          "ar": "كَادَ",
+          "answers": [ "to be close to", "be near", "nearly" ],
+          "note": "impf: يَكَادُ | impv: كَدْ | doer: كَائِد | noun: كَوْد",
+          "meaning": "to become nigh; to be close to"
+        },
+        {
+          "ar": "كَادَ",
+          "answers": [ "to plot", "plot", "plotted" ],
+          "note": "impf: يَكِيدُ | impv: كِدْ | doer: كَائِد | psv: مَكِيد | noun: كَيْد",
+          "meaning": "to plot against"
+        },
+        {
+          "ar": "مَاتَ",
+          "answers": [ "to die", "die", "died" ],
+          "note": "impf: يَمُوتُ | impv: مُتْ | doer: مَائِت | noun: مَوْت",
+          "meaning": "to die"
+        },
+        {
+          "ar": "نَالَ",
+          "answers": [ "to reach", "attain", "attained" ],
+          "note": "impf: يَنَالُ | impv: نَلْ | doer: نَائِل | psv: مَنُول | noun: نَيْل",
+          "meaning": "to reach, to attain"
+        }
+      ]
+    },
+    {
+      "id": "naqis-1",
+      "title": "Naqis (Defective) (1)",
+      "page": 30,
+      "set": 24,
+      "words": [
+        {
+          "ar": "دَعَا",
+          "answers": [ "to call", "pray", "prayed" ],
+          "note": "impf: يَدْعُو | impv: اُدْعُ | doer: دَاعٍ | psv: مَدْعُوّ | noun: دُعَاء",
+          "meaning": "to call; to pray"
+        },
+        {
+          "ar": "بَغٰى",
+          "answers": [ "to want", "seek", "sought" ],
+          "note": "impf: يَبْغِي | impv: اِبْغِ | doer: بَاغٍ | psv: مَبْغِيّ | noun: بُغْي",
+          "meaning": "to want, to seek"
+        },
+        {
+          "ar": "تَلَا",
+          "answers": [ "to recite", "recite", "recited" ],
+          "note": "impf: يَتْلُو | impv: اُتْلُ | doer: تَالٍ | psv: مَتْلُوّ | noun: تِلَاوَة",
+          "meaning": "to recite"
+        },
+        {
+          "ar": "جَرٰى",
+          "answers": [ "to flow", "flow", "flowed" ],
+          "note": "impf: يَجْرِي | impv: اِجْرِ | doer: جَارٍ | psv: مَجْرِيّ | noun: جَرَيَان",
+          "meaning": "to flow"
+        },
+        {
+          "ar": "جَزٰى",
+          "answers": [ "to reward", "reward", "rewarded" ],
+          "note": "impf: يَجْزِي | impv: اِجْزِ | doer: جَازٍ | psv: مَجْزِيّ | noun: جَزَاء",
+          "meaning": "to reward"
+        }
+      ]
+    },
+    {
+      "id": "naqis-2",
+      "title": "Naqis (Defective) (2)",
+      "page": 30,
+      "set": 24,
+      "words": [
+        {
+          "ar": "خَشِيَ",
+          "answers": [ "to fear", "fear", "feared" ],
+          "note": "impf: يَخْشٰى | impv: اِخْشَ | doer: خَاشٍ | psv: مَخْشِيّ | noun: خَشْيَة",
+          "meaning": "to fear"
+        },
+        {
+          "ar": "رَجَا",
+          "answers": [ "to hope", "hope", "hoped" ],
+          "note": "impf: يَرْجُو | impv: اُرْجُ | doer: رَاجٍ | psv: مَرْجُوّ | noun: رَجَاء",
+          "meaning": "to hope"
+        },
+        {
+          "ar": "رَضِيَ",
+          "answers": [ "to be satisfied", "be content", "pleased" ],
+          "note": "impf: يَرْضٰى | impv: اِرْضَ | doer: رَاضٍ | psv: مَرْضِيّ | noun: رِضْوَان",
+          "meaning": "to be satisfied, to be content"
+        },
+        {
+          "ar": "عَفَا",
+          "answers": [ "to forgive", "forgive", "forgave" ],
+          "note": "impf: يَعْفُو | impv: اُعْفُ | doer: عَافٍ | psv: مَعْفُوّ | noun: عَفْو",
+          "meaning": "to forgive; to increase"
+        }
+      ]
+    },
+    {
+      "id": "naqis-3",
+      "title": "Naqis (Defective) (3)",
+      "page": 30,
+      "set": 24,
+      "words": [
+        {
+          "ar": "قَضٰى",
+          "answers": [ "to decree", "fulfil", "decreed" ],
+          "note": "impf: يَقْضِي | impv: اِقْضِ | doer: قَاضٍ | psv: مَقْضِيّ | noun: قَضَاء",
+          "meaning": "to decree; to fulfil"
+        },
+        {
+          "ar": "كَفٰى",
+          "answers": [ "to suffice", "suffice", "sufficed" ],
+          "note": "impf: يَكْفِي | impv: اِكْفِ | doer: كَافٍ | psv: مَكْفِيّ | noun: كِفَايَة",
+          "meaning": "to suffice"
+        },
+        {
+          "ar": "نَسِيَ",
+          "answers": [ "to forget", "forget", "forgot" ],
+          "note": "impf: يَنْسٰى | impv: اِنْسَ | doer: نَاسٍ | psv: مَنْسِيّ | noun: نِسْيَان",
+          "meaning": "to forget"
+        },
+        {
+          "ar": "هَدٰى",
+          "answers": [ "to guide", "guide", "guided" ],
+          "note": "impf: يَهْدِي | impv: اِهْدِ | doer: هَادٍ | psv: مَهْدِيّ | noun: هِدَايَة",
+          "meaning": "to guide; to direct"
+        }
+      ]
+    },
+    {
+      "id": "mahmuz-1",
+      "title": "Mahmuz (Hamzated) (1)",
+      "page": 31,
+      "set": 25,
+      "words": [
+        {
+          "ar": "أَمَرَ",
+          "answers": [ "to command", "command", "commanded" ],
+          "note": "impf: يَأْمُرُ | impv: مُرْ | doer: آمِر | psv: مَأْمُور | noun: أَمْر",
+          "meaning": "to command"
+        },
+        {
+          "ar": "أَبٰى",
+          "answers": [ "to refuse", "refuse", "refused" ],
+          "note": "impf: يَأْبٰى | impv: اِئْبَ | doer: آبٍ | psv: مَأْبِيّ | noun: إِبَاء",
+          "meaning": "to refuse"
+        },
+        {
+          "ar": "أَتٰى",
+          "answers": [ "to come", "come", "came" ],
+          "note": "impf: يَأْتِي | impv: اِئْتِ | doer: آتٍ | psv: مَأْتِيّ | noun: إِتْيَان",
+          "meaning": "to come"
+        },
+        {
+          "ar": "أَخَذَ",
+          "answers": [ "to take", "take", "took" ],
+          "note": "impf: يَأْخُذُ | impv: خُذْ | doer: آخِذ | psv: مَأْخُوذ | noun: أَخْذ",
+          "meaning": "to take; to catch"
+        },
+        {
+          "ar": "أَكَلَ",
+          "answers": [ "to eat", "eat", "ate" ],
+          "note": "impf: يَأْكُلُ | impv: كُلْ | doer: آكِل | psv: مَأْكُول | noun: أَكْل",
+          "meaning": "to eat"
+        }
+      ]
+    },
+    {
+      "id": "mahmuz-2",
+      "title": "Mahmuz (Hamzated) (2)",
+      "page": 31,
+      "set": 25,
+      "words": [
+        {
+          "ar": "أَمِنَ",
+          "answers": [ "to be safe", "feel safe", "trust" ],
+          "note": "impf: يَأْمَنُ | impv: اِئْمَنْ | doer: آمِن | psv: مَأْمُون | noun: أَمْن",
+          "meaning": "to be safe; to feel safe; to trust"
+        },
+        {
+          "ar": "بَدَأَ",
+          "answers": [ "to begin", "begin", "began" ],
+          "note": "impf: يَبْدَأُ | impv: اِبْدَأْ | doer: بَادِئ | psv: مَبْدُوء | noun: بِدَايَة",
+          "meaning": "to begin"
+        },
+        {
+          "ar": "جَاءَ",
+          "answers": [ "to come", "come", "came" ],
+          "note": "impf: يَجِيءُ | impv: جِئْ | doer: جَاءٍ | noun: مَجِيء",
+          "meaning": "to come"
+        },
+        {
+          "ar": "رَأٰى",
+          "answers": [ "to see", "see", "saw" ],
+          "note": "impf: يَرٰى | impv: رَ | doer: رَاءٍ | psv: مَرْئِيّ | noun: رَأْي",
+          "meaning": "to see"
+        }
+      ]
+    },
+    {
+      "id": "mahmuz-3",
+      "title": "Mahmuz (Hamzated) (3)",
+      "page": 31,
+      "set": 25,
+      "words": [
+        {
+          "ar": "سَاءَ",
+          "answers": [ "to be evil", "be evil", "was evil" ],
+          "note": "impf: يَسُوءُ | impv: سُؤْ | doer: سَاوِئ | noun: سَوْء",
+          "meaning": "to be evil"
+        },
+        {
+          "ar": "سَأَلَ",
+          "answers": [ "to ask", "ask", "asked" ],
+          "note": "impf: يَسْأَلُ | impv: سَلْ | doer: سَائِل | psv: مَسْئُول | noun: سُؤَال",
+          "meaning": "to ask"
+        },
+        {
+          "ar": "شَاءَ",
+          "answers": [ "to will", "wish", "wished" ],
+          "note": "impf: يَشَاءُ | impv: شَأْ | doer: شَاءٍ | psv: مَشِيء | noun: مَشِيئَة",
+          "meaning": "to will, to wish"
+        },
+        {
+          "ar": "قَرَأَ",
+          "answers": [ "to read", "read", "recite" ],
+          "note": "impf: يَقْرَأُ | impv: اِقْرَأْ | doer: قَارِئ | psv: مَقْرُوء | noun: قِرَاءَة",
+          "meaning": "to read; to recite"
+        }
+      ]
+    },
+    {
+      "id": "fa-ala-form-ii-1",
+      "title": "Form II: fa''ala (1)",
+      "page": 32,
+      "set": 26,
+      "words": [
+        {
+          "ar": "بَدَّلَ",
+          "answers": [ "to change", "change", "changed" ],
+          "note": "impf: يُبَدِّلُ | impv: بَدِّلْ | doer: مُبَدِّل | psv: مُبَدَّل | noun: تَبْدِيل",
+          "meaning": "to change"
+        },
+        {
+          "ar": "بَشَّرَ",
+          "answers": [ "to give good news", "give glad tidings", "bring good news" ],
+          "note": "impf: يُبَشِّرُ | impv: بَشِّرْ | doer: مُبَشِّر | psv: مُبَشَّر | noun: تَبْشِير",
+          "meaning": "to give good news"
+        },
+        {
+          "ar": "بَيَّنَ",
+          "answers": [ "to make clear", "clarify", "clarified" ],
+          "note": "impf: يُبَيِّنُ | impv: بَيِّنْ | doer: مُبَيِّن | psv: مُبَيَّن | noun: تَبْيِين",
+          "meaning": "to make clear"
+        },
+        {
+          "ar": "حَرَّمَ",
+          "answers": [ "to forbid", "forbid", "forbidden" ],
+          "note": "impf: يُحَرِّمُ | impv: حَرِّمْ | doer: مُحَرِّم | psv: مُحَرَّم | noun: تَحْرِيم",
+          "meaning": "forbidden"
+        }
+      ]
+    },
+    {
+      "id": "fa-ala-form-ii-2",
+      "title": "Form II: fa''ala (2)",
+      "page": 32,
+      "set": 26,
+      "words": [
+        {
+          "ar": "ذَكَّرَ",
+          "answers": [ "to remind", "remind", "reminder" ],
+          "note": "impf: يُذَكِّرُ | impv: ذَكِّرْ | doer: مُذَكِّر | psv: مُذَكَّر | noun: تَذْكِير",
+          "meaning": "Reminder"
+        },
+        {
+          "ar": "زَيَّنَ",
+          "answers": [ "to adorn", "adorn", "beautify" ],
+          "note": "impf: يُزَيِّنُ | impv: زَيِّنْ | doer: مُزَيِّن | psv: مُزَيَّن | noun: تَزْيِين",
+          "meaning": "to adorn, make something seem fair"
+        },
+        {
+          "ar": "سَبَّحَ",
+          "answers": [ "to glorify", "glorify", "praise" ],
+          "note": "impf: يُسَبِّحُ | impv: سَبِّحْ | doer: مُسَبِّح | psv: مُسَبَّح | noun: تَسْبِيح",
+          "meaning": "to glorify; to praise"
+        },
+        {
+          "ar": "سَخَّرَ",
+          "answers": [ "to bring under control", "subject", "subjugate" ],
+          "note": "impf: يُسَخِّرُ | impv: سَخِّرْ | doer: مُسَخِّر | psv: مُسَخَّر | noun: تَسْخِير",
+          "meaning": "to bring under control"
+        }
+      ]
+    },
+    {
+      "id": "fa-ala-form-ii-3",
+      "title": "Form II: fa''ala (3)",
+      "page": 32,
+      "set": 26,
+      "words": [
+        {
+          "ar": "صَدَّقَ",
+          "answers": [ "to confirm", "believe", "verify" ],
+          "note": "impf: يُصَدِّقُ | impv: صَدِّقْ | doer: مُصَدِّق | psv: مُصَدَّق | noun: تَصْدِيق",
+          "meaning": "to pronounce somebody or something to be true"
+        },
+        {
+          "ar": "طَهَّرَ",
+          "answers": [ "to purify", "purify", "purified" ],
+          "note": "impf: يُطَهِّرُ | impv: طَهِّرْ | doer: مُطَهِّر | psv: مُطَهَّر | noun: تَطْهِير",
+          "meaning": "to purify"
+        },
+        {
+          "ar": "عَذَّبَ",
+          "answers": [ "to punish", "punish", "torment" ],
+          "note": "impf: يُعَذِّبُ | impv: عَذِّبْ | doer: مُعَذِّب | psv: مُعَذَّب | noun: تَعْذِيب",
+          "meaning": "to punish; to torment"
+        },
+        {
+          "ar": "عَلَّمَ",
+          "answers": [ "to teach", "teach", "taught" ],
+          "note": "impf: يُعَلِّمُ | impv: عَلِّمْ | doer: مُعَلِّم | psv: مُعَلَّم | noun: تَعْلِيم",
+          "meaning": "to teach"
+        }
+      ]
+    },
+    {
+      "id": "fa-ala-form-ii-4",
+      "title": "Form II: fa''ala (4)",
+      "page": 33,
+      "set": 27,
+      "words": [
+        {
+          "ar": "فَصَّلَ",
+          "answers": [ "to explain", "explain", "explained" ],
+          "note": "impf: يُفَصِّلُ | impv: فَصِّلْ | doer: مُفَصِّل | psv: مُفَصَّل | noun: تَفْصِيل",
+          "meaning": "to explain"
+        },
+        {
+          "ar": "قَدَّمَ",
+          "answers": [ "to send forward", "send forward", "sent forward" ],
+          "note": "impf: يُقَدِّمُ | impv: قَدِّمْ | doer: مُقَدِّم | psv: مُقَدَّم | noun: تَقْدِيم",
+          "meaning": "to send forward"
+        },
+        {
+          "ar": "قَدَّرَ",
+          "answers": [ "to ordain", "ordain", "ordained" ],
+          "note": "impf: يُقَدِّرُ | impv: قَدِّرْ | doer: مُقَدِّر | psv: مُقَدَّر | noun: تَقْدِير",
+          "meaning": "to ordain"
+        },
+        {
+          "ar": "كَذَّبَ",
+          "answers": [ "to deny", "deny", "denied" ],
+          "note": "impf: يُكَذِّبُ | impv: كَذِّبْ | doer: مُكَذِّب | psv: مُكَذَّب | noun: تَكْذِيب",
+          "meaning": "to accuse somebody or something of falsehood"
+        }
+      ]
+    },
+    {
+      "id": "fa-ala-form-ii-5",
+      "title": "Form II: fa''ala (5)",
+      "page": 33,
+      "set": 27,
+      "words": [
+        {
+          "ar": "كَفَّرَ",
+          "answers": [ "to expiate", "falsify", "expiated" ],
+          "note": "impf: يُكَفِّرُ | impv: كَفِّرْ | doer: مُكَفِّر | psv: مُكَفَّر | noun: تَكْفِير",
+          "meaning": "to falsify"
+        },
+        {
+          "ar": "كَلَّمَ",
+          "answers": [ "to speak", "speak", "spoke" ],
+          "note": "impf: يُكَلِّمُ | impv: كَلِّمْ | doer: مُكَلِّم | psv: مُكَلَّم | noun: تَكْلِيم",
+          "meaning": "to speak"
+        },
+        {
+          "ar": "مَتَّعَ",
+          "answers": [ "to provide enjoyment", "grant enjoyment", "provide" ],
+          "note": "impf: يُمَتِّعُ | impv: مَتِّعْ | doer: مُمَتِّع | psv: مُمَتَّع | noun: تَمْتِيع",
+          "meaning": "to provide for enjoyment"
+        },
+        {
+          "ar": "نَبَّأَ",
+          "answers": [ "to inform", "inform", "declared" ],
+          "note": "impf: يُنَبِّئُ | impv: نَبِّئْ | doer: مُنَبِّئ | psv: مُنَبَّأ | noun: تَنْبِئَة",
+          "meaning": "to declare; to apprise"
+        }
+      ]
+    },
+    {
+      "id": "fa-ala-form-ii-6",
+      "title": "Form II: fa''ala (6)",
+      "page": 33,
+      "set": 27,
+      "words": [
+        {
+          "ar": "نَجَّى",
+          "answers": [ "to deliver", "rescue", "saved" ],
+          "note": "impf: يُنَجِّي | impv: نَجِّ | doer: مُنَجٍّ | psv: مُنَجًّى | noun: تَنْجِيَة",
+          "meaning": "to deliver; to rescue"
+        },
+        {
+          "ar": "نَزَّلَ",
+          "answers": [ "to send down", "send down", "sent down" ],
+          "note": "impf: يُنَزِّلُ | impv: نَزِّلْ | doer: مُنَزِّل | psv: مُنَزَّل | noun: تَنْزِيل",
+          "meaning": "to send down"
+        },
+        {
+          "ar": "وَفَّى",
+          "answers": [ "to pay in full", "pay in full", "repaid" ],
+          "note": "impf: يُوَفِّي | impv: وَفِّ | doer: مُوَفٍّ | psv: مُوَفًّى | noun: تَوْفِيَة",
+          "meaning": "to pay in full"
+        },
+        {
+          "ar": "وَلَّى",
+          "answers": [ "to turn", "turn", "turned" ],
+          "note": "impf: يُوَلِّي | impv: وَلِّ | doer: مُوَفٍّ | psv: مُوَلًّى | noun: تَوْلِيَة",
+          "meaning": "to turn"
+        }
+      ]
+    },
+    {
+      "id": "fa-ala-form-iii-1",
+      "title": "Form III: faa'ala (1)",
+      "page": 34,
+      "set": 28,
+      "words": [
+        {
+          "ar": "بٰرَكَ",
+          "answers": [ "to bless", "bless", "blessed" ],
+          "note": "impf: يُبٰرِكُ | impv: بٰرِكْ | doer: مُبٰرِك | psv: مُبٰرَك | noun: مُبٰرَكَة",
+          "meaning": "to bless"
+        },
+        {
+          "ar": "جَادَلَ",
+          "answers": [ "to argue", "argue", "dispute" ],
+          "note": "impf: يُجَادِلُ | impv: جَادِلْ | doer: مُجَادِل | psv: مُجَادَل | noun: جِدَال",
+          "meaning": "to argue"
+        },
+        {
+          "ar": "جَاهَدَ",
+          "answers": [ "to strive", "struggle", "strived" ],
+          "note": "impf: يُجَاهِدُ | impv: جَاهِدْ | doer: مُجَاهِد | psv: مُجَاهَد | noun: جِهَاد",
+          "meaning": "to struggle; to strive"
+        },
+        {
+          "ar": "حَاسَبَ",
+          "answers": [ "to account", "account", "take to account" ],
+          "note": "impf: يُحَاسِبُ | impv: حَاسِبْ | doer: مُحَاسِب | psv: مُحَاسَب | noun: حِسَاب",
+          "meaning": "to account"
+        }
+      ]
+    },
+    {
+      "id": "fa-ala-form-iii-2",
+      "title": "Form III: faa'ala (2)",
+      "page": 34,
+      "set": 28,
+      "words": [
+        {
+          "ar": "شَاقَّ",
+          "answers": [ "to oppose", "oppose", "opposed" ],
+          "note": "impf: يُشَاقُّ | impv: شَاقِقْ | doer: مُشَاقّ | psv: مُشَاقّ | noun: شِقَاق",
+          "meaning": "to appose"
+        },
+        {
+          "ar": "ضَاعَفَ",
+          "answers": [ "to multiply", "multiply", "multiplied" ],
+          "note": "impf: يُضَاعِفُ | impv: ضَاعِفْ | doer: مُضَاعِف | psv: مُضَاعَف | noun: مُضَاعَفَة",
+          "meaning": "to multiply"
+        },
+        {
+          "ar": "قَاتَلَ",
+          "answers": [ "to fight", "fight", "fought" ],
+          "note": "impf: يُقَاتِلُ | impv: قَاتِلْ | doer: مُقَاتِل | psv: مُقَاتَل | noun: قِتَال",
+          "meaning": "to fight"
+        },
+        {
+          "ar": "لَاقٰى",
+          "answers": [ "to meet", "meet", "met" ],
+          "note": "impf: يُلَاقِي | impv: لَاقِ | doer: مُلَاقٍ | psv: مُلَاقًى | noun: لِقَاء",
+          "meaning": "to meet"
+        }
+      ]
+    },
+    {
+      "id": "fa-ala-form-iii-3",
+      "title": "Form III: faa'ala (3)",
+      "page": 34,
+      "set": 28,
+      "words": [
+        {
+          "ar": "نَادٰى",
+          "answers": [ "to call out", "call out", "called out" ],
+          "note": "impf: يُنَادِي | impv: نَادِ | doer: مُنَادٍ | psv: مُنَادًى | noun: نِدَاء",
+          "meaning": "to call out; to cry unto"
+        },
+        {
+          "ar": "نَافَقَ",
+          "answers": [ "to act hypocritically", "be a hypocrite", "pretend" ],
+          "note": "impf: يُنَافِقُ | impv: نَافِقْ | doer: مُنَافِق | psv: مُنَافَق | noun: نِفَاق",
+          "meaning": "to play hypocrisy"
+        },
+        {
+          "ar": "هَاجَرَ",
+          "answers": [ "to migrate", "migrate", "emigrated" ],
+          "note": "impf: يُهَاجِرُ | impv: هَاجِرْ | doer: مُهَاجِر | psv: مُهَاجَر | noun: مُهَاجَرَة، هِجْرَة",
+          "meaning": "to migrate"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-1",
+      "title": "Form IV: af'ala (1)",
+      "page": 35,
+      "set": 29,
+      "words": [
+        {
+          "ar": "آمَنَ",
+          "answers": [ "to believe", "believe", "believed" ],
+          "note": "impf: يُؤْمِنُ | impv: آمِنْ | doer: مُؤْمِن | psv: مُؤْمَن | noun: إِيمَان",
+          "meaning": "to believe"
+        },
+        {
+          "ar": "أَبْصَرَ",
+          "answers": [ "to see", "watch", "saw" ],
+          "note": "impf: يُبْصِرُ | impv: أَبْصِرْ | doer: مُبْصِر | psv: مُبْصَر | noun: إِبْصَار",
+          "meaning": "to see; to watch"
+        },
+        {
+          "ar": "أَحْسَنَ",
+          "answers": [ "to do good", "do good", "did good" ],
+          "note": "impf: يُحْسِنُ | impv: أَحْسِنْ | doer: مُحْسِن | psv: مُحْسَن | noun: إِحْسَان",
+          "meaning": "to do good; to do excellently"
+        },
+        {
+          "ar": "أَخْرَجَ",
+          "answers": [ "to bring forth", "bring forth", "brought forth" ],
+          "note": "impf: يُخْرِجُ | impv: أَخْرِجْ | doer: مُخْرِج | psv: مُخْرَج | noun: إِخْرَاج",
+          "meaning": "to bring forth"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-2",
+      "title": "Form IV: af'ala (2)",
+      "page": 35,
+      "set": 29,
+      "words": [
+        {
+          "ar": "أَخْلَصَ",
+          "answers": [ "to be sincere", "purify", "purified" ],
+          "note": "impf: يُخْلِصُ | impv: أَخْلِصْ | doer: مُخْلِص | psv: مُخْلَص | noun: إِخْلَاص",
+          "meaning": "to be sincere; purify"
+        },
+        {
+          "ar": "أَدْخَلَ",
+          "answers": [ "to admit", "make enter", "admitted" ],
+          "note": "impf: يُدْخِلُ | impv: أَدْخِلْ | doer: مُدْخِل | psv: مُدْخَل | noun: إِدْخَال",
+          "meaning": "to make somebody or something enter"
+        },
+        {
+          "ar": "أَرْسَلَ",
+          "answers": [ "to send", "send", "sent" ],
+          "note": "impf: يُرْسِلُ | impv: أَرْسِلْ | doer: مُرْسِل | psv: مُرْسَل | noun: إِرْسَال",
+          "meaning": "to send"
+        },
+        {
+          "ar": "أَسْرَفَ",
+          "answers": [ "to exceed", "be extravagant", "waste" ],
+          "note": "impf: يُسْرِفُ | impv: أَسْرِفْ | doer: مُسْرِف | psv: مُسْرَف | noun: إِسْرَاف",
+          "meaning": "to exceed; to be extravagant"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-3",
+      "title": "Form IV: af'ala (3)",
+      "page": 35,
+      "set": 29,
+      "words": [
+        {
+          "ar": "أَسْلَمَ",
+          "answers": [ "to submit", "surrender", "submitted" ],
+          "note": "impf: يُسْلِمُ | impv: أَسْلِمْ | doer: مُسْلِم | psv: مُسْلَم | noun: إِسْلَام",
+          "meaning": "to submit; to surrender"
+        },
+        {
+          "ar": "أَشْرَكَ",
+          "answers": [ "to associate partners", "ascribe partners", "polytheism" ],
+          "note": "impf: يُشْرِكُ | impv: أَشْرِكْ | doer: مُشْرِك | psv: مُشْرَك | noun: إِشْرَاك",
+          "meaning": "to ascribe a partner"
+        },
+        {
+          "ar": "أَصْبَحَ",
+          "answers": [ "to become", "become", "became" ],
+          "note": "impf: يُصْبِحُ | impv: أَصْبِحْ | doer: مُصْبِح | psv: مُصْبَح | noun: إِصْبَاح",
+          "meaning": "to become"
+        },
+        {
+          "ar": "أَصْلَحَ",
+          "answers": [ "to reform", "make good", "repaired" ],
+          "note": "impf: يُصْلِحُ | impv: أَصْلِحْ | doer: مُصْلِح | psv: مُصْلَح | noun: إِصْلَاح",
+          "meaning": "to become good; to make good"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-4",
+      "title": "Form IV: af'ala (4)",
+      "page": 36,
+      "set": 30,
+      "words": [
+        {
+          "ar": "أَعْرَضَ",
+          "answers": [ "to turn away", "turn away", "turned away" ],
+          "note": "impf: يُعْرِضُ | impv: أَعْرِضْ | doer: مُعْرِض | psv: مُعْرَض | noun: إِعْرَاض",
+          "meaning": "to turn away; to backslide"
+        },
+        {
+          "ar": "أَغْرَقَ",
+          "answers": [ "to drown", "drown", "drowned" ],
+          "note": "impf: يُغْرِقُ | impv: أَغْرِقْ | doer: مُغْرِق | psv: مُغْرَق | noun: إِغْرَاق",
+          "meaning": "to make someone drown"
+        },
+        {
+          "ar": "أَفْسَدَ",
+          "answers": [ "to cause corruption", "spread corruption", "corrupt" ],
+          "note": "impf: يُفْسِدُ | impv: أَفْسِدْ | doer: مُفْسِد | psv: مُفْسَد | noun: إِفْسَاد",
+          "meaning": "to spread corruption"
+        },
+        {
+          "ar": "أَفْلَحَ",
+          "answers": [ "to succeed", "be successful", "prosper" ],
+          "note": "impf: يُفْلِحُ | impv: أَفْلِحْ | doer: مُفْلِح | psv: مُفْلَح | noun: إِفْلَاح",
+          "meaning": "to be successful"
+        },
+        {
+          "ar": "أَقْسَمَ",
+          "answers": [ "to swear", "swear", "swore" ],
+          "note": "impf: يُقْسِمُ | impv: أَقْسِمْ | doer: مُقْسِم | psv: مُقْسَم | noun: إِقْسَام",
+          "meaning": "to swear"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-5",
+      "title": "Form IV: af'ala (5)",
+      "page": 36,
+      "set": 30,
+      "words": [
+        {
+          "ar": "أَمْسَكَ",
+          "answers": [ "to hold", "hold", "withhold" ],
+          "note": "impf: يُمْسِكُ | impv: أَمْسِكْ | doer: مُمْسِك | psv: مُمْسَك | noun: إِمْسَاك",
+          "meaning": "to hold"
+        },
+        {
+          "ar": "أَنْبَتَ",
+          "answers": [ "to grow", "cause to grow", "grow" ],
+          "note": "impf: يُنْبِتُ | impv: أَنْبِتْ | doer: مُنْبِت | psv: مُنْبَت | noun: إِنْبَات",
+          "meaning": "to make something grow; to cause to grow"
+        },
+        {
+          "ar": "أَنْذَرَ",
+          "answers": [ "to warn", "warn", "warned" ],
+          "note": "impf: يُنْذِرُ | impv: أَنْذِرْ | doer: مُنْذِر | psv: مُنْذَر | noun: إِنْذَار",
+          "meaning": "to warn"
+        },
+        {
+          "ar": "أَنْزَلَ",
+          "answers": [ "to send down", "reveal", "revealed" ],
+          "note": "impf: يُنْزِلُ | impv: أَنْزِلْ | doer: مُنْزِل | psv: مُنْزَل | noun: إِنْزَال",
+          "meaning": "to send down; to reveal"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-6",
+      "title": "Form IV: af'ala (6)",
+      "page": 36,
+      "set": 30,
+      "words": [
+        {
+          "ar": "أَنْشَأَ",
+          "answers": [ "to produce", "create", "originate" ],
+          "note": "impf: يُنْشِئُ | impv: أَنْشِئْ | doer: مُنْشِئ | psv: مُنْشَأ | noun: إِنْشَاء",
+          "meaning": "to produce/ create; to make something grow"
+        },
+        {
+          "ar": "أَنْفَقَ",
+          "answers": [ "to spend", "spend", "spent" ],
+          "note": "impf: يُنْفِقُ | impv: أَنْفِقْ | doer: مُنْفِق | psv: مُنْفَق | noun: إِنْفَاق",
+          "meaning": "to spend"
+        },
+        {
+          "ar": "أَنْكَرَ",
+          "answers": [ "to deny", "deny", "disapprove" ],
+          "note": "impf: يُنْكِرُ | impv: أَنْكِرْ | doer: مُنْكِر | psv: مُنْكَر | noun: إِنْكَار",
+          "meaning": "to deny; to not recognize"
+        },
+        {
+          "ar": "أَهْلَكَ",
+          "answers": [ "to destroy", "destroy", "destroyed" ],
+          "note": "impf: يُهْلِكُ | impv: أَهْلِكْ | doer: مُهْلِك | psv: مُهْلَك | noun: إِهْلَاك",
+          "meaning": "to destroy"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-7",
+      "title": "Form IV: af'ala (7)",
+      "page": 37,
+      "set": 31,
+      "words": [
+        {
+          "ar": "أَثَارَ",
+          "answers": [ "to raise", "plough", "raised" ],
+          "note": "impf: يُثِيرُ | impv: أَثِرْ | doer: مُثِير | psv: مُثَار | noun: إِثَارَة",
+          "meaning": "to plough, to raise"
+        },
+        {
+          "ar": "أَجَابَ",
+          "answers": [ "to respond", "respond", "answered" ],
+          "note": "impf: يُجِيبُ | impv: أَجِبْ | doer: مُجِيب | psv: مُجَاب | noun: إِجَابَة",
+          "meaning": "to respond"
+        },
+        {
+          "ar": "أَجَارَ",
+          "answers": [ "to protect", "protect", "grant asylum" ],
+          "note": "impf: يُجِيرُ | impv: أَجِرْ | doer: مُجِير | psv: مُجَار | noun: إِجَارَة",
+          "meaning": "to protect"
+        },
+        {
+          "ar": "أَحَاطَ",
+          "answers": [ "to encompass", "encompass", "surround" ],
+          "note": "impf: يُحِيطُ | impv: أَحِطْ | doer: مُحِيط | psv: مُحَاط | noun: إِحَاطَة",
+          "meaning": "to encompass"
+        },
+        {
+          "ar": "أَذَاقَ",
+          "answers": [ "to make taste", "give a taste", "taste" ],
+          "note": "impf: يُذِيقُ | impv: أَذِقْ | doer: مُذِيق | psv: مُذَاق | noun: إِذَاقَة",
+          "meaning": "to make somebody taste"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-8",
+      "title": "Form IV: af'ala (8)",
+      "page": 37,
+      "set": 31,
+      "words": [
+        {
+          "ar": "أَرَادَ",
+          "answers": [ "to intend", "wish", "want" ],
+          "note": "impf: يُرِيدُ | impv: أَرِدْ | doer: مُرِيد | psv: مُرَاد | noun: إِرَادَة",
+          "meaning": "to intend; to wish"
+        },
+        {
+          "ar": "أَصَابَ",
+          "answers": [ "to strike", "befall", "inflict" ],
+          "note": "impf: يُصِيبُ | impv: أَصِبْ | doer: مُصِيب | psv: مُصَاب | noun: إِصَابَة",
+          "meaning": "to befall; to inflict"
+        },
+        {
+          "ar": "أَطَاعَ",
+          "answers": [ "to obey", "obey", "obeyed" ],
+          "note": "impf: يُطِيعُ | impv: أَطِعْ | doer: مُطِيع | psv: مُطَاع | noun: إِطَاعَة",
+          "meaning": "to obey"
+        },
+        {
+          "ar": "أَعَادَ",
+          "answers": [ "to return", "repeat", "restore" ],
+          "note": "impf: يُعِيدُ | impv: أَعِدْ | doer: مُعِيد | psv: مُعَاد | noun: إِعَادَة",
+          "meaning": "to return"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-9",
+      "title": "Form IV: af'ala (9)",
+      "page": 37,
+      "set": 31,
+      "words": [
+        {
+          "ar": "أَقَامَ",
+          "answers": [ "to establish", "establish", "set upright" ],
+          "note": "impf: يُقِيمُ | impv: أَقِمْ | doer: مُقِيم | psv: مُقَام | noun: إِقَامَة",
+          "meaning": "to establish; to set upright"
+        },
+        {
+          "ar": "أَمَاتَ",
+          "answers": [ "to cause to die", "cause death", "put to death" ],
+          "note": "impf: يُمِيتُ | impv: أَمِتْ | doer: مُمِيت | psv: مُمَات | noun: إِمَاتَة",
+          "meaning": "to cause someone to die"
+        },
+        {
+          "ar": "أَنَابَ",
+          "answers": [ "to turn in repentance", "turn", "repent" ],
+          "note": "impf: يُنِيبُ | impv: أَنِبْ | doer: مُنِيب | psv: مُنَاب | noun: إِنَابَة",
+          "meaning": "to turn"
+        },
+        {
+          "ar": "أَهَانَ",
+          "answers": [ "to humiliate", "humiliate", "disgrace" ],
+          "note": "impf: يُهِينُ | impv: أَهِنْ | doer: مُهِين | psv: مُهَان | noun: إِهَانَة",
+          "meaning": "to humiliate"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-10",
+      "title": "Form IV: af'ala (10)",
+      "page": 38,
+      "set": 32,
+      "words": [
+        {
+          "ar": "آتٰى",
+          "answers": [ "to give", "give", "gave" ],
+          "note": "impf: يُؤْتِي | impv: آتِ | doer: مُؤْتٍ | psv: مُؤْتًى | noun: إِيتَاء",
+          "meaning": "to give"
+        },
+        {
+          "ar": "آذٰى",
+          "answers": [ "to harm", "annoy", "harmed" ],
+          "note": "impf: يُؤْذِي | impv: آذِ | doer: مُؤْذٍ | psv: مُؤْذًى | noun: إِيذَاء",
+          "meaning": "to give trouble; to harm; to annoy"
+        },
+        {
+          "ar": "أَبْدٰى",
+          "answers": [ "to reveal", "disclose", "revealed" ],
+          "note": "impf: يُبْدِي | impv: أَبْدِ | doer: مُبْدٍ | psv: مُبْدًى | noun: إِبْدَاء",
+          "meaning": "to reveal, disclose"
+        },
+        {
+          "ar": "أَحْيٰى",
+          "answers": [ "to give life", "give life", "revived" ],
+          "note": "impf: يُحْيِي | impv: أَحْيِ | doer: مُحْيٍ | psv: مُحْيًى | noun: إِحْيَاء",
+          "meaning": "to give life"
+        },
+        {
+          "ar": "أَخْزٰى",
+          "answers": [ "to disgrace", "disgrace", "humiliate" ],
+          "note": "impf: يُخْزِي | impv: أَخْزِ | doer: مُخْزٍ | psv: مُخْزًى | noun: إِخْزَاء",
+          "meaning": "to disgrace"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-11",
+      "title": "Form IV: af'ala (11)",
+      "page": 38,
+      "set": 32,
+      "words": [
+        {
+          "ar": "أَخْفٰى",
+          "answers": [ "to conceal", "hide", "concealed" ],
+          "note": "impf: يُخْفِي | impv: أَخْفِ | doer: مُخْفٍ | psv: مُخْفًى | noun: إِخْفَاء",
+          "meaning": "to conceal"
+        },
+        {
+          "ar": "أَدْرٰى",
+          "answers": [ "to make know", "inform", "know" ],
+          "note": "impf: يُدْرِي | impv: أَدْرِ | doer: مُدْرٍ | psv: مُدْرًى | noun: إِدْرَاء",
+          "meaning": "to know"
+        },
+        {
+          "ar": "أَرٰى",
+          "answers": [ "to show", "show", "showed" ],
+          "note": "impf: يُرِي | impv: أَرِ | doer: مُرٍ | psv: مُرًى | noun: إِرَاءَة",
+          "meaning": "to show"
+        },
+        {
+          "ar": "أَغْنٰى",
+          "answers": [ "to enrich", "avail", "enrich" ],
+          "note": "impf: يُغْنِي | impv: أَغْنِ | doer: مُغْنٍ | psv: مُغْنًى | noun: إِغْنَاء",
+          "meaning": "to enrich"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-12",
+      "title": "Form IV: af'ala (12)",
+      "page": 38,
+      "set": 32,
+      "words": [
+        {
+          "ar": "أَلْقٰى",
+          "answers": [ "to cast", "throw", "cast" ],
+          "note": "impf: يُلْقِي | impv: أَلْقِ | doer: مُلْقٍ | psv: مُلْقًى | noun: إِلْقَاء",
+          "meaning": "to throw; to cast; to place"
+        },
+        {
+          "ar": "أَنْجٰى",
+          "answers": [ "to save", "rescue", "delivered" ],
+          "note": "impf: يُنْجِي | impv: أَنْجِ | doer: مُنْجٍ | psv: مُنْجًى | noun: إِنْجَاء",
+          "meaning": "to rescue; to save; to deliver"
+        },
+        {
+          "ar": "أَوْحٰى",
+          "answers": [ "to reveal", "inspire", "revealed" ],
+          "note": "impf: يُوحِي | impv: أَوْحِ | doer: مُوحٍ | psv: مُوحًى | noun: إِيحَاء",
+          "meaning": "to reveal; to inspire"
+        },
+        {
+          "ar": "أَوْفٰى",
+          "answers": [ "to fulfil", "fulfill", "fulfilled" ],
+          "note": "impf: يُوفِي | impv: أَوْفِ | doer: مُوفٍ | psv: مُوفًى | noun: إِيفَاء",
+          "meaning": "to fulfil"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-13",
+      "title": "Form IV: af'ala (13)",
+      "page": 39,
+      "set": 33,
+      "words": [
+        {
+          "ar": "أَتَمَّ",
+          "answers": [ "to complete", "complete", "completed" ],
+          "note": "impf: يُتِمُّ | impv: أَتْمِمْ | doer: مُتِمّ | psv: مُتَمّ | noun: إِتْمَام",
+          "meaning": "to complete"
+        },
+        {
+          "ar": "أَحَبَّ",
+          "answers": [ "to love", "love", "loved" ],
+          "note": "impf: يُحِبُّ | impv: أَحْبِبْ | doer: مُحِبّ | psv: مُحَبّ | noun: إِحْبَاب",
+          "meaning": "to love"
+        },
+        {
+          "ar": "أَحَلَّ",
+          "answers": [ "to make lawful", "make lawful", "settle" ],
+          "note": "impf: يُحِلُّ | impv: أَحْلِلْ | doer: مُحِلّ | psv: مُحَلّ | noun: إِحْلَال",
+          "meaning": "to make lawful; to cause to dwell"
+        },
+        {
+          "ar": "أَسَرَّ",
+          "answers": [ "to conceal", "keep secret", "secretly" ],
+          "note": "impf: يُسِرُّ | impv: أَسْرِرْ | doer: مُسِرّ | psv: مُسَرّ | noun: إِسْرَار",
+          "meaning": "to conceal; to speak secretly"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-14",
+      "title": "Form IV: af'ala (14)",
+      "page": 39,
+      "set": 33,
+      "words": [
+        {
+          "ar": "أَضَلَّ",
+          "answers": [ "to mislead", "lead astray", "misguided" ],
+          "note": "impf: يُضِلُّ | impv: أَضْلِلْ | doer: مُضِلّ | psv: مُضَلّ | noun: إِضْلَال",
+          "meaning": "to leave in error; to send astray"
+        },
+        {
+          "ar": "أَعَدَّ",
+          "answers": [ "to prepare", "make ready", "prepared" ],
+          "note": "impf: يُعِدُّ | impv: أَعْدِدْ | doer: مُعِدّ | psv: مُعَدّ | noun: إِعْدَاد",
+          "meaning": "to prepare; to make something ready"
+        },
+        {
+          "ar": "أَتْبَعَ",
+          "answers": [ "to follow", "pursue", "followed" ],
+          "note": "impf: يُتْبِعُ | impv: أَتْبِعْ | doer: مُتْبِع | psv: مُتْبَع | noun: إِتْبَاع",
+          "meaning": "to follow"
+        },
+        {
+          "ar": "أَسْمَعَ",
+          "answers": [ "to make hear", "make listen", "caused to hear" ],
+          "note": "impf: يُسْمِعُ | impv: أَسْمِعْ | doer: مُسْمِع | psv: مُسْمَع | noun: إِسْمَاع",
+          "meaning": "to make listen"
+        }
+      ]
+    },
+    {
+      "id": "af-ala-form-iv-15",
+      "title": "Form IV: af'ala (15)",
+      "page": 39,
+      "set": 33,
+      "words": [
+        {
+          "ar": "أَطْعَمَ",
+          "answers": [ "to feed", "feed", "fed" ],
+          "note": "impf: يُطْعِمُ | impv: أَطْعِمْ | doer: مُطْعِم | psv: مُطْعَم | noun: إِطْعَام",
+          "meaning": "to feed"
+        },
+        {
+          "ar": "أَنْظَرَ",
+          "answers": [ "to grant respite", "give respite", "delay" ],
+          "note": "impf: يُنْظِرُ | impv: أَنْظِرْ | doer: مُنْظِر | psv: مُنْظَر | noun: إِنْظَار",
+          "meaning": "to give respite, reprieve"
+        },
+        {
+          "ar": "أَنْعَمَ",
+          "answers": [ "to bestow favor", "favor", "blessed" ],
+          "note": "impf: يُنْعِمُ | impv: أَنْعِمْ | doer: مُنْعِم | psv: مُنْعَم | noun: إِنْعَام",
+          "meaning": "to favor; to bestow grace"
+        },
+        {
+          "ar": "أَيْقَنَ",
+          "answers": [ "to be certain", "be convinced", "firmly believe" ],
+          "note": "impf: يُوقِنُ | impv: أَيْقِنْ | doer: مُوقِن | psv: مُوقَن | noun: إِيقَان",
+          "meaning": "to believe"
+        }
+      ]
+    },
+    {
+      "id": "tafa-ala-form-v-1",
+      "title": "Form V: tafa''ala (1)",
+      "page": 40,
+      "set": 34,
+      "words": [
+        {
+          "ar": "تَفَكَّرَ",
+          "answers": [ "to reflect", "think over", "ponder" ],
+          "note": "impf: يَتَفَكَّرُ | impv: تَفَكَّرْ | doer: مُتَفَكِّر | psv: مُتَفَكَّر | noun: تَفَكُّر",
+          "meaning": "to think over; to reflect"
+        },
+        {
+          "ar": "تَبَيَّنَ",
+          "answers": [ "to become clear", "become clear", "became clear" ],
+          "note": "impf: يَتَبَيَّنُ | impv: تَبَيَّنْ | doer: مُتَبَيِّن | psv: مُتَبَيَّن | noun: تَبَيُّن",
+          "meaning": "to become clear"
+        },
+        {
+          "ar": "تَذَكَّرَ",
+          "answers": [ "to remember", "receive admonition", "take heed" ],
+          "note": "impf: يَتَذَكَّرُ | impv: تَذَكَّرْ | doer: مُتَذَكِّر | psv: مُتَذَكَّر | noun: تَذَكُّر",
+          "meaning": "to receive admonition; to remember"
+        },
+        {
+          "ar": "تَرَبَّصَ",
+          "answers": [ "to wait", "await", "wait and watch" ],
+          "note": "impf: يَتَرَبَّصُ | impv: تَرَبَّصْ | doer: مُتَرَبِّص | psv: مُتَرَبَّص | noun: تَرَبُّص",
+          "meaning": "to wait & watch for opportunity"
+        }
+      ]
+    },
+    {
+      "id": "tafa-ala-form-v-2",
+      "title": "Form V: tafa''ala (2)",
+      "page": 40,
+      "set": 34,
+      "words": [
+        {
+          "ar": "تَصَدَّقَ",
+          "answers": [ "to give charity", "give charity", "charity" ],
+          "note": "impf: يَتَصَدَّقُ | impv: تَصَدَّقْ | doer: مُتَصَدِّق | psv: مُتَصَدَّق | noun: تَصَدُّق",
+          "meaning": "to give charity"
+        },
+        {
+          "ar": "تَفَرَّقَ",
+          "answers": [ "to divide", "become divided", "divided" ],
+          "note": "impf: يَتَفَرَّقُ | impv: تَفَرَّقْ | doer: مُتَفَرِّق | psv: مُتَفَرَّق | noun: تَفَرُّق",
+          "meaning": "to divide"
+        },
+        {
+          "ar": "تَقَبَّلَ",
+          "answers": [ "to accept", "accept", "accepted" ],
+          "note": "impf: يَتَقَبَّلُ | impv: تَقَبَّلْ | doer: مُتَقَبِّل | psv: مُتَقَبَّل | noun: تَقَبُّل",
+          "meaning": "to accept"
+        },
+        {
+          "ar": "تَكَبَّرَ",
+          "answers": [ "to be arrogant", "act arrogantly", "arrogant" ],
+          "note": "impf: يَتَكَبَّرُ | impv: تَكَبَّرْ | doer: مُتَكَبِّر | psv: مُتَكَبَّر | noun: تَكَبُّر",
+          "meaning": "to be arrogant"
+        }
+      ]
+    },
+    {
+      "id": "tafa-ala-form-v-3",
+      "title": "Form V: tafa''ala (3)",
+      "page": 40,
+      "set": 34,
+      "words": [
+        {
+          "ar": "تَمَتَّعَ",
+          "answers": [ "to enjoy", "enjoy", "enjoyed" ],
+          "note": "impf: يَتَمَتَّعُ | impv: تَمَتَّعْ | doer: مُتَمَتِّع | psv: مُتَمَتَّع | noun: تَمَتُّع",
+          "meaning": "to enjoy"
+        },
+        {
+          "ar": "تَوَكَّلَ",
+          "answers": [ "to trust", "put trust", "relied" ],
+          "note": "impf: يَتَوَكَّلُ | impv: تَوَكَّلْ | doer: مُتَوَكِّل | psv: مُتَوَكَّل | noun: تَوَكُّل",
+          "meaning": "to put one's trust"
+        },
+        {
+          "ar": "تَوَفَّى",
+          "answers": [ "to take the soul", "cause to die", "receive in full" ],
+          "note": "impf: يَتَوَفَّى | impv: تَوَفَّ | doer: مُتَوَفٍّ | psv: مُتَوَفًّى | noun: تَوَفٍّ",
+          "meaning": "to make somebody die; to receive in full"
+        },
+        {
+          "ar": "تَوَلَّى",
+          "answers": [ "to turn away", "turn away", "turned away" ],
+          "note": "impf: يَتَوَلَّى | impv: تَوَلَّ | doer: مُتَوَلٍّ | psv: مُتَوَلًّى | noun: تَوَلٍّ",
+          "meaning": "to turn away; to take for friend"
+        }
+      ]
+    },
+    {
+      "id": "tafa-ala-form-vi-1",
+      "title": "Form VI: tafaa'ala (1)",
+      "page": 41,
+      "set": 35,
+      "words": [
+        {
+          "ar": "تَبَارَكَ",
+          "answers": [ "to be blessed", "blessed", "exalted" ],
+          "note": "impf: يَتَبَارَكُ | impv: تَبَارَكْ | doer: مُتَبَارِك | noun: تَبَارُك",
+          "meaning": "to be blessed or exalted"
+        },
+        {
+          "ar": "تَسَاءَلَ",
+          "answers": [ "to question each other", "ask each other", "asked" ],
+          "note": "impf: يَتَسَاءَلُ | impv: تَسَاءَلْ | doer: مُتَسَائِل | psv: مُتَسَاءَل | noun: تَسَاؤُل",
+          "meaning": "to ask each other"
+        },
+        {
+          "ar": "تَعَالٰى",
+          "answers": [ "to be exalted", "exalted", "high" ],
+          "note": "impf: يَتَعَالٰى | impv: تَعَالَ | doer: مُتَعَالٍ | noun: تَعَالٍ",
+          "meaning": "to be exalted"
+        },
+        {
+          "ar": "تَشَابَهَ",
+          "answers": [ "to resemble", "look alike", "resembled" ],
+          "note": "impf: يَتَشَابَهُ | impv: تَشَابَهْ | doer: مُتَشَابِه | noun: تَشَابُه",
+          "meaning": "to look alike"
+        },
+        {
+          "ar": "تَنَازَعَ",
+          "answers": [ "to dispute", "dispute", "disputed" ],
+          "note": "impf: يَتَنَازَعُ | impv: تَنَازَعْ | doer: مُتَنَازِع | psv: مُتَنَازَع | noun: تَنَازُع",
+          "meaning": "to dispute"
+        }
+      ]
+    },
+    {
+      "id": "infa-ala-if-alla-1",
+      "title": "Forms VII & IX: infa'ala & if'alla (1)",
+      "page": 41,
+      "set": 35,
+      "words": [
+        {
+          "ar": "اِنْقَلَبَ",
+          "answers": [ "to turn around", "return", "returned" ],
+          "note": "impf: يَنْقَلِبُ | impv: اِنْقَلِبْ | doer: مُنْقَلِب | psv: مُنْقَلَب | noun: اِنْقِلَاب",
+          "meaning": "to turn around; to return"
+        },
+        {
+          "ar": "اِنْطَلَقَ",
+          "answers": [ "to set out", "depart", "set forth" ],
+          "note": "impf: يَنْطَلِقُ | impv: اِنْطَلِقْ | doer: مُنْطَلِق | noun: اِنْطِلَاق",
+          "meaning": "to set out"
+        },
+        {
+          "ar": "اِنْشَقَّ",
+          "answers": [ "to split", "crack", "split asunder" ],
+          "note": "impf: يَنْشَقُّ | impv: اِنْشَقِقْ | doer: مُنْشَقّ | noun: اِنْشِقَاق",
+          "meaning": "to crack; to split"
+        },
+        {
+          "ar": "اِسْوَدَّ",
+          "answers": [ "to become black", "turn black", "blacken" ],
+          "note": "impf: يَسْوَدُّ | impv: اِسْوَدَّ | doer: مُسْوَدّ | psv: مُسْوَدّ | noun: اِسْوِدَاد",
+          "meaning": "to become black"
+        },
+        {
+          "ar": "اِبْيَضَّ",
+          "answers": [ "to become white", "turn white", "brighten" ],
+          "note": "impf: يَبْيَضُّ | impv: اِبْيَضَّ | doer: مُبْيَضّ | psv: مُبْيَضّ | noun: اِبْيِضَاض",
+          "meaning": "to become white"
+        }
+      ]
+    },
+    {
+      "id": "iftala-form-viii-1",
+      "title": "Form VIII: ifta'ala (1)",
+      "page": 42,
+      "set": 36,
+      "words": [
+        {
+          "ar": "اِبْتَغٰى",
+          "answers": [ "to seek", "seek", "sought" ],
+          "note": "impf: يَبْتَغِي | impv: اِبْتَغِ | doer: مُبْتَغٍ | psv: مُبْتَغًى | noun: اِبْتِغَاء",
+          "meaning": "to seek"
+        },
+        {
+          "ar": "اِتَّبَعَ",
+          "answers": [ "to follow", "follow", "followed" ],
+          "note": "impf: يَتَّبِعُ | impv: اِتَّبِعْ | doer: مُتَّبِع | psv: مُتَّبَع | noun: اِتِّبَاع",
+          "meaning": "to follow"
+        },
+        {
+          "ar": "اِتَّخَذَ",
+          "answers": [ "to take", "adopt", "took" ],
+          "note": "impf: يَتَّخِذُ | impv: اِتَّخِذْ | doer: مُتَّخِذ | psv: مُتَّخَذ | noun: اِتِّخَاذ",
+          "meaning": "to take; to adopt"
+        },
+        {
+          "ar": "اِتَّقٰى",
+          "answers": [ "to fear Allah", "be conscious of Allah", "protect" ],
+          "note": "impf: يَتَّقِي | impv: اِتَّقِ | doer: مُتَّقٍ | psv: مُتَّقًى | noun: اِتِّقَاء",
+          "meaning": "to be on guard; to protect"
+        }
+      ]
+    },
+    {
+      "id": "iftala-form-viii-2",
+      "title": "Form VIII: ifta'ala (2)",
+      "page": 42,
+      "set": 36,
+      "words": [
+        {
+          "ar": "اِخْتَلَفَ",
+          "answers": [ "to differ", "differ", "disagreed" ],
+          "note": "impf: يَخْتَلِفُ | impv: اِخْتَلِفْ | doer: مُخْتَلِف | psv: مُخْتَلَف | noun: اِخْتِلَاف",
+          "meaning": "to differ"
+        },
+        {
+          "ar": "اِسْتَمَعَ",
+          "answers": [ "to listen", "listen", "listened" ],
+          "note": "impf: يَسْتَمِعُ | impv: اِسْتَمِعْ | doer: مُسْتَمِع | psv: مُسْتَمَع | noun: اِسْتِمَاع",
+          "meaning": "to listen"
+        },
+        {
+          "ar": "اِسْتَوٰى",
+          "answers": [ "to settle", "be established", "established" ],
+          "note": "impf: يَسْتَوِي | impv: اِسْتَوِ | doer: مُسْتَوٍ | psv: مُسْتَوًى | noun: اِسْتِوَاء",
+          "meaning": "to be established"
+        },
+        {
+          "ar": "اِشْتَرٰى",
+          "answers": [ "to buy", "purchase", "bought" ],
+          "note": "impf: يَشْتَرِي | impv: اِشْتَرِ | doer: مُشْتَرٍ | psv: مُشْتَرًى | noun: اِشْتِرَاء",
+          "meaning": "to purchase"
+        }
+      ]
+    },
+    {
+      "id": "iftala-form-viii-3",
+      "title": "Form VIII: ifta'ala (3)",
+      "page": 42,
+      "set": 36,
+      "words": [
+        {
+          "ar": "اِعْتَدٰى",
+          "answers": [ "to transgress", "oppress", "transgressed" ],
+          "note": "impf: يَعْتَدِي | impv: اِعْتَدِ | doer: مُعْتَدٍ | psv: مُعْتَدًى | noun: اِعْتِدَاء",
+          "meaning": "to oppress"
+        },
+        {
+          "ar": "اِفْتَرٰى",
+          "answers": [ "to invent a lie", "fabricate", "invented" ],
+          "note": "impf: يَفْتَرِي | impv: اِفْتَرِ | doer: مُفْتَرٍ | psv: مُفْتَرًى | noun: اِفْتِرَاء",
+          "meaning": "to fabricate a lie"
+        },
+        {
+          "ar": "اِنْتَهٰى",
+          "answers": [ "to stop", "desist", "refrain" ],
+          "note": "impf: يَنْتَهِي | impv: اِنْتَهِ | doer: مُنْتَهٍ | psv: مُنْتَهًى | noun: اِنْتِهَاء",
+          "meaning": "to stop"
+        },
+        {
+          "ar": "اِهْتَدٰى",
+          "answers": [ "to be guided", "follow guidance", "guided" ],
+          "note": "impf: يَهْتَدِي | impv: اِهْتَدِ | doer: مُهْتَدٍ | psv: مُهْتَدًى | noun: اِهْتِدَاء",
+          "meaning": "to find or to follow the right path"
+        }
+      ]
+    },
+    {
+      "id": "istaf-ala-form-x-1",
+      "title": "Form X: istaf'ala (1)",
+      "page": 43,
+      "set": 37,
+      "words": [
+        {
+          "ar": "اِسْتَأْذَنَ",
+          "answers": [ "to ask permission", "seek permission", "asked permission" ],
+          "note": "impf: يَسْتَأْذِنُ | impv: اِسْتَأْذِنْ | doer: مُسْتَأْذِن | psv: مُسْتَأْذَن | noun: اِسْتِئْذَان",
+          "meaning": "to ask permission"
+        },
+        {
+          "ar": "اِسْتَجَابَ",
+          "answers": [ "to respond", "answer", "accepted" ],
+          "note": "impf: يَسْتَجِيبُ | impv: اِسْتَجِبْ | doer: مُسْتَجِيب | psv: مُسْتَجَاب | noun: اِسْتِجَابَة",
+          "meaning": "to accept; to respond"
+        },
+        {
+          "ar": "اِسْتَحْيٰى",
+          "answers": [ "to be ashamed", "feel shame", "shy" ],
+          "note": "impf: يَسْتَحْيِي | impv: اِسْتَحْيِ | doer: مُسْتَحْيٍ | psv: مُسْتَحْيًى | noun: اِسْتِحْيَاء",
+          "meaning": "to be ashamed"
+        },
+        {
+          "ar": "اِسْتَضْعَفَ",
+          "answers": [ "to deem weak", "oppress", "oppressed" ],
+          "note": "impf: يَسْتَضْعِفُ | impv: اِسْتَضْعِفْ | doer: مُسْتَضْعِف | psv: مُسْتَضْعَف | noun: اِسْتِضْعَاف",
+          "meaning": "to oppress"
+        }
+      ]
+    },
+    {
+      "id": "istaf-ala-form-x-2",
+      "title": "Form X: istaf'ala (2)",
+      "page": 43,
+      "set": 37,
+      "words": [
+        {
+          "ar": "اِسْتَطَاعَ",
+          "answers": [ "to be able to", "can", "could" ],
+          "note": "impf: يَسْتَطِيعُ | impv: اِسْتَطِعْ | doer: مُسْتَطِيع | noun: اِسْتِطَاعَة",
+          "meaning": "to be able to"
+        },
+        {
+          "ar": "اِسْتَعْجَلَ",
+          "answers": [ "to seek to hasten", "hasten", "hurry" ],
+          "note": "impf: يَسْتَعْجِلُ | impv: اِسْتَعْجِلْ | doer: مُسْتَعْجِل | psv: مُسْتَعْجَل | noun: اِسْتِعْجَال",
+          "meaning": "to seek to hasten"
+        },
+        {
+          "ar": "اِسْتَغْفَرَ",
+          "answers": [ "to ask forgiveness", "seek forgiveness", "forgiven" ],
+          "note": "impf: يَسْتَغْفِرُ | impv: اِسْتَغْفِرْ | doer: مُسْتَغْفِر | psv: مُسْتَغْفَر | noun: اِسْتِغْفَار",
+          "meaning": "to ask forgiveness"
+        },
+        {
+          "ar": "اِسْتَقَامَ",
+          "answers": [ "to be upright", "act straight", "remain firm" ],
+          "note": "impf: يَسْتَقِيمُ | impv: اِسْتَقِمْ | doer: مُسْتَقِيم | noun: اِسْتِقَامَة",
+          "meaning": "to be straight; to act straight"
+        }
+      ]
+    },
+    {
+      "id": "istaf-ala-form-x-3",
+      "title": "Form X: istaf'ala (3)",
+      "page": 43,
+      "set": 37,
+      "words": [
+        {
+          "ar": "اِسْتَقَرَّ",
+          "answers": [ "to settle", "remain", "settled" ],
+          "note": "impf: يَسْتَقِرُّ | impv: اِسْتَقْرِرْ | doer: مُسْتَقِرّ | psv: مُسْتَقَرّ | noun: اِسْتِقْرَار",
+          "meaning": "to remain in a place"
+        },
+        {
+          "ar": "اِسْتَكْبَرَ",
+          "answers": [ "to be arrogant", "act arrogantly", "pride" ],
+          "note": "impf: يَسْتَكْبِرُ | impv: اِسْتَكْبِرْ | doer: مُسْتَكْبِر | psv: مُسْتَكْبَر | noun: اِسْتِكْبَار",
+          "meaning": "to act arrogantly"
+        },
+        {
+          "ar": "اِسْتَهْزَأَ",
+          "answers": [ "to mock", "ridicule", "mocked" ],
+          "note": "impf: يَسْتَهْزِئُ | impv: اِسْتَهْزِئْ | doer: مُسْتَهْزِئ | psv: مُسْتَهْزَأ | noun: اِسْتِهْزَاء",
+          "meaning": "to mock at"
+        }
+      ]
+    },
+    {
+      "id": "verb-prep-1",
+      "title": "Verb Prepositions (1)",
+      "page": 44,
+      "set": 38,
+      "words": [
+        {
+          "ar": "أَتٰى",
+          "answers": [ "came", "come" ],
+          "note": "",
+          "meaning": "came"
+        },
+        {
+          "ar": "أَتٰى بِـ",
+          "answers": [ "brought", "bring" ],
+          "note": "",
+          "meaning": "brought"
+        },
+        {
+          "ar": "بَغٰى",
+          "answers": [ "sought", "seek" ],
+          "note": "",
+          "meaning": "sought"
+        },
+        {
+          "ar": "بَغٰى عَلٰى",
+          "answers": [ "oppressed", "was unjust", "transgressed" ],
+          "note": "",
+          "meaning": "oppressed; was unjust"
+        },
+        {
+          "ar": "تَابَ إِلٰى",
+          "answers": [ "repented", "repent", "turned in repentance" ],
+          "note": "also: تَابَ",
+          "meaning": "repented"
+        }
+      ]
+    },
+    {
+      "id": "verb-prep-2",
+      "title": "Verb Prepositions (2)",
+      "page": 44,
+      "set": 38,
+      "words": [
+        {
+          "ar": "تَابَ عَلٰى",
+          "answers": [ "accepted the repentance", "forgave", "turned in mercy" ],
+          "note": "",
+          "meaning": "accepted the repentance"
+        },
+        {
+          "ar": "جَاءَ",
+          "answers": [ "came", "arrived", "come" ],
+          "note": "",
+          "meaning": "came, arrived"
+        },
+        {
+          "ar": "جَاءَ بِـ",
+          "answers": [ "brought", "bring" ],
+          "note": "",
+          "meaning": "brought"
+        },
+        {
+          "ar": "ذَهَبَ",
+          "answers": [ "went", "go" ],
+          "note": "",
+          "meaning": "went"
+        },
+        {
+          "ar": "ذَهَبَ بِـ",
+          "answers": [ "took away", "take away", "removed" ],
+          "note": "",
+          "meaning": "took away"
+        }
+      ]
+    },
+    {
+      "id": "verb-prep-3",
+      "title": "Verb Prepositions (3)",
+      "page": 44,
+      "set": 38,
+      "words": [
+        {
+          "ar": "ذَهَبَ عَنْ",
+          "answers": [ "went away", "departed", "left" ],
+          "note": "",
+          "meaning": "went away"
+        },
+        {
+          "ar": "رَضِيَ",
+          "answers": [ "was contented", "pleased", "content" ],
+          "note": "",
+          "meaning": "was contented"
+        },
+        {
+          "ar": "رَضِيَ عَنْ",
+          "answers": [ "pleased with", "well pleased with" ],
+          "note": "",
+          "meaning": "pleased with"
+        },
+        {
+          "ar": "ضَرَبَ",
+          "answers": [ "struck", "hit", "strike" ],
+          "note": "",
+          "meaning": "stroke"
+        },
+        {
+          "ar": "ضَرَبَ فِي",
+          "answers": [ "went forth", "strove", "travelled" ],
+          "note": "",
+          "meaning": "went forth; strove"
+        }
+      ]
+    },
+    {
+      "id": "verb-prep-4",
+      "title": "Verb Prepositions (4)",
+      "page": 44,
+      "set": 38,
+      "words": [
+        {
+          "ar": "ضَرَبَ لِـ",
+          "answers": [ "mentioned", "cited", "set forth" ],
+          "note": "",
+          "meaning": "mentioned"
+        },
+        {
+          "ar": "ضَرَبَ عَلٰى",
+          "answers": [ "struck upon", "overshadowed", "cast upon" ],
+          "note": "",
+          "meaning": "struck upon; overshadowed"
+        },
+        {
+          "ar": "ضَرَبَ مَثَلًا",
+          "answers": [ "gave example", "set forth an example", "similitude" ],
+          "note": "",
+          "meaning": "gave example"
+        },
+        {
+          "ar": "عَفَا",
+          "answers": [ "abound", "increase", "multiplied" ],
+          "note": "",
+          "meaning": "abound"
+        },
+        {
+          "ar": "عَفَا عَنْ",
+          "answers": [ "forgave", "pardoned", "overlooked" ],
+          "note": "",
+          "meaning": "forgave"
+        }
+      ]
+    },
+    {
+      "id": "verb-prep-5",
+      "title": "Verb Prepositions (5)",
+      "page": 44,
+      "set": 38,
+      "words": [
+        {
+          "ar": "قَضٰى",
+          "answers": [ "decreed", "fulfilled", "decided" ],
+          "note": "",
+          "meaning": "decreed; fulfilled"
+        },
+        {
+          "ar": "قَضٰى بَيْنَ",
+          "answers": [ "judged", "decided between", "settled" ],
+          "note": "",
+          "meaning": "judged"
+        },
+        {
+          "ar": "قَضٰى عَلٰى",
+          "answers": [ "killed", "finished off", "put an end to" ],
+          "note": "",
+          "meaning": "killed"
+        },
+        {
+          "ar": "وَضَعَ",
+          "answers": [ "put", "laid down", "placed" ],
+          "note": "",
+          "meaning": "put; laid down"
+        }
+      ]
+    },
+    {
+      "id": "verb-prep-6",
+      "title": "Verb Prepositions (6)",
+      "page": 44,
+      "set": 38,
+      "words": [
+        {
+          "ar": "وَضَعَ عَنْ",
+          "answers": [ "removed", "relieved", "took off" ],
+          "note": "",
+          "meaning": "removed"
+        },
+        {
+          "ar": "وَلّٰى",
+          "answers": [ "turned", "caused to turn" ],
+          "note": "",
+          "meaning": "turned; caused to turn"
+        },
+        {
+          "ar": "وَلّٰى إِلٰى",
+          "answers": [ "turned to", "faced" ],
+          "note": "",
+          "meaning": "turned to"
+        },
+        {
+          "ar": "وَلّٰى عَنْ",
+          "answers": [ "turned away from", "turned away" ],
+          "note": "",
+          "meaning": "turned away from"
+        }
+      ]
+    },
+    {
+      "id": "past-masc-1",
+      "title": "Past Tense: Masculine (1)",
+      "page": 45,
+      "set": 39,
+      "words": [
+        {
+          "ar": "فَعَلَ",
+          "answers": [ "he did", "did" ],
+          "note": "",
+          "meaning": "he did"
+        },
+        {
+          "ar": "فَعَلَا",
+          "answers": [ "they two did", "they did", "they did" ],
+          "note": "dual",
+          "meaning": "they (two) did"
+        },
+        {
+          "ar": "فَعَلُوا",
+          "answers": [ "they all did", "they did" ],
+          "note": "plural",
+          "meaning": "they all did"
+        },
+        {
+          "ar": "فَعَلْتَ",
+          "answers": [ "you did" ],
+          "note": "singular",
+          "meaning": "you did"
+        }
+      ]
+    },
+    {
+      "id": "past-masc-2",
+      "title": "Past Tense: Masculine (2)",
+      "page": 45,
+      "set": 39,
+      "words": [
+        {
+          "ar": "فَعَلْتُمَا",
+          "answers": [ "you two did", "you did" ],
+          "note": "dual",
+          "meaning": "you two did"
+        },
+        {
+          "ar": "فَعَلْتُمْ",
+          "answers": [ "you all did", "you did" ],
+          "note": "plural",
+          "meaning": "you all did"
+        },
+        {
+          "ar": "فَعَلْتُ",
+          "answers": [ "i did" ],
+          "note": "singular",
+          "meaning": "I did"
+        },
+        {
+          "ar": "فَعَلْنَا",
+          "answers": [ "we did" ],
+          "note": "plural",
+          "meaning": "we did"
+        }
+      ]
+    },
+    {
+      "id": "impf-masc-1",
+      "title": "Imperfect Tense: Masculine (1)",
+      "page": 45,
+      "set": 39,
+      "words": [
+        {
+          "ar": "يَفْعَلُ",
+          "answers": [ "he does", "he will do" ],
+          "note": "",
+          "meaning": "he does/will do"
+        },
+        {
+          "ar": "يَفْعَلَانِ",
+          "answers": [ "they two do", "they do", "they will do" ],
+          "note": "dual",
+          "meaning": "they (two) do/ will do"
+        },
+        {
+          "ar": "يَفْعَلُونَ",
+          "answers": [ "they do", "they will do", "they all do" ],
+          "note": "plural",
+          "meaning": "they do/will do"
+        },
+        {
+          "ar": "تَفْعَلُ",
+          "answers": [ "you do", "you will do" ],
+          "note": "singular",
+          "meaning": "you do/ will do"
+        }
+      ]
+    },
+    {
+      "id": "impf-masc-2",
+      "title": "Imperfect Tense: Masculine (2)",
+      "page": 45,
+      "set": 39,
+      "words": [
+        {
+          "ar": "تَفْعَلَانِ",
+          "answers": [ "you two do", "you do", "you will do" ],
+          "note": "dual",
+          "meaning": "you two do /will do"
+        },
+        {
+          "ar": "تَفْعَلُونَ",
+          "answers": [ "you all do", "you do", "you will do" ],
+          "note": "plural",
+          "meaning": "you all do/will do"
+        },
+        {
+          "ar": "أَفْعَلُ",
+          "answers": [ "i do", "i will do" ],
+          "note": "singular",
+          "meaning": "I do/ will do"
+        },
+        {
+          "ar": "نَفْعَلُ",
+          "answers": [ "we do", "we will do" ],
+          "note": "plural",
+          "meaning": "we do/will do"
+        }
+      ]
+    },
+    {
+      "id": "impv-masc-1",
+      "title": "Commands: Masculine (1)",
+      "page": 46,
+      "set": 40,
+      "words": [
+        {
+          "ar": "اِفْعَلْ",
+          "answers": [ "do" ],
+          "note": "dual: اِفْعَلَا",
+          "meaning": "Do!"
+        },
+        {
+          "ar": "اِفْعَلُوا",
+          "answers": [ "do", "you all do" ],
+          "note": "plural",
+          "meaning": "Do (You All)!"
+        },
+        {
+          "ar": "لَا تَفْعَلْ",
+          "answers": [ "dont do", "do not do" ],
+          "note": "dual: لَا تَفْعَلَا",
+          "meaning": "Don't do!"
+        },
+        {
+          "ar": "لَا تَفْعَلُوا",
+          "answers": [ "dont do", "do not do", "you all do not do" ],
+          "note": "plural",
+          "meaning": "Don't (you all) do!"
+        }
+      ]
+    },
+    {
+      "id": "participles-masc-1",
+      "title": "Active Participles: Masculine (1)",
+      "page": 46,
+      "set": 40,
+      "words": [
+        {
+          "ar": "فَاعِل",
+          "answers": [ "doer" ],
+          "note": "",
+          "meaning": "doer"
+        },
+        {
+          "ar": "فَاعِلَانِ",
+          "answers": [ "doers", "two doers" ],
+          "note": "dual; also: فَاعِلَيْن",
+          "meaning": "doers (two)"
+        },
+        {
+          "ar": "فَاعِلُونَ",
+          "answers": [ "doers" ],
+          "note": "plural; also: فَاعِلِينَ",
+          "meaning": "doers"
+        }
+      ]
+    },
+    {
+      "id": "participles-masc-2",
+      "title": "Passive Participles & Masdar: Masculine (1)",
+      "page": 46,
+      "set": 40,
+      "words": [
+        {
+          "ar": "مَفْعُول",
+          "answers": [ "the one who is affected", "affected" ],
+          "note": "",
+          "meaning": "the one who is affected"
+        },
+        {
+          "ar": "مَفْعُولَانِ",
+          "answers": [ "they two who are affected", "they who are affected", "two affected", "affected" ],
+          "note": "dual; also: مَفْعُولَيْن",
+          "meaning": "they (two) who are affected"
+        },
+        {
+          "ar": "مَفْعُولُونَ",
+          "answers": [ "all those who are affected", "those affected", "affected" ],
+          "note": "plural; also: مَفْعُولِينَ",
+          "meaning": "all those who are affected"
+        },
+        {
+          "ar": "فِعْل",
+          "answers": [ "act of doing", "action", "act" ],
+          "note": "verbal noun",
+          "meaning": "act (of doing)"
+        }
+      ]
+    },
+    {
+      "id": "past-fem-1",
+      "title": "Past Tense: Feminine (1)",
+      "page": 47,
+      "set": 41,
+      "words": [
+        {
+          "ar": "فَعَلَتْ",
+          "answers": [ "she did" ],
+          "note": "",
+          "meaning": "She did."
+        },
+        {
+          "ar": "فَعَلَتَا",
+          "answers": [ "they two did", "they did" ],
+          "note": "dual",
+          "meaning": "They (two) did."
+        },
+        {
+          "ar": "فَعَلْنَ",
+          "answers": [ "they did", "they all did" ],
+          "note": "plural",
+          "meaning": "They all did."
+        },
+        {
+          "ar": "فَعَلْتِ",
+          "answers": [ "you did" ],
+          "note": "singular",
+          "meaning": "You did."
+        }
+      ]
+    },
+    {
+      "id": "past-fem-2",
+      "title": "Past Tense: Feminine (2)",
+      "page": 47,
+      "set": 41,
+      "words": [
+        {
+          "ar": "فَعَلْتُمَا",
+          "answers": [ "you two did", "you did" ],
+          "note": "dual",
+          "meaning": "You two did."
+        },
+        {
+          "ar": "فَعَلْتُنَّ",
+          "answers": [ "you all did", "you did" ],
+          "note": "plural",
+          "meaning": "You all did."
+        },
+        {
+          "ar": "فَعَلْتُ",
+          "answers": [ "i did" ],
+          "note": "singular",
+          "meaning": "I did."
+        },
+        {
+          "ar": "فَعَلْنَا",
+          "answers": [ "we did" ],
+          "note": "plural",
+          "meaning": "We did."
+        }
+      ]
+    },
+    {
+      "id": "impf-fem-1",
+      "title": "Imperfect Tense: Feminine (1)",
+      "page": 47,
+      "set": 41,
+      "words": [
+        {
+          "ar": "تَفْعَلُ",
+          "answers": [ "she does", "she will do" ],
+          "note": "",
+          "meaning": "She does/will do."
+        },
+        {
+          "ar": "تَفْعَلَانِ",
+          "answers": [ "they two do", "they do", "they will do" ],
+          "note": "dual",
+          "meaning": "They (two) do/ will do."
+        },
+        {
+          "ar": "يَفْعَلْنَ",
+          "answers": [ "they do", "they will do", "they all do" ],
+          "note": "plural",
+          "meaning": "They do/will do."
+        },
+        {
+          "ar": "تَفْعَلِينَ",
+          "answers": [ "you do", "you will do" ],
+          "note": "singular",
+          "meaning": "You do/ will do."
+        }
+      ]
+    },
+    {
+      "id": "impf-fem-2",
+      "title": "Imperfect Tense: Feminine (2)",
+      "page": 47,
+      "set": 41,
+      "words": [
+        {
+          "ar": "تَفْعَلَانِ",
+          "answers": [ "you two do", "you do", "you will do" ],
+          "note": "dual",
+          "meaning": "You two do /will do."
+        },
+        {
+          "ar": "تَفْعَلْنَ",
+          "answers": [ "you all do", "you do", "you will do" ],
+          "note": "plural",
+          "meaning": "You all do/will do."
+        },
+        {
+          "ar": "أَفْعَلُ",
+          "answers": [ "i do", "i will do" ],
+          "note": "singular",
+          "meaning": "I do/ will do."
+        },
+        {
+          "ar": "نَفْعَلُ",
+          "answers": [ "we do", "we will do" ],
+          "note": "plural",
+          "meaning": "We do/will do."
+        }
+      ]
+    },
+    {
+      "id": "impv-fem-1",
+      "title": "Commands: Feminine (1)",
+      "page": 48,
+      "set": 42,
+      "words": [
+        {
+          "ar": "اِفْعَلِي",
+          "answers": [ "do" ],
+          "note": "dual: اِفْعَلَا",
+          "meaning": "Do!"
+        },
+        {
+          "ar": "اِفْعَلْنَ",
+          "answers": [ "do", "you all do" ],
+          "note": "plural",
+          "meaning": "Do (You All)!"
+        },
+        {
+          "ar": "لَا تَفْعَلِي",
+          "answers": [ "dont do", "do not do" ],
+          "note": "dual: لَا تَفْعَلَا",
+          "meaning": "Don't do!"
+        },
+        {
+          "ar": "لَا تَفْعَلْنَ",
+          "answers": [ "dont do", "do not do", "you all do not do" ],
+          "note": "plural",
+          "meaning": "Don't (you all) do!"
+        }
+      ]
+    },
+    {
+      "id": "participles-fem-1",
+      "title": "Active Participles: Feminine (1)",
+      "page": 48,
+      "set": 42,
+      "words": [
+        {
+          "ar": "فَاعِلَة",
+          "answers": [ "doer" ],
+          "note": "",
+          "meaning": "Doer"
+        },
+        {
+          "ar": "فَاعِلَتَانِ",
+          "answers": [ "doers", "two doers" ],
+          "note": "dual; also: فَاعِلَتَيْنِ",
+          "meaning": "Doers (two)"
+        },
+        {
+          "ar": "فَاعِلَات",
+          "answers": [ "doers" ],
+          "note": "plural",
+          "meaning": "Doers"
+        }
+      ]
+    },
+    {
+      "id": "participles-fem-2",
+      "title": "Passive Participles & Masdar: Feminine (1)",
+      "page": 48,
+      "set": 42,
+      "words": [
+        {
+          "ar": "مَفْعُولَة",
+          "answers": [ "the one who is affected", "affected" ],
+          "note": "",
+          "meaning": "The one who is affected"
+        },
+        {
+          "ar": "مَفْعُولَتَانِ",
+          "answers": [ "they two who are affected", "they who are affected", "two affected", "affected" ],
+          "note": "dual; also: مَفْعُولَتَيْنِ",
+          "meaning": "They (two) who are affected"
+        },
+        {
+          "ar": "مَفْعُولَات",
+          "answers": [ "all those who are affected", "those affected", "affected" ],
+          "note": "plural",
+          "meaning": "All those who are affected"
+        },
+        {
+          "ar": "فِعْل",
+          "answers": [ "act of doing", "action", "act" ],
+          "note": "verbal noun",
+          "meaning": "Act (of doing)"
         }
       ]
     }
