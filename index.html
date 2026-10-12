@@ -49,6 +49,57 @@
             box-sizing: border-box
         }
 
+        /* Hamburger Toggle Button */
+        .burger {
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 28px;
+            height: 20px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+        }
+
+            .burger span {
+                width: 100%;
+                height: 3px;
+                background-color: var(--em);
+                border-radius: 2px;
+                transition: transform 0.2s ease, opacity 0.2s ease;
+            }
+
+        /* Mobile Layout */
+        @media (max-width: 768px) {
+            .burger {
+                display: flex;
+            }
+
+            .nav {
+                padding: 12px 18px;
+            }
+
+                .nav nav {
+                    display: none;
+                    width: 100%;
+                    flex-direction: column;
+                    align-items: stretch;
+                    gap: 8px;
+                    padding-top: 14px;
+                }
+
+                    .nav nav.open {
+                        display: flex;
+                    }
+
+                    .nav nav a {
+                        text-align: center;
+                        padding: 10px 14px;
+                        font-size: 17px;
+                    }
+        }
+        
         body {
             margin: 0;
             font-family: 'Source Sans 3', system-ui, sans-serif;
@@ -692,14 +743,19 @@
         <a class="brand" href="#home">
             <img src="header_logo.png" alt="Words of Qur'an">
         </a>
+        <button class="burger" id="burger" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <nav>
-            <a href="names.html" 
-               style="background: #7a1a26; 
-               color: #fff8e6; 
-               padding: 6px 14px; 
-               border-radius: 4px; 
-               text-decoration: none; 
-               font-weight: 600; 
+            <a href="names.html"
+               style="background: #7a1a26;
+               color: #fff8e6;
+               padding: 6px 14px;
+               border-radius: 4px;
+               text-decoration: none;
+               font-weight: 600;
                margin-left: 6px;">99 Names</a>
             <a href="#home" data-nav="home">Home</a>
             <a href="#how" data-nav="how">How to Use</a>
@@ -883,6 +939,20 @@
 
         fetch('words.json').then(r => r.json()).then(d => { data = d; buildHome(); route(); })
             .catch(() => { document.body.insertAdjacentHTML('afterbegin', '<p style="padding:20px;color:#b00">Could not load words.json. Run the page through a local server.</p>'); });
+
+        const burger = $('#burger'), navMenu = $('#navMenu');
+        if (burger && navMenu) {
+            burger.addEventListener('click', () => {
+                navMenu.classList.toggle('open');
+            });
+
+            // Automatically close the mobile menu after clicking any link
+            navMenu.addEventListener('click', e => {
+                if (e.target.tagName === 'A') {
+                    navMenu.classList.remove('open');
+                }
+            });
+        }
 
         /* routing */
         function route() {
@@ -1078,12 +1148,23 @@
         function startQuiz(words) {
             cards = shuffle(words.slice()).map(w => ({ w, status: null }));
             $('#cards').innerHTML = cards.map((c, i) => {
-                const n = c.w.ar.length, size = n > 8 ? 30 : n > 5 ? 40 : 52;
-                return `<div class="qcard" data-i="${i}"><div class="qar" style="font-size:${size}px">${c.w.ar}</div><div class="qnt">${c.w.note || ''}</div>
-                      <div class="qans"><input type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Meaning of ${c.w.ar}"></div></div>`;
+                const n = c.w.ar.length, size = n > 8 ? 32 : n > 5 ? 42 : 52;
+                return `
+            <div class="qcard" data-i="${i}">
+                <div class="qar" style="font-size:${size}px">${c.w.ar}</div>
+                <div class="qnt">${c.w.note || ''}</div>
+                <div class="qans">
+                    <form class="qform" action="javascript:void(0);">
+                        <input type="text" enterkeyhint="go" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Meaning of ${c.w.ar}">
+                    </form>
+                </div>
+            </div>`;
             }).join('');
             location.hash = 'quiz';
-            setTimeout(() => $('#cards input').focus(), 50);
+            setTimeout(() => {
+                const first = $('#cards input');
+                if (first) first.focus();
+            }, 50);
         }
         function norm(s) { return s.toLowerCase().replace(/\(.*?\)/g, '').replace(/[^a-z\s]/g, ' ').replace(/\b(to|the|a|an)\b/g, ' ').replace(/\s+/g, ' ').trim(); }
         function lev(a, b) {
@@ -1097,15 +1178,44 @@
             const x = norm(input); if (!x) return false;
             return answers.some(a => { const y = norm(a); return x === y || (y.length > 4 && lev(x, y) <= 1); });
         }
-        $('#cards').addEventListener('keydown', e => {
-            if (e.key !== 'Enter' || e.target.tagName !== 'INPUT') return;
-            const el = e.target.closest('.qcard'), i = +el.dataset.i, c = cards[i];
-            if (!e.target.value.trim()) return;
-            c.status = ok(e.target.value, c.w.answers) ? 'right' : 'wrong';
+        function submitCard(input) {
+            const el = input.closest('.qcard');
+            if (!el) return;
+            const i = +el.dataset.i, c = cards[i];
+            if (c.status) return;
+            const val = input.value.trim();
+            if (!val) return;
+
+            c.status = ok(val, c.w.answers) ? 'right' : 'wrong';
             el.classList.add(c.status);
             el.querySelector('.qans').innerHTML = `<div class="shown">${c.w.meaning}</div>` + (c.status === 'wrong' ? '<button class="ovr">✓ I was right</button>' : '');
-            const nxt = cards.findIndex((x, j) => j > i && !x.status) >= 0 ? cards.findIndex((x, j) => j > i && !x.status) : cards.findIndex(x => !x.status);
-            if (nxt >= 0) { const inp = $(`.qcard[data-i="${nxt}"] input`); inp.focus(); inp.closest('.qcard').scrollIntoView({ block: 'center', behavior: 'smooth' }); }
+
+            const nxt = cards.findIndex((x, j) => j > i && !x.status) >= 0
+                ? cards.findIndex((x, j) => j > i && !x.status)
+                : cards.findIndex(x => !x.status);
+
+            if (nxt >= 0) {
+                const nextInp = $(`.qcard[data-i="${nxt}"] input`);
+                if (nextInp) {
+                    nextInp.focus();
+                    nextInp.closest('.qcard').scrollIntoView({ block: 'center', behavior: 'smooth' });
+                }
+            }
+        }
+
+        // Handles the mobile soft-keyboard "Go" / "Done" action
+        $('#cards').addEventListener('submit', e => {
+            e.preventDefault();
+            const inp = e.target.querySelector('input');
+            if (inp) submitCard(inp);
+        });
+
+        // Handles desktop and standard Enter keys
+        $('#cards').addEventListener('keydown', e => {
+            if ((e.key === 'Enter' || e.keyCode === 13) && e.target.tagName === 'INPUT') {
+                e.preventDefault();
+                submitCard(e.target);
+            }
         });
         $('#cards').addEventListener('click', e => {
             if (!e.target.classList.contains('ovr')) return;
