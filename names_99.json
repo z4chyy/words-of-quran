@@ -1,0 +1,739 @@
+{
+  "source": "The 99 Names of Allah (Asmā' Allāh al-Ḥusnā)",
+  "categories": [
+    {
+      "id": "names-1-5",
+      "title": "Names 1 – 5",
+      "set": 1,
+      "words": [
+        {
+          "ar": "الرَّحْمَٰنُ",
+          "answers": [ "the most gracious", "most gracious", "the beneficent", "beneficent", "the entirely merciful", "entirely merciful", "the compassionate", "compassionate" ],
+          "note": "Ar-Rahman",
+          "meaning": "The Most Gracious"
+        },
+        {
+          "ar": "الرَّحِيمُ",
+          "answers": [ "the most merciful", "most merciful", "the merciful", "merciful", "the especially merciful", "especially merciful" ],
+          "note": "Ar-Rahim",
+          "meaning": "The Most Merciful"
+        },
+        {
+          "ar": "الْمَلِكُ",
+          "answers": [ "the king", "king", "the sovereign", "sovereign", "the ruler", "ruler" ],
+          "note": "Al-Malik",
+          "meaning": "The King / The Sovereign"
+        },
+        {
+          "ar": "الْقُدُّوسُ",
+          "answers": [ "the most holy", "most holy", "the holy", "the absolutely", "the pure", "pure", "the all holy" ],
+          "note": "Al-Quddus",
+          "meaning": "The Absolutely Pure"
+        },
+        {
+          "ar": "السَّلَامُ",
+          "answers": [ "the source of peace", "source of peace", "peace", "the giver of peace", "the flawless", "flawless" ],
+          "note": "As-Salam",
+          "meaning": "The Source of Peace"
+        }
+      ]
+    },
+    {
+      "id": "names-6-10",
+      "title": "Names 6 – 10",
+      "set": 1,
+      "words": [
+        {
+          "ar": "الْمُؤْمِنُ",
+          "answers": [ "the giver of faith", "giver of faith", "the granter of security", "granter of security", "the guardian of faith", "the inspirer of faith" ],
+          "note": "Al-Mu'min",
+          "meaning": "The Granter of Security / Giver of Faith"
+        },
+        {
+          "ar": "الْمُهَيْمِنُ",
+          "answers": [ "the protector", "protector", "the guardian", "guardian", "the overseer", "overseer", "the preserver" ],
+          "note": "Al-Muhaymin",
+          "meaning": "The Guardian / Overseer"
+        },
+        {
+          "ar": "الْعَزِيزُ",
+          "answers": [ "the almighty", "almighty", "the all mighty", "the mighty", "mighty", "the invincible", "invincible" ],
+          "note": "Al-Aziz",
+          "meaning": "The Almighty"
+        },
+        {
+          "ar": "الْجَبَّارُ",
+          "answers": [ "the compeller", "compeller", "the restorer", "restorer", "the irresistible", "irresistible" ],
+          "note": "Al-Jabbar",
+          "meaning": "The Compeller / Restorer"
+        },
+        {
+          "ar": "الْمُتَكَبِّرُ",
+          "answers": [ "the supreme", "supreme", "the majestic", "majestic", "the greatest", "greatest" ],
+          "note": "Al-Mutakabbir",
+          "meaning": "The Supreme / Majestic"
+        }
+      ]
+    },
+    {
+      "id": "names-11-15",
+      "title": "Names 11 – 15",
+      "set": 1,
+      "words": [
+        {
+          "ar": "الْخَالِقُ",
+          "answers": [ "the creator", "creator", "the maker", "maker" ],
+          "note": "Al-Khaliq",
+          "meaning": "The Creator"
+        },
+        {
+          "ar": "الْبَارِئُ",
+          "answers": [ "the originator", "originator", "the evolver", "evolver", "the maker of order", "the producer" ],
+          "note": "Al-Bari'",
+          "meaning": "The Originator"
+        },
+        {
+          "ar": "الْمُصَوِّرُ",
+          "answers": [ "the fashioner", "fashioner", "the shaper", "shaper", "the bestower of forms", "the designer" ],
+          "note": "Al-Musawwir",
+          "meaning": "The Fashioner / Shaper"
+        },
+        {
+          "ar": "الْغَفَّارُ",
+          "answers": [ "the all forgiving", "all forgiving", "the forgiver", "forgiver", "the constant forgiver", "the oft forgiving" ],
+          "note": "Al-Ghaffar",
+          "meaning": "The All-Forgiving"
+        },
+        {
+          "ar": "الْقَهَّارُ",
+          "answers": [ "the subduer", "subduer", "the all prevailing", "all prevailing", "the conqueror", "conqueror", "the irresistible" ],
+          "note": "Al-Qahhar",
+          "meaning": "The Subduer"
+        }
+      ]
+    },
+    {
+      "id": "names-16-20",
+      "title": "Names 16 – 20",
+      "set": 1,
+      "words": [
+        {
+          "ar": "الْوَهَّابُ",
+          "answers": [ "the bestower", "bestower", "the giver of gifts", "the constant giver", "giver of all" ],
+          "note": "Al-Wahhab",
+          "meaning": "The Bestower / Giver of Gifts"
+        },
+        {
+          "ar": "الرَّزَّاقُ",
+          "answers": [ "the provider", "provider", "the sustainer", "sustainer" ],
+          "note": "Ar-Razzaq",
+          "meaning": "The Provider / Sustainer"
+        },
+        {
+          "ar": "الْفَتَّاحُ",
+          "answers": [ "the opener", "opener", "the judge", "judge", "the granter of victory", "the victory giver" ],
+          "note": "Al-Fattah",
+          "meaning": "The Opener / The Judge"
+        },
+        {
+          "ar": "الْعَلِيمُ",
+          "answers": [ "the all knowing", "all knowing", "the omniscient", "omniscient", "the knowledgeable" ],
+          "note": "Al-Alim",
+          "meaning": "The All-Knowing"
+        },
+        {
+          "ar": "الْقَابِضُ",
+          "answers": [ "the withholder", "withholder", "the constrictor", "constrictor", "the restrainer", "restrainer" ],
+          "note": "Al-Qabid",
+          "meaning": "The Withholder / Restrainer"
+        }
+      ]
+    },
+    {
+      "id": "names-21-25",
+      "title": "Names 21 – 25",
+      "set": 2,
+      "words": [
+        {
+          "ar": "الْبَاسِطُ",
+          "answers": [ "the expander", "expander", "the extender", "extender", "the enlarger", "the reliever" ],
+          "note": "Al-Basit",
+          "meaning": "The Expander / Extender"
+        },
+        {
+          "ar": "الْخَافِضُ",
+          "answers": [ "the abaser", "abaser", "the humbler", "humbler", "the reducer", "the lowerer" ],
+          "note": "Al-Khafid",
+          "meaning": "The Abaser / Humbler"
+        },
+        {
+          "ar": "الرَّافِعُ",
+          "answers": [ "the exalter", "exalter", "the elevator", "elevator", "the uplifter" ],
+          "note": "Ar-Rafi'",
+          "meaning": "The Exalter"
+        },
+        {
+          "ar": "الْمُعِزُّ",
+          "answers": [ "the bestower of honour", "the giver of honour", "giver of honour", "the honourer", "honourer" ],
+          "note": "Al-Mu'izz",
+          "meaning": "The Bestower of Honour"
+        },
+        {
+          "ar": "الْمُذِلُّ",
+          "answers": [ "the humiliator", "humiliator", "the dishonorer", "dishonorer", "the degrader", "the abaser" ],
+          "note": "Al-Mudhill",
+          "meaning": "The Dishonorer / Humiliator"
+        }
+      ]
+    },
+    {
+      "id": "names-26-30",
+      "title": "Names 26 – 30",
+      "set": 2,
+      "words": [
+        {
+          "ar": "السَّمِيعُ",
+          "answers": [ "the all hearing", "all hearing", "the hearing", "hearing", "the hearer" ],
+          "note": "As-Sami'",
+          "meaning": "The All-Hearing"
+        },
+        {
+          "ar": "الْبَصِيرُ",
+          "answers": [ "the all seeing", "all seeing", "the seeing", "seeing", "the seer" ],
+          "note": "Al-Basir",
+          "meaning": "The All-Seeing"
+        },
+        {
+          "ar": "الْحَكَمُ",
+          "answers": [ "the judge", "judge", "the arbitrator", "arbitrator", "the arbiter" ],
+          "note": "Al-Hakam",
+          "meaning": "The Judge / Arbitrator"
+        },
+        {
+          "ar": "الْعَدْلُ",
+          "answers": [ "the utterly just", "the just", "just", "the justice", "justice" ],
+          "note": "Al-Adl",
+          "meaning": "The Utterly Just"
+        },
+        {
+          "ar": "اللَّطِيفُ",
+          "answers": [ "the subtle", "subtle", "the subtle one", "the most gentle", "gentle", "the gracious", "gracious" ],
+          "note": "Al-Latif",
+          "meaning": "The Subtle / The Most Gentle"
+        }
+      ]
+    },
+    {
+      "id": "names-31-35",
+      "title": "Names 31 – 35",
+      "set": 2,
+      "words": [
+        {
+          "ar": "الْخَبِيرُ",
+          "answers": [ "the all aware", "all aware", "the acquainted", "acquainted", "the aware", "aware" ],
+          "note": "Al-Khabir",
+          "meaning": "The All-Aware"
+        },
+        {
+          "ar": "الْحَلِيمُ",
+          "answers": [ "the most forbearing", "most forbearing", "the forbearing", "forbearing", "the clement", "the patient" ],
+          "note": "Al-Halim",
+          "meaning": "The Most Forbearing"
+        },
+        {
+          "ar": "الْعَظِيمُ",
+          "answers": [ "the magnificent", "magnificent", "the supreme", "supreme", "the great", "the tremendous" ],
+          "note": "Al-Azim",
+          "meaning": "The Magnificent"
+        },
+        {
+          "ar": "الْغَفُورُ",
+          "answers": [ "the ever forgiving", "ever forgiving", "the all forgiving", "all forgiving", "the forgiver", "the exceedingly forgiving" ],
+          "note": "Al-Ghafur",
+          "meaning": "The Exceedingly Forgiving / Ever-Forgiving"
+        },
+        {
+          "ar": "الشَّكُورُ",
+          "answers": [ "the most appreciative", "most appreciative", "the grateful", "grateful", "the appreciative", "rewarder of thankfulness" ],
+          "note": "Ash-Shakur",
+          "meaning": "The Most Appreciative"
+        }
+      ]
+    },
+    {
+      "id": "names-36-40",
+      "title": "Names 36 – 40",
+      "set": 2,
+      "words": [
+        {
+          "ar": "الْعَلِيُّ",
+          "answers": [ "the most high", "most high", "the exalted", "exalted", "the sublime", "sublime" ],
+          "note": "Al-Aliyy",
+          "meaning": "The Most High"
+        },
+        {
+          "ar": "الْكَبِيرُ",
+          "answers": [ "the greatest", "greatest", "the most great", "most great", "the grand", "the great" ],
+          "note": "Al-Kabir",
+          "meaning": "The  Greatest"
+        },
+        {
+          "ar": "الْحَفِيظُ",
+          "answers": [ "the preserver", "preserver", "the protector", "protector", "the guardian", "guardian" ],
+          "note": "Al-Hafiz",
+          "meaning": "The Preserver"
+        },
+        {
+          "ar": "الْمُقِيتُ",
+          "answers": [ "the sustainer", "sustainer", "the nourisher", "nourisher", "the maintainer", "maintainer" ],
+          "note": "Al-Muqit",
+          "meaning": "The Sustainer / Nourisher"
+        },
+        {
+          "ar": "الْحَسِيبُ",
+          "answers": [ "the reckoner", "reckoner", "the sufficient", "sufficient", "the accounter" ],
+          "note": "Al-Hasib",
+          "meaning": "The Reckoner"
+        }
+      ]
+    },
+    {
+      "id": "names-41-45",
+      "title": "Names 41 – 45",
+      "set": 3,
+      "words": [
+        {
+          "ar": "الْجَلِيلُ",
+          "answers": [ "the majestic", "majestic", "the sublime", "sublime", "the glorious", "glorious" ],
+          "note": "Al-Jalil",
+          "meaning": "The Majestic"
+        },
+        {
+          "ar": "الْكَرِيمُ",
+          "answers": [ "the most generous", "most generous", "the generous", "generous", "the most noble", "the noble" ],
+          "note": "Al-Karim",
+          "meaning": "The Most Generous / Noble"
+        },
+        {
+          "ar": "الرَّقِيبُ",
+          "answers": [ "the watchful", "watchful", "the all observing", "the observer", "the watcher" ],
+          "note": "Ar-Raqib",
+          "meaning": "The Watchful"
+        },
+        {
+          "ar": "الْمُجِيبُ",
+          "answers": [ "the responsive", "responsive", "the answerer", "the responder", "answerer of prayers" ],
+          "note": "Al-Mujib",
+          "meaning": "The Responsive / Answerer"
+        },
+        {
+          "ar": "الْوَاسِعُ",
+          "answers": [ "the all encompassing", "all encompassing", "the vast", "vast", "the boundless", "the all embracing" ],
+          "note": "Al-Wasi'",
+          "meaning": "The All-Encompassing / Boundless"
+        }
+      ]
+    },
+    {
+      "id": "names-46-50",
+      "title": "Names 46 – 50",
+      "set": 3,
+      "words": [
+        {
+          "ar": "الْحَكِيمُ",
+          "answers": [ "the all wise", "all wise", "the wise", "wise" ],
+          "note": "Al-Hakim",
+          "meaning": "The All-Wise"
+        },
+        {
+          "ar": "الْوَدُودُ",
+          "answers": [ "the most loving", "most loving", "the loving", "loving", "the affectionate" ],
+          "note": "Al-Wadud",
+          "meaning": "The Most Loving"
+        },
+        {
+          "ar": "الْمَجِيدُ",
+          "answers": [ "the most glorious", "most glorious", "the all glorious", "the glorious", "glorious", "the honorable" ],
+          "note": "Al-Majid",
+          "meaning": "The All Glorious"
+        },
+        {
+          "ar": "الْبَاعِثُ",
+          "answers": [ "the resurrector", "the infuser of new life", "resurrector", "the raiser of the dead", "the awakener", "the sender" ],
+          "note": "Al-Ba'ith",
+          "meaning": "The Resurrector / Infuser of New Life"
+        },
+        {
+          "ar": "الشَّهِيدُ",
+          "answers": [ "the witness", "witness", "the all observing witness", "the observer" ],
+          "note": "Ash-Shahid",
+          "meaning": "The All Observing"
+        }
+      ]
+    },
+    {
+      "id": "names-51-55",
+      "title": "Names 51 – 55",
+      "set": 3,
+      "words": [
+        {
+          "ar": "الْحَقُّ",
+          "answers": [ "the absolute truth", "the truth", "truth", "the reality", "reality" ],
+          "note": "Al-Haqq",
+          "meaning": "The Absolute Truth"
+        },
+        {
+          "ar": "الْوَكِيلُ",
+          "answers": [ "the trustee", "trustee", "the disposer of affairs", "the dependable", "the advocate" ],
+          "note": "Al-Wakil",
+          "meaning": "The Trustee / Disposer of Affairs"
+        },
+        {
+          "ar": "الْقَوِيُّ",
+          "answers": [ "the all strong", "all strong", "the strong", "strong", "the most strong", "the powerful" ],
+          "note": "Al-Qawiyy",
+          "meaning": "The All-Strong"
+        },
+        {
+          "ar": "الْمَتِينُ",
+          "answers": [ "the firm", "firm", "the steadfast", "steadfast", "the forceful", "the unwavering" ],
+          "note": "Al-Matin",
+          "meaning": "The Firm / Steadfast"
+        },
+        {
+          "ar": "الْوَلِيُّ",
+          "answers": [ "the protecting friend", "protecting friend", "the guardian", "guardian", "the ally", "the protector" ],
+          "note": "Al-Waliyy",
+          "meaning": "The Protector / Guardian"
+        }
+      ]
+    },
+    {
+      "id": "names-56-60",
+      "title": "Names 56 – 60",
+      "set": 3,
+      "words": [
+        {
+          "ar": "الْحَمِيدُ",
+          "answers": [ "the praiseworthy", "praiseworthy", "the most praised", "all praised" ],
+          "note": "Al-Hamid",
+          "meaning": "The Praiseworthy / Most Praised"
+        },
+        {
+          "ar": "الْمُحْصِي",
+          "answers": [ "the accounter", "accounter", "the appraiser", "appraiser", "the reckoner of all", "the numberer of all" ],
+          "note": "Al-Muhsi",
+          "meaning": "The Accounter"
+        },
+        {
+          "ar": "الْمُبْدِئُ",
+          "answers": [ "the originator", "originator", "the initiator", "initiator", "the producer" ],
+          "note": "Al-Mubdi'",
+          "meaning": "The Originator / Initiator"
+        },
+        {
+          "ar": "الْمُعِيدُ",
+          "answers": [ "the restorer", "restorer", "the reinstater", "reinstater", "the reviver" ],
+          "note": "Al-Mu'id",
+          "meaning": "The Restorer / Reviver"
+        },
+        {
+          "ar": "الْمُحْيِي",
+          "answers": [ "the giver of life", "giver of life", "the reviver", "reviver", "the life giver" ],
+          "note": "Al-Muhyi",
+          "meaning": "The Giver of Life"
+        }
+      ]
+    },
+    {
+      "id": "names-61-65",
+      "title": "Names 61 – 65",
+      "set": 4,
+      "words": [
+        {
+          "ar": "الْمُمِيتُ",
+          "answers": [ "the causer of death", "bringer of death", "the taker of life", "the destroyer", "the causer of death" ],
+          "note": "Al-Mumit",
+          "meaning": "The Taker of Life / Causer of Death"
+        },
+        {
+          "ar": "الْحَيُّ",
+          "answers": [ "the ever living", "ever living", "the living", "living", "the alive" ],
+          "note": "Al-Hayy",
+          "meaning": "The Ever-Living"
+        },
+        {
+          "ar": "الْقَيُّومُ",
+          "answers": [ "the self subsisting", "self subsisting", "the sustainer of all", "the sustainer of existence", "the eternal" ],
+          "note": "Al-Qayyum",
+          "meaning": "The Sustainer / Self-Subsisting"
+        },
+        {
+          "ar": "الْوَاجِدُ",
+          "answers": [ "the perceiver", "perceiver", "the resourceful", "resourceful", "the unfailing" ],
+          "note": "Al-Wajid",
+          "meaning": "The Resourceful (Not Needing/Not Lacking Anything)"
+        },
+        {
+          "ar": "الْمَاجِدُ",
+          "answers": [ "magnificent", "noble", "the magnificent", "magnificent", "the noble", "noble" ],
+          "note": "Al-Majid",
+          "meaning": "The Magnificent / Noble"
+        }
+      ]
+    },
+    {
+      "id": "names-66-70",
+      "title": "Names 66 – 70",
+      "set": 4,
+      "words": [
+        {
+          "ar": "الْوَاحِدُ",
+          "answers": [ "the one", "one", "the unique", "unique", "the indivisible" ],
+          "note": "Al-Wahid",
+          "meaning": "The One / Indivisible"
+        },
+        {
+          "ar": "الْأَحَدُ",
+          "answers": [ "the only one", "only one", "the sole one", "the unique", "the one and only", "the unity" ],
+          "note": "Al-Ahad",
+          "meaning": "The Only One / The Unique"
+        },
+        {
+          "ar": "الصَّمَدُ",
+          "answers": [ "the eternal refuge", "the one upon whom all depend", "the self sufficient", "self sufficient", "the absolute", "absolute" ],
+          "note": "As-Samad",
+          "meaning": "The One Upon Whom All Depend"
+        },
+        {
+          "ar": "الْقَادِرُ",
+          "answers": [ "the omnipotent", "omnipotent", "the all capable", "all capable", "the capable", "the able" ],
+          "note": "Al-Qadir",
+          "meaning": "The All-Capable / Omnipotent"
+        },
+        {
+          "ar": "الْمُقْتَدِرُ",
+          "answers": [ "the determiner", "determiner", "the dominant", "dominant", "the all powerful", "all powerful" ],
+          "note": "Al-Muqtadir",
+          "meaning": "The Determiner / Dominant"
+        }
+      ]
+    },
+    {
+      "id": "names-71-75",
+      "title": "Names 71 – 75",
+      "set": 4,
+      "words": [
+        {
+          "ar": "الْمُقَدِّمُ",
+          "answers": [ "the expediter", "expediter", "the promoter", "promoter", "the advancer", "advancer" ],
+          "note": "Al-Muqaddim",
+          "meaning": "The Expediter / Promoter"
+        },
+        {
+          "ar": "الْمُؤَخِّرُ",
+          "answers": [ "the delayer", "delayer", "the postponer", "postponer", "the retarder" ],
+          "note": "Al-Mu'akhkhir",
+          "meaning": "The Delayer / Postponer"
+        },
+        {
+          "ar": "الْأَوَّلُ",
+          "answers": [ "the first", "first", "the pre existing" ],
+          "note": "Al-Awwal",
+          "meaning": "The First / Pre-Existing"
+        },
+        {
+          "ar": "الْآخِرُ",
+          "answers": [ "the last", "last", "the ultimate", "ultimate", "the ever remaining" ],
+          "note": "Al-Akhir",
+          "meaning": "The Last / Ever-Remaining"
+        },
+        {
+          "ar": "الظَّاهِرُ",
+          "answers": [ "the manifest", "manifest", "the evident", "evident", "the apparent", "apparent" ],
+          "note": "Az-Zahir",
+          "meaning": "The Evident / Manifest"
+        }
+      ]
+    },
+    {
+      "id": "names-76-80",
+      "title": "Names 76 – 80",
+      "set": 4,
+      "words": [
+        {
+          "ar": "الْبَاطِنُ",
+          "answers": [ "the hidden", "hidden", "the unmanifest", "the inner", "inner" ],
+          "note": "Al-Batin",
+          "meaning": "The Hidden"
+        },
+        {
+          "ar": "الْوَالِي",
+          "answers": [ "the sole governor", "governor", "the ruler", "ruler", "the protecting master", "the patron" ],
+          "note": "Al-Wali",
+          "meaning": "The Sole Governor"
+        },
+        {
+          "ar": "الْمُتَعَالِي",
+          "answers": [ "the self exalted", "self exalted", "the most high", "the supreme", "supreme", "the exalted" ],
+          "note": "Al-Muta'ali",
+          "meaning": "The Self-Exalted"
+        },
+        {
+          "ar": "الْبَرُّ",
+          "answers": [ "the source of all goodness", "source of goodness", "the most kind", "the beneficent", "beneficent", "the righteous" ],
+          "note": "Al-Barr",
+          "meaning": "The Source of All Goodness"
+        },
+        {
+          "ar": "التَّوَّابُ",
+          "answers": [ "the acceptor of repentance", "acceptor of repentance", "the ever pardoning", "the relenting", "the oft returning" ],
+          "note": "At-Tawwab",
+          "meaning": "The Acceptor of Repentance"
+        }
+      ]
+    },
+    {
+      "id": "names-81-85",
+      "title": "Names 81 – 85",
+      "set": 5,
+      "words": [
+        {
+          "ar": "الْمُنْتَقِمُ",
+          "answers": [ "the avenger", "avenger", "the retributor", "retributor" ],
+          "note": "Al-Muntaqim",
+          "meaning": "The Avenger"
+        },
+        {
+          "ar": "الْعَفُوُّ",
+          "answers": [ "the pardoner", "pardoner", "the ever forgiving", "the effacer of sins", "the forgiver" ],
+          "note": "Al-Afuww",
+          "meaning": "The Pardoner"
+        },
+        {
+          "ar": "الرَّءُوفُ",
+          "answers": [ "the most kind", "most kind", "the clement", "clement", "the compassionate", "compassionate", "the pitying" ],
+          "note": "Ar-Ra'uf",
+          "meaning": "The Most Kind"
+        },
+        {
+          "ar": "مَالِكُ الْمُلْكِ",
+          "answers": [ "master of the kingdom", "owner of all sovereignty", "king of all kings", "master of dominion", "owner of dominion" ],
+          "note": "Malik-ul-Mulk",
+          "meaning": "Owner of All Sovereignty / King of All Kings"
+        },
+        {
+          "ar": "ذُو الْجَلَالِ وَالْإِكْرَامِ",
+          "answers": [ "lord of majesty and generosity", "possessor of glory and honour", "lord of majesty and honour", "owner of majesty and honour" ],
+          "note": "Dhul-Jalali wal-Ikram",
+          "meaning": "Possessor of Glory and Honour"
+        }
+      ]
+    },
+    {
+      "id": "names-86-90",
+      "title": "Names 86 – 90",
+      "set": 5,
+      "words": [
+        {
+          "ar": "الْمُقْسِطُ",
+          "answers": [ "the equitable", "equitable", "the just", "just", "the requiter", "requiter" ],
+          "note": "Al-Muqsit",
+          "meaning": "The Just"
+        },
+        {
+          "ar": "الْجَامِعُ",
+          "answers": [ "the gatherer", "gatherer", "the unifier", "unifier", "the assembler" ],
+          "note": "Al-Jami'",
+          "meaning": "The Gatherer"
+        },
+        {
+          "ar": "الْغَنِيُّ",
+          "answers": [ "the self sufficient", "self sufficient", "the rich", "rich", "the independent", "independent" ],
+          "note": "Al-Ghaniyy",
+          "meaning": "The Self-Sufficient / Independant"
+        },
+        {
+          "ar": "الْمُغْنِي",
+          "answers": [ "the enricher", "enricher", "the bestower of wealth", "the emancipator" ],
+          "note": "Al-Mughni",
+          "meaning": "The Enricher"
+        },
+        {
+          "ar": "الْمَانِعُ",
+          "answers": [ "the withholder", "withholder", "the preventer", "preventer", "the defender", "defender" ],
+          "note": "Al-Mani'",
+          "meaning": "The Withholder / Preventer"
+        }
+      ]
+    },
+    {
+      "id": "names-91-95",
+      "title": "Names 91 – 95",
+      "set": 5,
+      "words": [
+        {
+          "ar": "الضَّارُّ",
+          "answers": [ "the creator of harm", "the harmer", "harmer", "the distressor", "distressor", "the afflicter" ],
+          "note": "Ad-Darr",
+          "meaning": "The Creator of Harm / Distressor"
+        },
+        {
+          "ar": "النَّافِعُ",
+          "answers": [ "the creator of good", "the benefactor", "benefactor", "the propitious", "the helper" ],
+          "note": "An-Nafi'",
+          "meaning": "The Creator of Good / Benefactor"
+        },
+        {
+          "ar": "النُّورُ",
+          "answers": [ "the light", "light", "the illuminator", "illuminator" ],
+          "note": "An-Nur",
+          "meaning": "The Light"
+        },
+        {
+          "ar": "الْهَادِي",
+          "answers": [ "the guide", "guide", "the provider of guidance", "the way shower" ],
+          "note": "Al-Hadi",
+          "meaning": "The Guide"
+        },
+        {
+          "ar": "الْبَدِيعُ",
+          "answers": [ "the incomparable originator", "incomparable originator", "the originator", "originator", "the incomparable", "incomparable" ],
+          "note": "Al-Badi'",
+          "meaning": "The Incomparable Originator"
+        }
+      ]
+    },
+    {
+      "id": "names-96-99",
+      "title": "Names 96 – 99",
+      "set": 5,
+      "words": [
+        {
+          "ar": "الْبَاقِي",
+          "answers": [ "the everlasting", "everlasting", "the enduring", "enduring", "the immutable", "immutable" ],
+          "note": "Al-Baqi",
+          "meaning": "The Everlasting"
+        },
+        {
+          "ar": "الْوَارِثُ",
+          "answers": [ "the inheritor", "inheritor", "the heir of all", "the ultimate heir", "the supreme inheritor" ],
+          "note": "Al-Warith",
+          "meaning": "The Inheritor"
+        },
+        {
+          "ar": "الرَّشِيدُ",
+          "answers": [ "the guide to the right path", "the righteous guide", "the infallible teacher", "the guide", "guide" ],
+          "note": "Ar-Rashid",
+          "meaning": "The Guide to the Right Path"
+        },
+        {
+          "ar": "الصَّبُورُ",
+          "answers": [ "the most patient", "most patient", "the patient", "patient", "the forbearing", "the timeless" ],
+          "note": "As-Sabur",
+          "meaning": "The Most Patient"
+        }
+      ]
+    }
+  ]
+}

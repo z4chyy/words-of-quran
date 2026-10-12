@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon_open_quran.png">
+    <link rel="apple-touch-icon" href="/favicon_open_quran.png">
+
+    <!-- Primary SEO Meta -->
+    <title>99 Names of Allah (Asma-ul-Husna) — Practice & Memorization</title>
+    <meta name="description" content="Memorize and test your knowledge of the 99 Names of Allah with an interactive quiz tool.">
+    <link rel="canonical" href="https://wordsofquran.org/names">
+    <meta name="theme-color" content="#7a1a26">
+
+    <!-- Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wordsofquran.org/names">
+    <meta property="og:title" content="99 Names of Allah (Asma-ul-Husna) — Quiz & Memorization">
+    <meta property="og:description" content="Test your recall and master the Divine Names with bite-sized sets and typing drills.">
+    <meta property="og:image" content="https://wordsofquran.org/header_logo_99_names.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="99 Names of Allah (Asma-ul-Husna)">
+    <meta name="twitter:description" content="Interactive memorization tool for the 99 Names of Allah.">
+    <meta name="twitter:image" content="https://wordsofquran.org/header_logo_99_names.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>99 Names of Allah - Asma-ul-Husna</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Lora:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --em: #7a1a26; /* Deep Crimson */
+            --emd: #59101b; /* Dark Maroon */
+            --gold: #b8893a; /* Antique Gold */
+            --bg: #f4f2f3; /* Crisp Alabaster / Cool Stone Gray */
+            --paper: #ffffff; /* Pure Clean White */
+            --tint: #ede7e9; /* Subtle rose-tinted neutral */
+            --tint2: #dfd7da; /* Darker hover tint */
+            --ok: #4caf6a;
+            --bad: #c8503c;
+            --ink: #211c1d; /* Soft Charcoal Ink */
+            --muted: #75686b;
+            --line: #ded4d7;
+            --card: #8b2532;
+            --cardf: #6f1b26;
+            --btn-green: #0f5c4d;
+            --btn-green-h: #0a4538;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Source Sans 3', system-ui, sans-serif;
+            color: var(--ink);
+            background: var(--bg);
+            font-size: 18px;
+            line-height: 1.5
+        }
+
+        a {
+            color: var(--em)
+        }
+
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 5;
+            background-color: var(--paper);
+            border-bottom: 2px solid var(--gold);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 6px 24px;
+            padding: 10px 24px
+        }
+
+        .brand {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+            .brand img {
+                height: 36px;
+                width: auto;
+                display: block;
+                mix-blend-mode: multiply;
+            }
+
+        .nav nav {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            flex-wrap: wrap
+        }
+
+            .nav nav a {
+                padding: 6px 14px;
+                border-radius: 4px;
+                text-decoration: none;
+                font-weight: 600;
+                color: var(--ink)
+            }
+
+                .nav nav a:hover {
+                    background: var(--tint)
+                }
+
+                .nav nav a.on {
+                    color: #fff8e6;
+                    background: var(--em)
+                }
+
+                .nav nav a.btn-green {
+                    background: var(--btn-green);
+                    color: #fff8e6;
+                    transition: background .15s;
+                }
+
+                    .nav nav a.btn-green:hover {
+                        background: var(--btn-green-h);
+                    }
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 28px 20px 40px
+        }
+
+        .view {
+            display: none
+        }
+
+            .view.show {
+                display: block
+            }
+
+        h1 {
+            font-family: 'Lora', serif;
+            color: var(--em);
+            font-size: 38px;
+            text-align: center;
+            margin: 0 0 6px;
+            line-height: 1.2
+        }
+
+        h2 {
+            font-family: 'Lora', serif;
+            color: var(--em);
+            font-size: 26px;
+            text-align: center;
+            margin: 30px 0 12px
+        }
+
+        .lead {
+            max-width: 560px;
+            margin: 0 auto 24px;
+            text-align: center
+        }
+
+        .prose {
+            max-width: 620px;
+            margin: 0 auto
+        }
+
+        .btn {
+            font: inherit;
+            font-weight: 600;
+            background: var(--tint);
+            color: var(--em);
+            border: 0;
+            border-radius: 999px;
+            padding: 12px 16px;
+            cursor: pointer;
+            width: 100%;
+            transition: background .15s
+        }
+
+            .btn:hover {
+                background: var(--tint2)
+            }
+
+            .btn.on {
+                background: var(--em);
+                color: #fff8e6
+            }
+
+                .btn.on:hover {
+                    background: var(--emd)
+                }
+
+            .btn small {
+                font-weight: 400;
+                opacity: .75;
+                margin-left: 6px
+            }
+
+        .seg {
+            display: flex;
+            max-width: 360px;
+            margin: 0 auto 22px;
+            background: var(--tint);
+            border-radius: 4px;
+            padding: 4px
+        }
+
+            .seg .btn {
+                background: transparent;
+                width: 50%;
+                border-radius: 4px;
+            }
+
+                .seg .btn:hover {
+                    background: var(--tint2)
+                }
+
+                .seg .btn.on {
+                    background: var(--em)
+                }
+
+        button[data-all], button[data-page], button[data-cat] {
+            background: var(--paper);
+            border: 2px solid var(--em);
+            border-radius: 8px;
+            color: var(--em);
+        }
+
+            button[data-all]:hover, button[data-page]:hover, button[data-cat]:hover {
+                background: var(--tint);
+            }
+
+            button[data-all].on, button[data-page].on, button[data-cat].on {
+                background: var(--em);
+                color: #fff8e6;
+            }
+
+        .start-wrap {
+            position: sticky;
+            bottom: 0;
+            padding: 80px 20px 24px;
+            margin: 0 -20px -40px;
+            background: linear-gradient(to top, var(--bg) 35%, rgba(247, 240, 224, 0) 100%);
+            z-index: 10;
+            pointer-events: none;
+        }
+
+            .start-wrap > * {
+                pointer-events: auto;
+            }
+
+        .start {
+            display: block;
+            margin: 0 auto;
+            max-width: 340px;
+            background: var(--em);
+            color: #fff8e6;
+            font-size: 22px;
+            box-shadow: 0 8px 16px rgba(122, 26, 38, 0.25), 0 0 0 3px var(--bg), 0 0 0 5px var(--gold);
+            transition: background .15s, transform .1s;
+        }
+
+            .start:hover {
+                background: var(--emd);
+                transform: translateY(-2px);
+            }
+
+        .msg {
+            text-align: center;
+            color: var(--bad);
+            min-height: 26px;
+            margin-top: 8px;
+            font-weight: 600;
+            text-shadow: 0 1px 2px var(--bg);
+        }
+
+        .sets {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 28px;
+            margin-top: 24px;
+        }
+
+        .set {
+            flex: 0 1 290px;
+            width: 100%;
+        }
+
+        .set-head h3 {
+            font-family: 'Lora', serif;
+            color: var(--em);
+            font-size: 22px;
+            margin: 0;
+        }
+
+        .set-sub {
+            color: var(--muted);
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: 2px;
+        }
+
+        .grid2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 10px
+        }
+
+            .grid2 .btn {
+                font-size: 16px;
+                padding: 10px 6px;
+                border-radius: 8px;
+            }
+
+                .grid2 .btn:last-child:nth-child(odd) {
+                    grid-column: span 2;
+                }
+
+                .grid2 .btn small {
+                    display: block;
+                    margin: 0
+                }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 18px;
+            margin-top: 18px
+        }
+
+        .lcard {
+            background: var(--paper);
+            border: 2px solid var(--gold);
+            border-radius: 50% 50% 18px 18px / 80px 80px 18px 18px;
+            padding: 34px 12px 16px;
+            text-align: center
+        }
+
+            .lcard .ar {
+                font-family: 'Amiri', serif;
+                font-size: 42px;
+                line-height: 1.5;
+                direction: rtl;
+                color: var(--em)
+            }
+
+            .lcard .en {
+                font-weight: 600
+            }
+
+            .lcard .nt {
+                color: var(--muted);
+                font-size: 15px;
+                min-height: 22px
+            }
+
+        .qcard {
+            position: relative;
+            background: var(--card);
+            color: #fff8e6;
+            border-radius: 50% 50% 24px 24px / 110px 110px 24px 24px;
+            height: 300px;
+            padding: 48px 16px 18px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 10px rgba(122, 26, 38, .12), inset 0 0 0 3px rgba(223, 190, 110, .55);
+            transition: background .2s, transform .2s
+        }
+
+            .qcard:focus-within {
+                background: var(--cardf);
+                transform: scale(1.02)
+            }
+
+            .qcard.right {
+                background: var(--ok);
+                transform: none
+            }
+
+            .qcard.wrong {
+                background: var(--bad);
+                transform: none
+            }
+
+                .qcard.right::after, .qcard.wrong::after {
+                    position: absolute;
+                    top: 44px;
+                    right: 38px;
+                    width: 28px;
+                    height: 28px;
+                    line-height: 28px;
+                    text-align: center;
+                    font-weight: 700;
+                    border-radius: 50%;
+                    background: rgba(255, 255, 255, .85);
+                    color: var(--ink)
+                }
+
+            .qcard.right::after {
+                content: "\2713"
+            }
+
+            .qcard.wrong::after {
+                content: "\2717"
+            }
+
+        .qar {
+            font-family: 'Amiri', serif;
+            line-height: 1.5;
+            direction: rtl;
+            text-align: center;
+            margin-top: 8px
+        }
+
+        .qnt {
+            font-size: 14px;
+            opacity: .85;
+            min-height: 20px
+        }
+
+        .qans {
+            width: 100%;
+            text-align: center;
+            min-height: 84px
+        }
+
+            .qans input {
+                width: 100%;
+                border: 0;
+                border-radius: 12px;
+                padding: 14px 8px;
+                font: inherit;
+                font-size: 20px;
+                text-align: center;
+                background: var(--paper);
+                color: var(--ink);
+                box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+                outline: none
+            }
+
+                .qans input:focus {
+                    box-shadow: 0 0 0 3px var(--gold)
+                }
+
+        .shown {
+            background: #f1e4d8;
+            color: #5c1e24;
+            border-radius: 12px;
+            padding: 10px 6px;
+            font-size: 17px;
+            line-height: 1.3
+        }
+
+        .ovr {
+            margin-top: 8px;
+            font: inherit;
+            font-size: 14px;
+            border: 0;
+            border-radius: 999px;
+            padding: 4px 12px;
+            background: var(--paper);
+            color: var(--ink);
+            cursor: pointer
+        }
+
+        .row {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 28px
+        }
+
+            .row .btn {
+                width: auto;
+                min-width: 200px
+            }
+
+        .score {
+            font-family: 'Lora', serif;
+            font-size: 56px;
+            font-weight: 700;
+            color: var(--em);
+            text-align: center
+        }
+
+        .missed {
+            list-style: none;
+            padding: 0;
+            max-width: 420px;
+            margin: 12px auto
+        }
+
+            .missed li {
+                display: flex;
+                justify-content: space-between;
+                gap: 12px;
+                border-bottom: 1px solid var(--line);
+                padding: 6px 0
+            }
+
+            .missed .ar {
+                font-family: 'Amiri', serif;
+                font-size: 26px;
+                direction: rtl
+            }
+
+        .dcards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 16px;
+            margin-top: 20px
+        }
+
+        .dcard {
+            display: block;
+            text-decoration: none;
+            color: var(--ink);
+            background: var(--paper);
+            border: 2px solid var(--gold);
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            transition: border-color .15s
+        }
+
+            .dcard:hover {
+                background: var(--tint)
+            }
+
+            .dcard b {
+                display: block;
+                font-family: 'Lora', serif;
+                color: var(--em);
+                font-size: 22px
+            }
+
+        .box {
+            background: var(--paper);
+            border: 2px solid var(--gold);
+            border-radius: 20px;
+            padding: 6px 26px 20px;
+            margin: 22px 0
+        }
+
+            .box h2 {
+                margin-top: 16px
+            }
+
+            .box > :last-child {
+                margin-bottom: 0
+            }
+
+        /* Tool styles */
+        .tool-control {
+            margin: 24px 0 16px;
+            text-align: center;
+        }
+
+        .slider-wrap {
+            margin: 20px 0 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .slider-val {
+            font-family: 'Lora', serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: var(--em);
+            line-height: 1;
+        }
+
+        .slider-label {
+            font-size: 16px;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+
+        input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            max-width: 480px;
+            height: 10px;
+            border-radius: 5px;
+            background: var(--tint2);
+            outline: none;
+            margin: 8px 0;
+        }
+
+            input[type="range"]::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+                width: 28px;
+                height: 28px;
+                border-radius: 50%;
+                background: var(--em);
+                border: 3px solid var(--paper);
+                box-shadow: 0 0 0 2px var(--gold);
+                cursor: pointer;
+                transition: transform 0.1s;
+            }
+
+                input[type="range"]::-webkit-slider-thumb:hover {
+                    transform: scale(1.15);
+                }
+
+            input[type="range"]::-moz-range-thumb {
+                width: 28px;
+                height: 28px;
+                border-radius: 50%;
+                background: var(--em);
+                border: 3px solid var(--paper);
+                box-shadow: 0 0 0 2px var(--gold);
+                cursor: pointer;
+            }
+
+        .m-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 24px 0 10px;
+        }
+
+        .m-card {
+            background: var(--paper);
+            border: 2px solid var(--line);
+            border-radius: 16px;
+            padding: 18px 14px;
+            text-align: center;
+            transition: border-color .2s;
+        }
+
+            .m-card.active {
+                border-color: var(--gold);
+                box-shadow: 0 4px 12px rgba(184, 137, 58, 0.15);
+            }
+
+            .m-card h3 {
+                margin: 0 0 4px;
+                font-size: 17px;
+                color: var(--muted);
+                font-weight: 600;
+            }
+
+            .m-card .pct {
+                font-family: 'Lora', serif;
+                font-size: 32px;
+                font-weight: 700;
+                color: var(--em);
+                line-height: 1.1;
+            }
+
+            .m-card .time {
+                margin-top: 6px;
+                font-size: 16px;
+                font-weight: 700;
+                color: var(--ink);
+            }
+
+            .m-card .desc {
+                font-size: 13px;
+                color: var(--muted);
+                margin-top: 4px;
+                line-height: 1.3;
+            }
+
+        footer {
+            border-top: 2px solid var(--line);
+            padding: 18px 20px 26px;
+            text-align: center;
+            font-size: 15px;
+            color: var(--muted)
+        }
+    </style>
+</head>
+<body>
+    <header class="nav">
+        <a class="brand" href="#home">
+            <img src="header_logo_99_names.png" alt="99 Names of Allah (swt)">
+        </a>
+        <nav>
+            <a href="index.html" class="btn-green">85% of Qur'an</a>
+            <a href="#home" data-nav="home">Home</a>
+            <a href="#how" data-nav="how">How to Use</a>
+            <a href="#tool" data-nav="tool">Tool</a>
+            <a href="#about" data-nav="about">About</a>
+            <a href="#support" data-nav="support">Support</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="view" id="v-home">
+            <h1>The 99 Names of Allah</h1>
+            <div class="box" style="max-width: 620px; margin: 0 auto 24px; text-align: center; padding-top: 20px;">
+                <i>
+                    <b>
+                        "Allah has ninety-nine names, one hundred less one. Whoever memorizes them will enter Paradise."
+                        (Sahih al-Bukhari)
+                    </b>
+                </i>
+            </div>
+            <p class="lead">Learn and memorize the Divine Attributes of Allah (swt). Choose your sets below to begin studying or quizzing.</p>
+            <div class="seg">
+                <button class="btn" data-mode="practice">Practice</button>
+                <button class="btn" data-mode="learn">Learn</button>
+            </div>
+            <button class="btn" data-all>All Names</button>
+            <div id="groups"></div>
+            <div class="start-wrap">
+                <button class="btn start" id="start">Start Quiz!</button>
+                <div class="msg" id="msg"></div>
+            </div>
+        </section>
+
+        <section class="view" id="v-how">
+            <div class="prose">
+                <h1>How to Use</h1>
+                <div class="box">
+                    <h2>1. Learn</h2>
+                    <p>On the home page, select <b>Learn</b>, choose one or more sets, and press <b>Start Learning!</b> You'll see each Arabic Name, its transliteration, and its primary English meaning.</p>
+                </div>
+                <div class="box">
+                    <h2>2. Practice</h2>
+                    <p>Select <b>Practice</b>, choose your sets, and hit <b>Start Quiz!</b></p>
+                    <ul>
+                        <li>Type the English meaning or title for each Divine Name and press <b>Enter</b>.</li>
+                        <li>Correct answers turn green and move you directly to the next card.</li>
+                        <li>Incorrect attempts will reveal the accepted meaning. If your answer was acceptable, click <b>✓ I was right</b> to override.</li>
+                        <li>Hit <b>Finish Quiz</b> when done to check your score and practice any missed names.</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h2>Tips</h2>
+                    <ul>
+                        <li>Learn in chunks at a time: don't rush yourself.</li>
+                        <li>Slight typographical errors (1 edit distance) are forgiven.</li>
+                        <li>The transliteration note (e.g., "Ar-Rahman") is displayed to assist with recognition.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="view" id="v-tool">
+            <div class="prose">
+                <h1>Memorization Estimator</h1>
+                <p class="lead">Memorizing all 99 Names is a deeply rewarding goal. Imagine how thrilled Allah (swt) is that you want to connect more with him! You can use the slider below to see how fast you can commit all of His names to memory based on your daily pace.</p>
+
+                <div class="box tool-control">
+                    <div class="slider-wrap">
+                        <span class="slider-label">Daily Target</span>
+                        <div class="slider-val" id="rateVal">3</div>
+                        <span style="font-weight:600; color:var(--em);">names / day</span>
+                        <input type="range" id="rateSlider" min="1" max="10" value="3" step="1" aria-label="Names per day slider">
+                        <div style="width:100%; max-width:480px; display:flex; justify-content:space-between; font-size:13px; color:var(--muted);">
+                            <span>1 name (Steady)</span>
+                            <span>3 names (Balanced)</span>
+                            <span>10 names (Sprint)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Projected Milestones</h2>
+                <div class="m-grid" id="milestones"></div>
+
+                <div class="box" style="margin-top:28px;">
+                    <h2>Preserving the Names (Iḥṣā')</h2>
+                    <p>Scholars note that preserving the Names includes knowing their pronunciation, understanding their meanings, praising and calling upon Allah (swt) through them, and embodying their virtues in daily life.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="view" id="v-about">
+            <div class="prose">
+                <h1>About</h1>
+                <p><i>99 Names of Allah</i> is an open-source memorization tool modeled after low-friction spaced repetition quizzes, which I found to be the most effective way of memorizing and retaining information.</p>
+                <p>It was built alongside the <b>85% Words of Qur'an</b> app to assist Muslims worldwide in reflecting on Allah's Divine Names and Attributes with ease and consistency.</p>
+                <p>For more information about the creator of this site, the GitHub repo and contact email, please go to the main page <a href="index.html#about">here</a>. We hope this site was helpful!</p>
+            </div>
+        </section>
+
+        <section class="view" id="v-support">
+            <div class="prose">
+                <h1>Support</h1>
+                <p class="lead">This project is free and ad-free. If you find it even the slightest bit helpful, that's great to hear!</p>
+                <p style="text-align: center">One way to support would be to share this tool with family and friends. If it can keep helping others, then our goal is complete. Apart from that, we urge you to give back to your community, 
+                or make du'a that this site remains pure and helpful for others. May Allah (swt) reward you as well for your hard work in trying to learn more about him.</p>
+            </div>
+        </section>
+
+        <section class="view" id="v-learn">
+            <h1>Learn</h1>
+            <p class="lead">Review each Divine Name and its meaning before testing yourself.</p>
+            <div id="learnBody"></div>
+            <div class="row">
+                <button class="btn" onclick="location.hash='home'">Back</button>
+                <button class="btn on" id="practiceThese">Practice these names</button>
+            </div>
+        </section>
+
+        <section class="view" id="v-quiz">
+            <h1>Type the Meaning</h1>
+            <p class="lead">Type the English meaning of the Name shown below and press Enter.</p>
+            <div class="cards" id="cards"></div>
+            <div class="row">
+                <button class="btn" onclick="location.hash='home'">Quit</button>
+                <button class="btn on" id="finish">Finish Quiz</button>
+            </div>
+        </section>
+
+        <section class="view" id="v-result">
+            <h1>Results</h1>
+            <div class="score" id="score"></div>
+            <div id="missedBox"></div>
+            <div class="row">
+                <button class="btn" onclick="location.hash='home'">Back to Home</button>
+                <button class="btn" id="retake">Retake Quiz</button>
+                <button class="btn on" id="retry">Retry missed names</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Asmā' Allāh al-Ḥusnā (99 Names of Allah). May Allah (swt) accept all of our efforts to get closesr to Him, ameen!
+    </footer>
+
+    <script>
+        const $= s => document.querySelector(s),$$ = s => [...document.querySelectorAll(s)];
+        let data, selected = new Set(), mode = localStorage.getItem('names_mode') || 'practice', session = null, cards = [];
+
+        fetch('names_99.json')
+            .then(r => r.json())
+            .then(d => { data = d; buildHome(); route(); })
+            .catch(() => {
+                document.body.insertAdjacentHTML('afterbegin', '<p style="padding:20px;color:#b00">Could not load names_99.json. Run this file via a local or remote web server.</p>');
+            });
+
+        function route() {
+            let h = location.hash.slice(1) || 'home';
+            if (['learn', 'quiz', 'result'].includes(h) && !session) h = 'home';
+            $$('.view').forEach(v => v.classList.toggle('show', v.id === 'v-' + h));$$
+('[data-nav]').forEach(a => {
+                const isNav = a.dataset.nav === h;
+                const isHomeFallback = !['how', 'tool', 'about', 'support'].includes(h) && a.dataset.nav === 'home';
+                a.classList.toggle('on', isNav || isHomeFallback);
+            });
+            window.scrollTo(0, 0);
+        }
+        addEventListener('hashchange', route);
+
+        const milestones = [
+            { targetPct: '25 Names ', words: 25, label: 'First Quarter', desc: ' Core attributes of Mercy and Majesty' },
+            { targetPct: '50 Names ', words: 50, label: 'Halfway Mark', desc: ' Names of Power, Justice, and Knowledge' },
+            { targetPct: '75 Names ', words: 75, label: 'Three Quarters', desc: ' Attributes of Transcendence and Protection' },
+            { targetPct: '99 Names ', words: 99, label: 'Completion', desc: ' All 99 Preserved Names of Allah' }
+        ];
+
+        function formatDays(days) {
+            if (days < 30) return `${days} day${days === 1 ? '' : 's'}`;
+            const months = (days / 30.4).toFixed(1);
+            return `${days} days (~${months} mo)`;
+        }
+
+        function updateEstimator(rate) {
+            $('#rateVal').textContent = rate;
+            $('#milestones').innerHTML = milestones.map(m => {
+                const days = Math.ceil(m.words / rate);
+                return `
+                    <div class="m-card active">
+                        <h3>${m.label}</h3>
+                        <div class="pct">${m.targetPct}</div>
+                        <div class="time">${formatDays(days)}</div>
+                        <div class="desc">${m.words} names • ${m.desc}</div>
+                    </div>`;
+            }).join('');
+        }
+
+        const slider = $('#rateSlider');
+        if (slider) {
+            slider.addEventListener('input', e => updateEstimator(+e.target.value));
+            updateEstimator(+slider.value);
+        }
+
+        /* Direct set rendering without section headers */
+        function buildHome() {
+            const uniqueSets = [...new Set(data.categories.map(c => c.set))].sort((a, b) => a - b);
+            let html = '<div class="sets">';
+            uniqueSets.forEach(s => {
+                const cats = data.categories.filter(c => c.set === s);
+                const subtitle = cats[0]?.setSubtitle || '';
+                html += `
+                    <div class="set">
+                        <div class="set-head">
+                            <h3>Set ${s}</h3>${subtitle ? `<div class="set-sub">${subtitle}</div>` : ''}
+                        </div>
+                        <button class="btn" data-page="${s}">All Set ${s}</button>
+                        <div class="grid2">
+                            ${cats.map(c => `
+                                <button class="btn" data-cat="${c.id}">
+                                    ${c.title}<small>${c.words.length}</small>
+                                </button>
+                            `).join('')}
+                        </div>
+                    </div>`;
+            });
+            html += '</div>';
+
+            $('#groups').innerHTML = html;
+            sync();
+        }
+
+        function sync() {
+            $$('[data-cat]').forEach(b => b.classList.toggle('on', selected.has(b.dataset.cat)));$$
+('[data-page]').forEach(b => b.classList.toggle('on', idsOf(+b.dataset.page).every(i => selected.has(i))));
+            $('[data-all]').classList.toggle('on', selected.size === data.categories.length);$$('[data-mode]').forEach(b => b.classList.toggle('on', b.dataset.mode === mode));$('#start').textContent = mode === 'learn' ? 'Start Learning!' : 'Start Quiz!';
+        }
+
+        const idsOf = s => data.categories.filter(c => c.set === s).map(c => c.id);
+
+        function toggle(ids) {
+            const all = ids.every(i => selected.has(i));
+            ids.forEach(i => all ? selected.delete(i) : selected.add(i));
+            $('#msg').textContent = '';
+            sync();
+        }
+
+        $('#v-home').addEventListener('click', e => {
+            const b = e.target.closest('button');
+            if (!b) return;
+            if (b.dataset.mode) {
+                mode = b.dataset.mode;
+                localStorage.setItem('names_mode', mode);
+                sync();
+            } else if (b.dataset.cat) {
+                toggle([b.dataset.cat]);
+            } else if (b.dataset.page) {
+                toggle(idsOf(+b.dataset.page));
+            } else if ('all' in b.dataset) {
+                toggle(data.categories.map(c => c.id));
+            }
+        });
+
+        $('#start').onclick = () => {
+            if (!selected.size) {
+                $('#msg').textContent = 'Pick at least one set or category first.';
+                return;
+            }
+            session = { cats: data.categories.filter(c => selected.has(c.id)) };
+            if (mode === 'learn') {
+                renderLearn();
+                location.hash = 'learn';
+            } else {
+                startQuiz(session.cats.flatMap(c => c.words));
+            }
+        };
+
+        function renderLearn() {
+            $('#learnBody').innerHTML = session.cats.map(c => `
+                <h2>${c.title}</h2>
+                <div class="cards">${c.words.map(w => `
+                    <div class="lcard">
+                        <div class="ar">${w.ar}</div>
+                        <div class="en">${w.meaning}</div>
+                        <div class="nt">${w.note || ''}</div>
+                    </div>`).join('')}
+                </div>`).join('');
+        }
+
+        $('#practiceThese').onclick = () => startQuiz(session.cats.flatMap(c => c.words));
+
+        const shuffle = a => {
+            for (let i = a.length - 1; i > 0; i--) {
+                const j = Math.random() * (i + 1) | 0;
+                [a[i], a[j]] = [a[j], a[i]];
+            }
+            return a;
+        };
+
+        function startQuiz(words) {
+            cards = shuffle(words.slice()).map(w => ({ w, status: null }));
+            $('#cards').innerHTML = cards.map((c, i) => {
+                const n = c.w.ar.length, size = n > 8 ? 32 : n > 5 ? 42 : 52;
+                return `
+                    <div class="qcard" data-i="${i}">
+                        <div class="qar" style="font-size:${size}px">${c.w.ar}</div>
+                        <div class="qnt">${c.w.note || ''}</div>
+                        <div class="qans">
+                            <input type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Meaning of ${c.w.ar}">
+                        </div>
+                    </div>`;
+            }).join('');
+            location.hash = 'quiz';
+            setTimeout(() => $('#cards input').focus(), 50);
+        }
+
+        function norm(s) {
+            return s.toLowerCase().replace(/\(.*?\)/g, '').replace(/[^a-z\s]/g, ' ').replace(/\b(to|the|a|an)\b/g, ' ').replace(/\s+/g, ' ').trim();
+        }
+
+        function lev(a, b) {
+            const m = Array.from({ length: a.length + 1 }, (_, i) => [i]);
+            for (let j = 1; j <= b.length; j++) m[0][j] = j;
+            for (let i = 1; i <= a.length; i++) {
+                for (let j = 1; j <= b.length; j++) {
+                    m[i][j] = Math.min(m[i - 1][j] + 1, m[i][j - 1] + 1, m[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+                }
+            }
+            return m[a.length][b.length];
+        }
+
+        function ok(input, answers) {
+            const x = norm(input);
+            if (!x) return false;
+            return answers.some(a => {
+                const y = norm(a);
+                return x === y || (y.length > 4 && lev(x, y) <= 1);
+            });
+        }
+
+        $('#cards').addEventListener('keydown', e => {
+            if (e.key !== 'Enter' || e.target.tagName !== 'INPUT') return;
+            const el = e.target.closest('.qcard'), i = +el.dataset.i, c = cards[i];
+            if (!e.target.value.trim()) return;
+
+            c.status = ok(e.target.value, c.w.answers) ? 'right' : 'wrong';
+            el.classList.add(c.status);
+            el.querySelector('.qans').innerHTML = `<div class="shown">${c.w.meaning}</div>` + (c.status === 'wrong' ? '<button class="ovr">✓ I was right</button>' : '');
+
+            const nxt = cards.findIndex((x, j) => j > i && !x.status) >= 0
+                ? cards.findIndex((x, j) => j > i && !x.status)
+                : cards.findIndex(x => !x.status);
+
+            if (nxt >= 0) {
+                const inp = $(`.qcard[data-i="${nxt}"] input`);
+                inp.focus();
+                inp.closest('.qcard').scrollIntoView({ block: 'center', behavior: 'smooth' });
+            }
+        });
+
+        $('#cards').addEventListener('click', e => {
+            if (!e.target.classList.contains('ovr')) return;
+            const el = e.target.closest('.qcard');
+            cards[+el.dataset.i].status = 'right';
+            el.classList.replace('wrong', 'right');
+            e.target.remove();
+        });
+
+        $('#retake').onclick = () => startQuiz(session.cats.flatMap(c => c.words));
+
+        $('#finish').onclick = () => {
+            const missed = cards.filter(c => c.status !== 'right');
+            $('#score').textContent = `${cards.length - missed.length} / ${cards.length}`;
+            $('#missedBox').innerHTML = missed.length
+                ? `<h2>Names to review</h2><ul class="missed">${missed.map(c => `<li><span>${c.w.meaning}</span><span class="ar">${c.w.ar}</span></li>`).join('')}</ul>`
+                : '<h2>Perfect!</h2>';
+            $('#retry').style.display = missed.length ? '' : 'none';
+            $('#retry').onclick = () => startQuiz(missed.map(c => c.w));
+            location.hash = 'result';
+        };
+    </script>
+</body>
+</html>

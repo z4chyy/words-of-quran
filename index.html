@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon_open_quran.png">
+    <link rel="apple-touch-icon" href="/favicon_open_quran.png">
+
+    <!-- Primary SEO Meta -->
+    <title>Words of Qur'an — Understand 85% of Qur'anic Vocabulary</title>
+    <meta name="description" content="Free, interactive flashcard and quiz app to master the top 85% most common words in the Qur'an with spaced repetition drills.">
+    <link rel="canonical" href="https://wordsofquran.org/">
+    <meta name="theme-color" content="#0f5c4d">
+
+    <!-- Social Sharing (Open Graph / Twitter) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wordsofquran.org/">
+    <meta property="og:title" content="Words of Qur'an — Learn 85% of Qur'anic Arabic">
+    <meta property="og:description" content="Master frequent Qur'anic vocabulary with interactive spaced-repetition quizzes. 100% free with no ads.">
+    <meta property="og:image" content="https://wordsofquran.org/header_logo.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Words of Qur'an — Learn 85% of Qur'anic Arabic">
+    <meta name="twitter:description" content="Interactive practice drills for the most common words of the Qur'an.">
+    <meta name="twitter:image" content="https://wordsofquran.org/header_logo.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Words of Qur'an</title>
@@ -56,12 +77,17 @@
         }
 
         .brand {
-            font-family: 'Lora', serif;
-            font-weight: 700;
-            font-size: 24px;
-            color: var(--em);
-            text-decoration: none
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
         }
+
+            .brand img {
+                height: 42px;
+                width: auto;
+                display: block;
+                mix-blend-mode: multiply;
+            }
 
         .nav nav {
             display: flex;
@@ -242,7 +268,7 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 28px;
-            margin-top: 8px
+            margin-top: 8px;
         }
 
         /* Section Banners & Set Subtitles */
@@ -291,6 +317,7 @@
                 padding: 10px 6px;
                 border-radius: 8px;
             }
+
                 .grid2 .btn:last-child:nth-child(odd) {
                     grid-column: span 2;
                 }
@@ -662,8 +689,18 @@
 </head>
 <body>
     <header class="nav">
-        <a class="brand" href="#home">Words of Qur'an</a>
+        <a class="brand" href="#home">
+            <img src="header_logo.png" alt="Words of Qur'an">
+        </a>
         <nav>
+            <a href="names.html" 
+               style="background: #7a1a26; 
+               color: #fff8e6; 
+               padding: 6px 14px; 
+               border-radius: 4px; 
+               text-decoration: none; 
+               font-weight: 600; 
+               margin-left: 6px;">99 Names</a>
             <a href="#home" data-nav="home">Home</a>
             <a href="#how" data-nav="how">How to Use</a>
             <a href="#tool" data-nav="tool">Tool</a>
@@ -717,8 +754,8 @@
                 <div class="box">
                     <h2>Tips</h2>
                     <ul>
+                        <li>Don't rush! This is a marathon, not a race so take your time. Small consistent deeds are most pleasing to Allah (swt).</li>
                         <li>Only the most common meaning is listed. Many words have others depending on context.</li>
-                        <li>"to", "the", and "a" are ignored, and small typos are forgiven.</li>
                         <li>The small gray note on a card (like "fem.") tells you which form it is.</li>
                     </ul>
                 </div>
@@ -777,7 +814,7 @@
                     this site will remain free: if it benefits others, that's way better than any monetary value. I'm still in university so I'm not making any big bucks, but that's okay: I trust that it'll all
                     work out and Allah (swt) will take care of my affairs.
                 </p>
-                <p>I developed this site solo as a Sadaqa Jaariya for my sister that has passed away. May she get all the rewards if this ends up benefitting anyone, ameen!</p>
+                <p>I developed this site solo as a Sadaqa Jaariya for my sister that has passed away. May she receive the rewards if this ends up benefitting anyone, ameen.</p>
                 <h2>Sources</h2>
                 <p>
                     Word lists, categories, and meanings come from <i>85% of Qur'anic Words</i> by Dr. Abdulazeez Abdulraheem, published by <a href="https://www.understandquran.com" target="_blank" rel="noopener">Understand Al-Qur'an Academy</a>.
@@ -793,7 +830,7 @@
         <section class="view" id="v-support">
             <div class="prose">
                 <h1>Support</h1>
-                <p class="lead">This site doesn't accept donations. If it helps you, please make du'a for everyone this site has helped or support one of these instead:</p>
+                <p class="lead">This site doesn't accept donations. If it helps you, please share this resource to others that may benefit. We haven't done any real advertising, so there may be people that would love this resource yet simply haven't heard of it. <br /><br />Apart from that, you can make du'a for everyone this site has helped or support one of these instead:</p>
                 <div class="dcards">
                     <a class="dcard" href="https://understandquran.com/charity-allah-swt/" target="_blank" rel="noopener"><b>Understand Al-Qur'an Academy</b><br />The source of the word lists used on this site. They don't accept direct donations, so instead I would highly suggest <strong>donating in your community:</strong> buy a meal for someone, help your neighbours, donate to a local charity, etc.</a>
                     <a class="dcard" href="#support" target="_blank" rel="noopener"><b>Water Well Construction</b><br />**not setup yet** -- Donations here will be pooled together to build a water well somewhere needed in the world.
