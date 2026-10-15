@@ -326,136 +326,137 @@
                     margin: 0
                 }
 
+        /* Cards Grid: Fits 5-6 cards across desktop */
         .cards {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 18px;
-            margin-top: 18px
+            grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+            gap: 14px;
+            margin-top: 18px;
         }
 
         .lcard {
             background: var(--paper);
             border: 2px solid var(--gold);
-            border-radius: 50% 50% 18px 18px / 80px 80px 18px 18px;
-            padding: 34px 12px 16px;
-            text-align: center
+            border-radius: 50% 50% 16px 16px / 75px 75px 16px 16px;
+            padding: 26px 8px 14px;
+            text-align: center;
         }
 
             .lcard .ar {
                 font-family: 'Amiri', serif;
-                font-size: 42px;
-                line-height: 1.5;
+                font-size: 36px;
+                line-height: 1.35;
                 direction: rtl;
-                color: var(--em)
+                color: var(--em);
             }
 
             .lcard .en {
-                font-weight: 600
+                font-weight: 600;
+                font-size: 16px;
             }
 
             .lcard .nt {
                 color: var(--muted);
-                font-size: 15px;
-                min-height: 22px
+                font-size: 13px;
+                min-height: 20px;
             }
 
         .qcard {
             position: relative;
             background: var(--card);
             color: #fff8e6;
-            border-radius: 50% 50% 24px 24px / 110px 110px 24px 24px;
-            height: 300px;
-            padding: 48px 16px 18px;
+            border-radius: 50% 50% 20px 20px / 90px 90px 20px 20px;
+            height: 265px;
+            padding: 34px 10px 14px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
             box-shadow: 0 4px 10px rgba(122, 26, 38, .12), inset 0 0 0 3px rgba(223, 190, 110, .55);
-            transition: background .2s, transform .2s
+            transition: background .2s, transform .2s;
         }
 
             .qcard:focus-within {
                 background: var(--cardf);
-                transform: scale(1.02)
+                transform: scale(1.02);
             }
 
             .qcard.right {
                 background: var(--ok);
-                transform: none
+                transform: none;
             }
 
             .qcard.wrong {
                 background: var(--bad);
-                transform: none
+                transform: none;
             }
 
                 .qcard.right::after, .qcard.wrong::after {
                     position: absolute;
-                    top: 44px;
-                    right: 38px;
-                    width: 28px;
-                    height: 28px;
-                    line-height: 28px;
+                    top: 22px;
+                    right: 16px;
+                    width: 24px;
+                    height: 24px;
+                    line-height: 24px;
                     text-align: center;
+                    font-size: 13px;
                     font-weight: 700;
                     border-radius: 50%;
                     background: rgba(255, 255, 255, .85);
-                    color: var(--ink)
+                    color: var(--ink);
                 }
 
             .qcard.right::after {
-                content: "\2713"
+                content: "\2713";
             }
 
             .qcard.wrong::after {
-                content: "\2717"
+                content: "\2717";
             }
 
         .qar {
             font-family: 'Amiri', serif;
-            line-height: 1.5;
+            line-height: 1.3;
             direction: rtl;
             text-align: center;
-            margin-top: 8px
+            margin-top: 4px;
         }
 
         .qnt {
-            font-size: 14px;
+            font-size: 13px;
             opacity: .85;
-            min-height: 20px
+            min-height: 18px;
         }
 
         .qans {
             width: 100%;
             text-align: center;
-            min-height: 84px
+            min-height: 72px;
         }
 
             .qans input {
                 width: 100%;
                 border: 0;
-                border-radius: 12px;
-                padding: 14px 8px;
+                border-radius: 10px;
+                padding: 10px 6px;
                 font: inherit;
-                font-size: 20px;
+                font-size: 16px;
                 text-align: center;
                 background: var(--paper);
                 color: var(--ink);
                 box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
-                outline: none
+                outline: none;
             }
 
                 .qans input:focus {
-                    box-shadow: 0 0 0 3px var(--gold)
+                    box-shadow: 0 0 0 3px var(--gold);
                 }
 
         .shown {
-            background: #f1e4d8;
-            color: #5c1e24;
-            border-radius: 12px;
-            padding: 10px 6px;
-            font-size: 17px;
-            line-height: 1.3
+            border-radius: 10px;
+            padding: 8px 4px;
+            font-size: 14px;
+            line-height: 1.25;
         }
 
         .ovr {
@@ -706,6 +707,45 @@
             }
 
         @media (max-width: 768px) {
+            main {
+                padding: 20px 12px 36px;
+            }
+
+            /* 2 to 3 cards on mobile */
+            .cards {
+                grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+                gap: 10px;
+            }
+
+            .qcard {
+                height: 235px;
+                padding: 28px 8px 12px;
+                border-radius: 50% 50% 16px 16px / 75px 75px 16px 16px;
+            }
+
+                .qcard.right::after, .qcard.wrong::after {
+                    top: 14px;
+                    right: 12px;
+                    width: 20px;
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 11px;
+                }
+
+            .qans {
+                min-height: 64px;
+            }
+
+                .qans input {
+                    font-size: 14px;
+                    padding: 8px 4px;
+                }
+
+            .shown {
+                font-size: 13px;
+                padding: 6px 3px;
+            }
+            
             .burger {
                 display: flex;
             }
@@ -1066,17 +1106,19 @@
         function startQuiz(words) {
             cards = shuffle(words.slice()).map(w => ({ w, status: null }));
             $('#cards').innerHTML = cards.map((c, i) => {
-                const n = c.w.ar.length, size = n > 8 ? 32 : n > 5 ? 42 : 52;
+                const n = c.w.ar.length;
+                // Adjusted from 52/42/32 to 42/34/26 for proportional fit
+                const size = n > 8 ? 26 : n > 5 ? 34 : 42;
                 return `
-            <div class="qcard" data-i="${i}">
-                <div class="qar" style="font-size:${size}px">${c.w.ar}</div>
-                <div class="qnt">${c.w.note || ''}</div>
-                <div class="qans">
-                    <form class="qform" action="javascript:void(0);">
-                        <input type="text" enterkeyhint="go" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Meaning of ${c.w.ar}">
-                    </form>
-                </div>
-            </div>`;
+    <div class="qcard" data-i="${i}">
+        <div class="qar" style="font-size:${size}px">${c.w.ar}</div>
+        <div class="qnt">${c.w.note || ''}</div>
+        <div class="qans">
+            <form class="qform" action="javascript:void(0);">
+                <input type="text" enterkeyhint="go" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Meaning of ${c.w.ar}">
+            </form>
+        </div>
+    </div>`;
             }).join('');
             location.hash = 'quiz';
             setTimeout(() => {
