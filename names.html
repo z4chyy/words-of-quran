@@ -328,11 +328,18 @@
 
         /* Cards Grid: Fits 5-6 cards across desktop */
         .cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             gap: 14px;
             margin-top: 18px;
         }
+
+            .cards > div {
+                width: 100%;
+                flex: 1 1 148px;
+                max-width: 170px; /* Keeps them from stretching too wide */
+            }
 
         .lcard {
             background: var(--paper);
@@ -713,9 +720,13 @@
 
             /* 2 to 3 cards on mobile */
             .cards {
-                grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
                 gap: 10px;
             }
+
+                .cards > div {
+                    flex: 1 1 130px;
+                    max-width: 150px;
+                }
 
             .qcard {
                 height: 235px;
@@ -962,17 +973,25 @@
                 }
             });
         }
+
+        /* routing */
         function route() {
             let h = location.hash.slice(1) || 'home';
-            if (['learn', 'quiz', 'result'].includes(h) && !session) h = 'home';
-            $$('.view').forEach(v => v.classList.toggle('show', v.id === 'v-' + h));$$
-('[data-nav]').forEach(a => {
+
+            if (['learn', 'quiz', 'result'].includes(h) && !session) {
+                h = 'home';
+                history.replaceState(null, '', '#home');
+            }
+
+            $$('.view').forEach(v => v.classList.toggle('show', v.id === 'v-' + h));
+            $$('[data-nav]').forEach(a => {
                 const isNav = a.dataset.nav === h;
                 const isHomeFallback = !['how', 'tool', 'about', 'support'].includes(h) && a.dataset.nav === 'home';
                 a.classList.toggle('on', isNav || isHomeFallback);
             });
             window.scrollTo(0, 0);
         }
+
         addEventListener('hashchange', route);
 
         const milestones = [
