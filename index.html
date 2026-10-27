@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/favicon_open_quran.png">
     <link rel="apple-touch-icon" href="/favicon_open_quran.png">
@@ -22,9 +23,7 @@
     <meta name="twitter:title" content="Words of Qur'an — Learn 85% of Qur'anic Arabic">
     <meta name="twitter:description" content="Interactive practice drills for the most common words of the Qur'an.">
     <meta name="twitter:image" content="https://wordsofquran.org/header_logo.png">
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Words of Qur'an</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Lora:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
@@ -48,7 +47,7 @@
         * {
             box-sizing: border-box
         }
-                     
+
         body {
             margin: 0;
             font-family: 'Source Sans 3', system-ui, sans-serif;
@@ -111,6 +110,89 @@
                     color: #fff8e6;
                     background: var(--em)
                 }
+
+        .welcome {
+            position: fixed;
+            inset: 0;
+            z-index: 50;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            background: rgba(1, 6, 26, .72);
+            backdrop-filter: blur(3px)
+        }
+
+            .welcome.show {
+                display: flex
+            }
+
+        .wbox {
+            position: relative;
+            width: 100%;
+            max-width: 460px;
+            max-height: calc(100vh - 32px);
+            max-height: calc(100dvh - 32px);
+            overflow-y: auto;
+            background: var(--paper);
+            border: 2px solid var(--gold);
+            border-radius: 28px;
+            padding: 32px 26px 24px;
+            text-align: center;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, .45)
+        }
+
+            .wbox h2 {
+                margin: 0 0 10px;
+                font-size: 26px
+            }
+
+            .wbox p {
+                margin: 0 0 12px
+            }
+
+        .wsteps {
+            text-align: left;
+            margin: 14px auto 16px;
+            padding-left: 24px;
+            font-size: 17px
+        }
+
+        .wx {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 40px;
+            height: 40px;
+            border: 0;
+            border-radius: 50%;
+            background: var(--tint);
+            color: var(--em);
+            font-size: 24px;
+            line-height: 1;
+            cursor: pointer
+        }
+
+            .wx:hover {
+                background: var(--tint2)
+            }
+
+        .wbtns {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 16px
+        }
+
+        @media (min-width: 480px) {
+            .wbtns {
+                flex-direction: row
+            }
+
+                .wbtns .btn {
+                    flex: 1
+                }
+        }
 
         main {
             max-width: 1000px;
@@ -757,7 +839,7 @@
                 font-size: 13px;
                 padding: 6px 3px;
             }
-            
+
             .burger {
                 display: flex;
             }
@@ -938,8 +1020,10 @@
                 <p class="lead">This site doesn't accept donations. If it helps you, please share this resource to others that may benefit. We haven't done any real advertising, so there may be people that would love this resource yet simply haven't heard of it. <br /><br />Apart from that, you can make du'a for everyone this site has helped or support one of these instead:</p>
                 <div class="dcards">
                     <a class="dcard" href="https://understandquran.com/charity-allah-swt/" target="_blank" rel="noopener"><b>Understand Al-Qur'an Academy</b><br />The source of the word lists used on this site. They don't accept direct donations, so instead I would highly suggest <strong>donating in your community:</strong> buy a meal for someone, help your neighbours, donate to a local charity, etc.</a>
-                    <a class="dcard" href="#support" target="_blank" rel="noopener"><b>Water Well Construction</b><br />**not setup yet** -- Donations here will be pooled together to build a water well somewhere needed in the world.
-                    Once built, photos and progress will be posted here.</a>
+                    <a class="dcard" href="#support" target="_blank" rel="noopener">
+                        <b>Water Well Construction</b><br />**not setup yet** -- Donations here will be pooled together to build a water well somewhere needed in the world.
+                        Once built, photos and progress will be posted here.
+                    </a>
                 </div>
             </div>
         </section>
@@ -981,6 +1065,24 @@
         Word lists from "85% of Qur'anic Words" by
         <a href="https://www.understandquran.com" target="_blank" rel="noopener">understandquran.com</a>. Not affiliated with this site.
     </footer>
+
+    <div class="welcome" id="welcome" role="dialog" aria-modal="true" aria-labelledby="wtitle">
+        <div class="wbox">
+            <button class="wx" id="wclose" aria-label="Close">×</button>
+            <h2 id="wtitle">Assalaamu Alaykum, Welcome!</h2>
+            <p>Words of Qur'an is a free quiz that helps you learn the most common words of the Qur'an, a few at a time.</p>
+            <ol class="wsteps">
+                <li>Pick a set (Set 1 is a good start).</li>
+                <li>Choose <b>Learn</b> to read the words, or <b>Practice</b> to test yourself.</li>
+                <li>Type the English meaning and press <b>Enter</b>.</li>
+            </ol>
+            <p>Free, no sign-up, no ads.</p>
+            <div class="wbtns">
+                <button class="btn on" id="wHow">How to use the site</button>
+                <button class="btn" id="wStay">Stay here</button>
+            </div>
+        </div>
+    </div>
 
     <script>
         const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
@@ -1050,12 +1152,12 @@
             $('#milestones').innerHTML = milestones.map(m => {
                 const days = Math.ceil(m.words / rate);
                 return `
-                        <div class="m-card active">
-                            <h3>${m.label}</h3>
-                            <div class="pct">${m.targetPct}</div>
-                            <div class="time">${formatDays(days)}</div>
-                            <div class="desc">${m.words} words • ${m.desc}</div>
-                        </div>`;
+                                    <div class="m-card active">
+                                        <h3>${m.label}</h3>
+                                        <div class="pct">${m.targetPct}</div>
+                                        <div class="time">${formatDays(days)}</div>
+                                        <div class="desc">${m.words} words • ${m.desc}</div>
+                                    </div>`;
             }).join('');
         }
 
@@ -1072,7 +1174,7 @@
 
             // 2. Otherwise, automatically group by set number:
             if (setNum <= 15) return "General Words (0 - 60.1%)";
-            if (setNum <= 20) return "3-Letter Basic Verbs (Thulāthī Mujarrad) (60.2 - 67.4%%)";
+            if (setNum <= 20) return "3-Letter Basic Verbs (Thulāthī Mujarrad) (60.2 - 67.4%)";
             if (setNum <= 25) return "3-Letter Weak & Irregular Verbs (67.5 - 76.8%)";
             if (setNum <= 37) return "Derived Verb Forms (Mazīd Fīh) (76.9 - 85.2%)";
             if (setNum <= 38) return "Silat-ul-Fi'l (Verb + Preposition)";
@@ -1087,7 +1189,7 @@
             4: "When/Miscellaneous",
             5: "Prepositions",
             6: "Prefixes/Inna/Miscellaneous",
-            7: "Desrcibing Attributes",
+            7: "Describing Attributes",
             8: "Describing Attributes/Nouns of Superiority",
             9: "Names & Allah (swt)'s Signs",
             10: "Last Day",
@@ -1140,29 +1242,29 @@
             for (const [secTitle, setSet] of Object.entries(sectionGroups)) {
                 const sortedSets = [...setSet].sort((a, b) => a - b);
                 html += `
-            <div class="sec-wrap">
-                <h2 class="sec-title">${secTitle}</h2>
-                <div class="sets">
-                    ${sortedSets.map(s => {
+                        <div class="sec-wrap">
+                            <h2 class="sec-title">${secTitle}</h2>
+                            <div class="sets">
+                                ${sortedSets.map(s => {
                     const cats = data.categories.filter(c => c.set === s);
                     const subtitle = cats[0]?.setSubtitle || SET_SUBTITLES[s] || '';
                     return `
-                        <div class="set">
-                            <div class="set-head">
-                                <h3>Set ${s}</h3>${subtitle ? `<div class="set-sub">${subtitle}</div>` : ''}
-                            </div>
-                            <button class="btn" data-page="${s}">All Set ${s}</button>
-                            <div class="grid2">
-                                ${cats.map(c => `
-                                    <button class="btn" data-cat="${c.id}">
-                                        ${c.title}<small>${c.words.length}</small>
-                                    </button>
-                                `).join('')}
+                                    <div class="set">
+                                        <div class="set-head">
+                                            <h3>Set ${s}</h3>${subtitle ? `<div class="set-sub">${subtitle}</div>` : ''}
+                                        </div>
+                                        <button class="btn" data-page="${s}">All Set ${s}</button>
+                                        <div class="grid2">
+                                            ${cats.map(c => `
+                                                <button class="btn" data-cat="${c.id}">
+                                                    ${c.title}<small>${c.words.length}</small>
+                                                </button>
+                                            `).join('')}
+                                        </div>
+                                    </div>`;
+                }).join('')}
                             </div>
                         </div>`;
-                }).join('')}
-                </div>
-            </div>`;
             }
 
             $('#groups').innerHTML = html;
@@ -1200,9 +1302,9 @@
         /* learn */
         function renderLearn() {
             $('#learnBody').innerHTML = session.cats.map(c => `
-                    <h2>${c.title}</h2>
-                    <div class="cards">${c.words.map(w => `
-                      <div class="lcard"><div class="ar">${w.ar}</div><div class="en">${w.meaning}</div><div class="nt">${w.note || ''}</div></div>`).join('')}</div>`).join('');
+                                <h2>${c.title}</h2>
+                                <div class="cards">${c.words.map(w => `
+                                  <div class="lcard"><div class="ar">${w.ar}</div><div class="en">${w.meaning}</div><div class="nt">${w.note || ''}</div></div>`).join('')}</div>`).join('');
         }
         $('#practiceThese').onclick = () => startQuiz(session.cats.flatMap(c => c.words));
 
@@ -1215,15 +1317,15 @@
                 // Adjusted from 52/42/32 to 42/34/26 for proportional fit
                 const size = n > 8 ? 26 : n > 5 ? 34 : 42;
                 return `
-    <div class="qcard" data-i="${i}">
-        <div class="qar" style="font-size:${size}px">${c.w.ar}</div>
-        <div class="qnt">${c.w.note || ''}</div>
-        <div class="qans">
-            <form class="qform" action="javascript:void(0);">
-                <input type="text" enterkeyhint="go" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Meaning of ${c.w.ar}">
-            </form>
-        </div>
-    </div>`;
+                <div class="qcard" data-i="${i}">
+                    <div class="qar" style="font-size:${size}px">${c.w.ar}</div>
+                    <div class="qnt">${c.w.note || ''}</div>
+                    <div class="qans">
+                        <form class="qform" action="javascript:void(0);">
+                            <input type="text" enterkeyhint="go" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Meaning of ${c.w.ar}">
+                        </form>
+                    </div>
+                </div>`;
             }).join('');
             location.hash = 'quiz';
             setTimeout(() => {
@@ -1301,6 +1403,41 @@
             $('#retry').onclick = () => startQuiz(missed.map(c => c.w));
             location.hash = 'result';
         };
+    </script>
+    <script>
+        (function () {
+            const w = document.getElementById('welcome'), how = document.getElementById('wHow');
+            let seen = false, last = null;
+            try { seen = localStorage.getItem('wq_seen') === '1'; } catch (e) { }
+            if (seen || location.hash === '#how') return;
+
+            function close() {
+                w.classList.remove('show');
+                document.body.style.overflow = '';
+                if (last && last.focus) last.focus();
+            }
+            function open() {
+                last = document.activeElement;
+                w.classList.add('show');
+                document.body.style.overflow = 'hidden';
+                try { localStorage.setItem('wq_seen', '1'); } catch (e) { }
+                how.focus();
+            }
+            document.getElementById('wclose').onclick = close;
+            document.getElementById('wStay').onclick = close;
+            how.onclick = () => { close(); location.hash = 'how'; };
+            w.addEventListener('click', e => { if (e.target === w) close(); });
+            document.addEventListener('keydown', e => {
+                if (!w.classList.contains('show')) return;
+                if (e.key === 'Escape') close();
+                if (e.key === 'Tab') {
+                    const f = [...w.querySelectorAll('button')], first = f[0], lastEl = f[f.length - 1];
+                    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); lastEl.focus(); }
+                    else if (!e.shiftKey && document.activeElement === lastEl) { e.preventDefault(); first.focus(); }
+                }
+            });
+            setTimeout(open, 400);
+        })();
     </script>
 </body>
 </html>
