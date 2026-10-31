@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/favicon_open_quran.png">
-    <link rel="apple-touch-icon" href="/favicon_open_quran.png">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Qur'an Words">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
     <!-- Primary SEO Meta -->
     <title>Words of Qur'an — Understand 85% of Qur'anic Vocabulary</title>
@@ -1438,6 +1443,11 @@
             });
             setTimeout(open, 400);
         })();
+    </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => { }));
+        }
     </script>
 </body>
 </html>
